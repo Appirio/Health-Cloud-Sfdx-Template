@@ -1,0 +1,55 @@
+[{
+    "sobject": "HealthCloudGA__CarePlanTemplate__c",
+    "saveRefs": true,
+    "resolveRefs": false,
+    "files": ["objects/HealthCloudGA__CarePlanTemplate__c.json"]
+  },
+  {
+    "sobject": "HealthCloudGA__CarePlanTemplateProblem__c",
+    "saveRefs": true,
+    "resolveRefs": true,
+    "files": ["objects/HealthCloudGA__CarePlanTemplateProblem__c.json"]
+  },
+  {
+    "sobject": "HealthCloudGA__CarePlanTemplateGoal__c",
+    "saveRefs": true,
+    "resolveRefs": true,
+    "files": ["objects/HealthCloudGA__CarePlanTemplateGoal__c.json"]
+  },
+  {
+    "sobject": "HealthCloudGA__CarePlanTemplateTask__c",
+    "saveRefs": true,
+    "resolveRefs": true,
+    "files": ["objects/HealthCloudGA__CarePlanTemplateTask__c.json"]
+  },
+  {
+    "sobject": "HealthCloudGA__TimelineViewConfiguration__c",
+    "saveRefs": true,
+    "resolveRefs": false,
+    "files": ["objects/HealthCloudGA__TimelineViewConfiguration__c.json"]
+  },
+  {
+    "sobject": "Account",
+    "saveRefs": true,
+    "resolveRefs": false,
+    "files": ["objects/Account.json"]
+  },
+  {
+    "sobject": "Case",
+    "saveRefs": true,
+    "resolveRefs": true,
+    "files": ["objects/CarePlan.json"]
+  },
+  {
+    "sobject": "HealthCloudGA__CarePlanProblem__c",
+    "saveRefs": true,
+    "resolveRefs": true,
+    "files": ["objects/HealthCloudGA__CarePlanProblem__c.json"]
+  },
+  {
+    "sobject": "HealthCloudGA__CarePlanGoal__c",
+    "saveRefs": true,
+    "resolveRefs": true,
+    "files": ["objects/HealthCloudGA__CarePlanGoal__c.json"]
+  }
+]

@@ -39,7 +39,10 @@
         "# Create Demo Users",
         "force:user:create -u healthcloud --definitionfile demo/users/melinda-user-def.json",
         "force:user:create -u healthcloud --definitionfile demo/users/sally-user-def.json",
-        "force:user:create -u healthcloud --definitionfile demo/users/john-user-def.json"
+        "force:user:create -u healthcloud --definitionfile demo/users/john-user-def.json",
+        "# Install Demo Data",
+        "force:data:tree:import -u healthcloud -p demo/data/Plan.json",
+        "force:apex:execute -u healthcloud -f demo/scripts/assign-record-types.apex"
       ],
       "stop": [
         "# Stop Health Cloud Scratch Org",

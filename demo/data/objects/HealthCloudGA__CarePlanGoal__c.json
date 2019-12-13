@@ -1,0 +1,614 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "HealthCloudGA__CarePlanGoal__c",
+                "referenceId": "DavidMorrison_CarePlan_MonitorGlocuse"
+            },
+            "HealthCloudGA__CarePlan__c": "@DavidMorrison_CarePlan",
+            "HealthCloudGA__CarePlanProblem__c": "@DavidMorrison_ControlGlucoseLevels",
+            "HealthCloudGA__Description__c": "Monitor blood glucose levels twice a day",
+            "HealthCloudGA__Priority__c": "High",
+            "HealthCloudGA__Progress__c": 40,
+            "Name": "Monitor blood glucose levels twice a day"
+        },
+        {
+            "attributes": {
+                "type": "HealthCloudGA__CarePlanGoal__c",
+                "referenceId": "DavidMorrison_CarePlan_DiabetesSelfCare"
+            },
+            "HealthCloudGA__CarePlan__c": "@DavidMorrison_CarePlan",
+            "HealthCloudGA__CarePlanProblem__c": "@DavidMorrison_BasicDiabetesSelfCareNeeded",
+            "HealthCloudGA__Description__c": "Diabetes self-care plan implemented",
+            "HealthCloudGA__Priority__c": "High",
+            "HealthCloudGA__Progress__c": 6,
+            "Name": "Diabetes self-care plan implemented"
+        },
+        {
+            "attributes": {
+                "type": "HealthCloudGA__CarePlanGoal__c",
+                "referenceId": "RoyGreen_CarePlan_MonitorGlocuse"
+            },
+            "HealthCloudGA__CarePlan__c": "@RoyGreen_CarePlan",
+            "HealthCloudGA__CarePlanProblem__c": "@RoyGreen_ControlGlucoseLevels",
+            "HealthCloudGA__Description__c": "Monitor blood glucose levels twice a day",
+            "HealthCloudGA__Priority__c": "High",
+            "HealthCloudGA__Progress__c": 40,
+            "Name": "Monitor blood glucose levels twice a day"
+        },
+        {
+            "attributes": {
+                "type": "HealthCloudGA__CarePlanGoal__c",
+                "referenceId": "RoyGreen_CarePlan_DiabetesSelfCare"
+            },
+            "HealthCloudGA__CarePlan__c": "@RoyGreen_CarePlan",
+            "HealthCloudGA__CarePlanProblem__c": "@RoyGreen_BasicDiabetesSelfCareNeeded",
+            "HealthCloudGA__Description__c": "Diabetes self-care plan implemented",
+            "HealthCloudGA__Priority__c": "High",
+            "HealthCloudGA__Progress__c": 6,
+            "Name": "Diabetes self-care plan implemented"
+        },
+        {
+            "attributes": {
+                "type": "HealthCloudGA__CarePlanGoal__c",
+                "referenceId": "PhilipHamilton_CarePlan_MonitorGlocuse"
+            },
+            "HealthCloudGA__CarePlan__c": "@PhilipHamilton_CarePlan",
+            "HealthCloudGA__CarePlanProblem__c": "@PhilipHamilton_ControlGlucoseLevels",
+            "HealthCloudGA__Description__c": "Monitor blood glucose levels twice a day",
+            "HealthCloudGA__Priority__c": "High",
+            "HealthCloudGA__Progress__c": 40,
+            "Name": "Monitor blood glucose levels twice a day"
+        },
+        {
+            "attributes": {
+                "type": "HealthCloudGA__CarePlanGoal__c",
+                "referenceId": "PhilipHamilton_CarePlan_LoseWeight"
+            },
+            "HealthCloudGA__CarePlan__c": "@PhilipHamilton_CarePlan",
+            "HealthCloudGA__CarePlanProblem__c": "@PhilipHamilton_HealthyLifestyle",
+            "HealthCloudGA__Description__c": "Lose weight",
+            "HealthCloudGA__Priority__c": "Medium",
+            "HealthCloudGA__Progress__c": 90,
+            "Name": "Lose weight"
+        },
+        {
+            "attributes": {
+                "type": "HealthCloudGA__CarePlanGoal__c",
+                "referenceId": "PhilipHamilton_CarePlan_DiabetesSelfCare"
+            },
+            "HealthCloudGA__CarePlan__c": "@PhilipHamilton_CarePlan",
+            "HealthCloudGA__CarePlanProblem__c": "@PhilipHamilton_BasicDiabetesSelfCareNeeded",
+            "HealthCloudGA__Description__c": "Diabetes self-care plan implemented",
+            "HealthCloudGA__Priority__c": "High",
+            "HealthCloudGA__Progress__c": 6,
+            "Name": "Diabetes self-care plan implemented"
+        },
+        {
+            "attributes": {
+                "type": "HealthCloudGA__CarePlanGoal__c",
+                "referenceId": "PhilipHamilton_CarePlan_LifestyleChanges"
+            },
+            "HealthCloudGA__CarePlan__c": "@PhilipHamilton_CarePlan",
+            "HealthCloudGA__CarePlanProblem__c": "@PhilipHamilton_HealthyLifestyle",
+            "HealthCloudGA__Description__c": "Lifestyle changes",
+            "HealthCloudGA__Priority__c": "Low",
+            "HealthCloudGA__Progress__c": 30,
+            "Name": "Lifestyle changes"
+        },
+        {
+            "attributes": {
+                "type": "HealthCloudGA__CarePlanGoal__c",
+                "referenceId": "CharlesGreen_CarePlan_NursesAssessments"
+            },
+            "HealthCloudGA__CarePlan__c": "@CharlesGreen_DiabetesCarePlan",
+            "HealthCloudGA__CarePlanProblem__c": "@CharlesGreen_PainControlMedicationNeeded",
+            "HealthCloudGA__Priority__c": "Low",
+            "HealthCloudGA__Progress__c": 0,
+            "Name": "Nurses Assessments"
+        },
+        {
+            "attributes": {
+                "type": "HealthCloudGA__CarePlanGoal__c",
+                "referenceId": "CharlesGreen_CarePlan_MedicationAndExercise"
+            },
+            "HealthCloudGA__CarePlan__c": "@CharlesGreen_DiabetesCarePlan",
+            "HealthCloudGA__CarePlanProblem__c": "@CharlesGreen_PainControlMedicationNeeded",
+            "HealthCloudGA__Priority__c": "Low",
+            "HealthCloudGA__Progress__c": 0,
+            "Name": "Medication and Exercise Adherence"
+        },
+        {
+            "attributes": {
+                "type": "HealthCloudGA__CarePlanGoal__c",
+                "referenceId": "CharlesGreen_PainControlMedicationNeeded_NursesAssessment"
+            },
+            "HealthCloudGA__CarePlan__c": "@CharlesGreen_PostDischargeCare",
+            "HealthCloudGA__CarePlanProblem__c": "@CharlesGreen_PainControlMedicationNeeded",
+            "HealthCloudGA__Priority__c": "Low",
+            "HealthCloudGA__Progress__c": 0,
+            "Name": "Nurses Assessments"
+        },
+        {
+            "attributes": {
+                "type": "HealthCloudGA__CarePlanGoal__c",
+                "referenceId": "CharlesGreen_PostDischargeCare_MedicationAndExercise"
+            },
+            "HealthCloudGA__CarePlan__c": "@CharlesGreen_PostDischargeCare",
+            "HealthCloudGA__CarePlanProblem__c": "@CharlesGreen_PainControlMedicationNeeded",
+            "HealthCloudGA__Priority__c": "Low",
+            "HealthCloudGA__Progress__c": 0,
+            "Name": "Medication and Exercise Adherence"
+        },
+        {
+            "attributes": {
+                "type": "HealthCloudGA__CarePlanGoal__c",
+                "referenceId": "CharlesGreen_PostDischargeCare_ReplaceDressing"
+            },
+            "HealthCloudGA__CarePlan__c": "@CharlesGreen_PostDischargeCare",
+            "HealthCloudGA__CarePlanProblem__c": "@CharlesGreen_DailyWoundCare",
+            "HealthCloudGA__Description__c": "Patient must take care to manage dressing over surgery site/stitches",
+            "HealthCloudGA__Priority__c": "High",
+            "HealthCloudGA__Progress__c": 0,
+            "Name": "Remove and replace dressing daily"
+        },
+        {
+            "attributes": {
+                "type": "HealthCloudGA__CarePlanGoal__c",
+                "referenceId": "CharlesGreen_PatientEducation"
+            },
+            "HealthCloudGA__CarePlan__c": "@CharlesGreen_DiabetesCarePlan",
+            "HealthCloudGA__CarePlanProblem__c": "@CharlesGreen_LacksEducationForSelfCare",
+            "HealthCloudGA__Priority__c": "Low",
+            "HealthCloudGA__Progress__c": 0,
+            "Name": "Patient Education"
+        },
+        {
+            "attributes": {
+                "type": "HealthCloudGA__CarePlanGoal__c",
+                "referenceId": "CharlesGreen_DiabetesCarePlan_WoundCareEducation"
+            },
+            "HealthCloudGA__CarePlan__c": "@CharlesGreen_DiabetesCarePlan",
+            "HealthCloudGA__CarePlanProblem__c": "@CharlesGreen_DailyWoundCare",
+            "HealthCloudGA__Priority__c": "Low",
+            "HealthCloudGA__Progress__c": 0,
+            "Name": "Wound Care Education"
+        },
+        {
+            "attributes": {
+                "type": "HealthCloudGA__CarePlanGoal__c",
+                "referenceId": "CharlesGreen_DiabetesCarePlan_PatientEducation"
+            },
+            "HealthCloudGA__CarePlan__c": "@CharlesGreen_DiabetesCarePlan",
+            "HealthCloudGA__CarePlanProblem__c": "@CharlesGreen_LacksKnowledgeOfCondition",
+            "HealthCloudGA__Priority__c": "Low",
+            "HealthCloudGA__Progress__c": 0,
+            "Name": "Patient Education"
+        },
+        {
+            "attributes": {
+                "type": "HealthCloudGA__CarePlanGoal__c",
+                "referenceId": "CharlesGreen_DiabetesCarePlan_NursesAssessment"
+            },
+            "HealthCloudGA__CarePlan__c": "@CharlesGreen_DiabetesCarePlan",
+            "HealthCloudGA__CarePlanProblem__c": "@CharlesGreen_LacksKnowledgeOfCondition",
+            "HealthCloudGA__Priority__c": "Low",
+            "HealthCloudGA__Progress__c": 0,
+            "Name": "Nurses Assessments"
+        },
+        {
+            "attributes": {
+                "type": "HealthCloudGA__CarePlanGoal__c",
+                "referenceId": "CharlesGreen_DailyWoundCare_NursesAssessment"
+            },
+            "HealthCloudGA__CarePlan__c": "@CharlesGreen_PostDischargeCare",
+            "HealthCloudGA__CarePlanProblem__c": "@CharlesGreen_DailyWoundCare",
+            "HealthCloudGA__Priority__c": "Low",
+            "HealthCloudGA__Progress__c": 0,
+            "Name": "Nurses Assessments"
+        },
+        {
+            "attributes": {
+                "type": "HealthCloudGA__CarePlanGoal__c",
+                "referenceId": "CharlesGreen_PostDischargeCare_SafeBedTransfers"
+            },
+            "HealthCloudGA__CarePlan__c": "@CharlesGreen_PostDischargeCare",
+            "HealthCloudGA__CarePlanProblem__c": "@CharlesGreen_NeedsHipRehabilitation",
+            "HealthCloudGA__Priority__c": "Medium",
+            "HealthCloudGA__Progress__c": 100,
+            "Name": "Ensure ability of patient to perform safe transfers in and out of bed"
+        },
+        {
+            "attributes": {
+                "type": "HealthCloudGA__CarePlanGoal__c",
+                "referenceId": "CharlesGreen_PostDischargeCare_SafelyAbulate"
+            },
+            "HealthCloudGA__CarePlan__c": "@CharlesGreen_PostDischargeCare",
+            "HealthCloudGA__CarePlanProblem__c": "@CharlesGreen_NeedsHipRehabilitation",
+            "HealthCloudGA__Description__c": "Patient can safely ambulate on rolling walker or crutches",
+            "HealthCloudGA__Priority__c": "Medium",
+            "HealthCloudGA__Progress__c": 20,
+            "Name": "Patient can safely ambulate on rolling walker or crutches"
+        },
+        {
+            "attributes": {
+                "type": "HealthCloudGA__CarePlanGoal__c",
+                "referenceId": "CharlesGreen_PostDischargeCare_DecreaseSwelling"
+            },
+            "HealthCloudGA__CarePlan__c": "@CharlesGreen_PostDischargeCare",
+            "HealthCloudGA__CarePlanProblem__c": "@CharlesGreen_NeedsHipRehabilitation",
+            "HealthCloudGA__Description__c": "Monitor wound site for signs of decreased swelling",
+            "HealthCloudGA__Priority__c": "High",
+            "HealthCloudGA__Progress__c": 0,
+            "Name": "Decrease in swelling around the site"
+        },
+        {
+            "attributes": {
+                "type": "HealthCloudGA__CarePlanGoal__c",
+                "referenceId": "CharlesGreen_PostDischargeCare_DailyWoundCare"
+            },
+            "HealthCloudGA__CarePlan__c": "@CharlesGreen_PostDischargeCare",
+            "HealthCloudGA__CarePlanProblem__c": "@CharlesGreen_DailyWoundCare",
+            "HealthCloudGA__Description__c": "Monitor wound site for signs of decreased swelling",
+            "HealthCloudGA__Priority__c": "High",
+            "HealthCloudGA__Progress__c": 0,
+            "Name": "Decrease in swelling around wound site"
+        },
+        {
+            "attributes": {
+                "type": "HealthCloudGA__CarePlanGoal__c",
+                "referenceId": "CharlesGreen_PostDischargeCare_IncreaseRangeOfMotion"
+            },
+            "HealthCloudGA__CarePlan__c": "@CharlesGreen_PostDischargeCare",
+            "HealthCloudGA__CarePlanProblem__c": "@CharlesGreen_NeedsHipRehabilitation",
+            "HealthCloudGA__Description__c": "Weekly increase in range of motion for hip",
+            "HealthCloudGA__Priority__c": "Medium",
+            "HealthCloudGA__Progress__c": 0,
+            "Name": "Increase hip range of motion"
+        },
+        {
+            "attributes": {
+                "type": "HealthCloudGA__CarePlanGoal__c",
+                "referenceId": "DavidMorrison_CarePlan_LifestyleChanges"
+            },
+            "HealthCloudGA__CarePlan__c": "@DavidMorrison_CarePlan",
+            "HealthCloudGA__CarePlanProblem__c": "@DavidMorrison_HealthyLifestyle",
+            "HealthCloudGA__Description__c": "Lifestyle changes",
+            "HealthCloudGA__Priority__c": "Low",
+            "HealthCloudGA__Progress__c": 30,
+            "Name": "Lifestyle changes"
+        },
+        {
+            "attributes": {
+                "type": "HealthCloudGA__CarePlanGoal__c",
+                "referenceId": "DavidMorrison_CarePlan_LoseWeight"
+            },
+            "HealthCloudGA__CarePlan__c": "@DavidMorrison_CarePlan",
+            "HealthCloudGA__CarePlanProblem__c": "@DavidMorrison_HealthyLifestyle",
+            "HealthCloudGA__Description__c": "Lose weight",
+            "HealthCloudGA__Priority__c": "Medium",
+            "HealthCloudGA__Progress__c": 90,
+            "Name": "Lose weight"
+        },
+        {
+            "attributes": {
+                "type": "HealthCloudGA__CarePlanGoal__c",
+                "referenceId": "JoniGreen_CarePlan_MonitorGlucose"
+            },
+            "HealthCloudGA__CarePlan__c": "@JoniGreen_CarePlan",
+            "HealthCloudGA__CarePlanProblem__c": "@JoniGreen_ControlGlucoseLevels",
+            "HealthCloudGA__Description__c": "Monitor blood glucose levels twice a day",
+            "HealthCloudGA__Priority__c": "High",
+            "HealthCloudGA__Progress__c": 40,
+            "Name": "Monitor blood glucose levels twice a day"
+        },
+        {
+            "attributes": {
+                "type": "HealthCloudGA__CarePlanGoal__c",
+                "referenceId": "JoniGreen_CarePlan_DiabetesSelfCare"
+            },
+            "HealthCloudGA__CarePlan__c": "@JoniGreen_CarePlan",
+            "HealthCloudGA__CarePlanProblem__c": "@JoniGreen_BasicDiabetesSelfCareNeeded",
+            "HealthCloudGA__Description__c": "Diabetes self-care plan implemented",
+            "HealthCloudGA__Priority__c": "High",
+            "HealthCloudGA__Progress__c": 6,
+            "Name": "Diabetes self-care plan implemented"
+        },
+        {
+            "attributes": {
+                "type": "HealthCloudGA__CarePlanGoal__c",
+                "referenceId": "ShawnaGreen_CarePlan_LifestyleChange"
+            },
+            "HealthCloudGA__CarePlan__c": "@ShawnaGreen_CarePlan",
+            "HealthCloudGA__CarePlanProblem__c": "@ShawnaGreen_HealthyLifestyle",
+            "HealthCloudGA__Description__c": "Lifestyle changes",
+            "HealthCloudGA__Priority__c": "Low",
+            "HealthCloudGA__Progress__c": 30,
+            "Name": "Lifestyle changes"
+        },
+        {
+            "attributes": {
+                "type": "HealthCloudGA__CarePlanGoal__c",
+                "referenceId": "ShawnaGreen_CarePlan_LoseWeight"
+            },
+            "HealthCloudGA__CarePlan__c": "@ShawnaGreen_CarePlan",
+            "HealthCloudGA__CarePlanProblem__c": "@ShawnaGreen_HealthyLifestyle",
+            "HealthCloudGA__Description__c": "Lose weight",
+            "HealthCloudGA__Priority__c": "Medium",
+            "HealthCloudGA__Progress__c": 90,
+            "Name": "Lose weight"
+        },
+        {
+            "attributes": {
+                "type": "HealthCloudGA__CarePlanGoal__c",
+                "referenceId": "CharlesGreen_DiabetesCarePlan_MonitorGlucoseLevels"
+            },
+            "HealthCloudGA__ActivityDate__c": "2019-10-15",
+            "HealthCloudGA__CarePlan__c": "@CharlesGreen_DiabetesCarePlan",
+            "HealthCloudGA__CarePlanProblem__c": "@CharlesGreen_ControlGlucoseLevels",
+            "HealthCloudGA__Description__c": "Monitor blood glucose levels twice a day",
+            "HealthCloudGA__Priority__c": "High",
+            "HealthCloudGA__Progress__c": 40,
+            "HealthCloudGA__SortOrder__c": 1,
+            "Name": "Monitor blood glucose levels twice a day"
+        },
+        {
+            "attributes": {
+                "type": "HealthCloudGA__CarePlanGoal__c",
+                "referenceId": "CharlesGreen_DiabetesCarePlan_SelfCare"
+            },
+            "HealthCloudGA__ActivityDate__c": "2019-10-29",
+            "HealthCloudGA__CarePlan__c": "@CharlesGreen_DiabetesCarePlan",
+            "HealthCloudGA__CarePlanProblem__c": "@CharlesGreen_BasicDiabetesSelfCareNeeded",
+            "HealthCloudGA__Description__c": "Diabetes self-care plan implemented",
+            "HealthCloudGA__Priority__c": "High",
+            "HealthCloudGA__Progress__c": 6,
+            "HealthCloudGA__SortOrder__c": 2,
+            "Name": "Diabetes self-care plan implemented"
+        },
+        {
+            "attributes": {
+                "type": "HealthCloudGA__CarePlanGoal__c",
+                "referenceId": "StevenHamilton_CarePlan_LifestyleChanges"
+            },
+            "HealthCloudGA__CarePlan__c": "@StevenHamilton_CarePlan",
+            "HealthCloudGA__CarePlanProblem__c": "@StevenHamilton_HealthyLifestyle",
+            "HealthCloudGA__Description__c": "Lifestyle changes",
+            "HealthCloudGA__Priority__c": "Low",
+            "HealthCloudGA__Progress__c": 30,
+            "Name": "Lifestyle changes"
+        },
+        {
+            "attributes": {
+                "type": "HealthCloudGA__CarePlanGoal__c",
+                "referenceId": "StevenHamilton_CarePlan_LoseWeight"
+            },
+            "HealthCloudGA__CarePlan__c": "@StevenHamilton_CarePlan",
+            "HealthCloudGA__CarePlanProblem__c": "@StevenHamilton_HealthyLifestyle",
+            "HealthCloudGA__Description__c": "Lose weight",
+            "HealthCloudGA__Priority__c": "Medium",
+            "HealthCloudGA__Progress__c": 90,
+            "Name": "Lose weight"
+        },
+        {
+            "attributes": {
+                "type": "HealthCloudGA__CarePlanGoal__c",
+                "referenceId": "JaneHamilton_CarePlan_MonitorGlucose"
+            },
+            "HealthCloudGA__CarePlan__c": "@JaneHamilton_CarePlan",
+            "HealthCloudGA__CarePlanProblem__c": "@JaneHamilton_ControlGlucoseLevels",
+            "HealthCloudGA__Description__c": "Monitor blood glucose levels twice a day",
+            "HealthCloudGA__Priority__c": "High",
+            "HealthCloudGA__Progress__c": 40,
+            "Name": "Monitor blood glucose levels twice a day"
+        },
+        {
+            "attributes": {
+                "type": "HealthCloudGA__CarePlanGoal__c",
+                "referenceId": "JaneHamilton_CarePlan_DiabetesSelfCare"
+            },
+            "HealthCloudGA__CarePlan__c": "@JaneHamilton_CarePlan",
+            "HealthCloudGA__CarePlanProblem__c": "@JaneHamilton_BasicDiabetesSelfCareNeeded",
+            "HealthCloudGA__Description__c": "Diabetes self-care plan implemented",
+            "HealthCloudGA__Priority__c": "High",
+            "HealthCloudGA__Progress__c": 6,
+            "Name": "Diabetes self-care plan implemented"
+        },
+        {
+            "attributes": {
+                "type": "HealthCloudGA__CarePlanGoal__c",
+                "referenceId": "JanetCampbell_CarePlan_MonitorGlucose"
+            },
+            "HealthCloudGA__CarePlan__c": "@JanetCampbell_CarePlan",
+            "HealthCloudGA__CarePlanProblem__c": "@JanetCampbell_ControlGlucoseLevels",
+            "HealthCloudGA__Description__c": "Monitor blood glucose levels twice a day",
+            "HealthCloudGA__Priority__c": "High",
+            "HealthCloudGA__Progress__c": 40,
+            "Name": "Monitor blood glucose levels twice a day"
+        },
+        {
+            "attributes": {
+                "type": "HealthCloudGA__CarePlanGoal__c",
+                "referenceId": "JanetCampbell_CarePlan_DiabetesSelfCare"
+            },
+            "HealthCloudGA__CarePlan__c": "@JanetCampbell_CarePlan",
+            "HealthCloudGA__CarePlanProblem__c": "@JanetCampbell_BasicDiabetesSelfCareNeeded",
+            "HealthCloudGA__Description__c": "Diabetes self-care plan implemented",
+            "HealthCloudGA__Priority__c": "High",
+            "HealthCloudGA__Progress__c": 6,
+            "Name": "Diabetes self-care plan implemented"
+        },
+        {
+            "attributes": {
+                "type": "HealthCloudGA__CarePlanGoal__c",
+                "referenceId": "JoniGreen_CarePlan_LifestyleChanges"
+            },
+            "HealthCloudGA__CarePlan__c": "@JoniGreen_CarePlan",
+            "HealthCloudGA__CarePlanProblem__c": "@JoniGreen_HealthyLifestyle",
+            "HealthCloudGA__Description__c": "Lifestyle changes",
+            "HealthCloudGA__Priority__c": "Low",
+            "HealthCloudGA__Progress__c": 30,
+            "Name": "Lifestyle changes"
+        },
+        {
+            "attributes": {
+                "type": "HealthCloudGA__CarePlanGoal__c",
+                "referenceId": "JoniGreen_CarePlan_LoseWeight"
+            },
+            "HealthCloudGA__CarePlan__c": "@JoniGreen_CarePlan",
+            "HealthCloudGA__CarePlanProblem__c": "@JoniGreen_HealthyLifestyle",
+            "HealthCloudGA__Description__c": "Lose weight",
+            "HealthCloudGA__Priority__c": "Medium",
+            "HealthCloudGA__Progress__c": 90,
+            "Name": "Lose weight"
+        },
+        {
+            "attributes": {
+                "type": "HealthCloudGA__CarePlanGoal__c",
+                "referenceId": "CharlesGreen_DiabetesCarePlan_LifestyleChanges"
+            },
+            "HealthCloudGA__ActivityDate__c": "2019-11-26",
+            "HealthCloudGA__CarePlan__c": "@CharlesGreen_DiabetesCarePlan",
+            "HealthCloudGA__CarePlanProblem__c": "@CharlesGreen_HealthyLifestyle",
+            "HealthCloudGA__Description__c": "Lifestyle changes",
+            "HealthCloudGA__Priority__c": "Low",
+            "HealthCloudGA__Progress__c": 30,
+            "HealthCloudGA__SortOrder__c": 4,
+            "Name": "Lifestyle changes"
+        },
+        {
+            "attributes": {
+                "type": "HealthCloudGA__CarePlanGoal__c",
+                "referenceId": "CharlesGreen_DiabetesCarePlan_LoseWeight"
+            },
+            "HealthCloudGA__ActivityDate__c": "2019-11-18",
+            "HealthCloudGA__CarePlan__c": "@CharlesGreen_DiabetesCarePlan",
+            "HealthCloudGA__CarePlanProblem__c": "@CharlesGreen_HealthyLifestyle",
+            "HealthCloudGA__Description__c": "Lose weight",
+            "HealthCloudGA__Priority__c": "Medium",
+            "HealthCloudGA__Progress__c": 90,
+            "HealthCloudGA__SortOrder__c": 3,
+            "Name": "Lose weight"
+        },
+        {
+            "attributes": {
+                "type": "HealthCloudGA__CarePlanGoal__c",
+                "referenceId": "JaneHamilton_CarePlan_LifestyleChanges"
+            },
+            "HealthCloudGA__CarePlan__c": "@JaneHamilton_CarePlan",
+            "HealthCloudGA__CarePlanProblem__c": "@JaneHamilton_HealthyLifestyle",
+            "HealthCloudGA__Description__c": "Lifestyle changes",
+            "HealthCloudGA__Priority__c": "Low",
+            "HealthCloudGA__Progress__c": 30,
+            "Name": "Lifestyle changes"
+        },
+        {
+            "attributes": {
+                "type": "HealthCloudGA__CarePlanGoal__c",
+                "referenceId": "JaneHamilton_CarePlan_LoseWeight"
+            },
+            "HealthCloudGA__CarePlan__c": "@JaneHamilton_CarePlan",
+            "HealthCloudGA__CarePlanProblem__c": "@JaneHamilton_HealthyLifestyle",
+            "HealthCloudGA__Description__c": "Lose weight",
+            "HealthCloudGA__Priority__c": "Medium",
+            "HealthCloudGA__Progress__c": 90,
+            "Name": "Lose weight"
+        },
+        {
+            "attributes": {
+                "type": "HealthCloudGA__CarePlanGoal__c",
+                "referenceId": "JanetCampbell_CarePlan_LifestyleChanges"
+            },
+            "HealthCloudGA__CarePlan__c": "@JanetCampbell_CarePlan",
+            "HealthCloudGA__CarePlanProblem__c": "@JanetCampbell_HealthyLifestyle",
+            "HealthCloudGA__Description__c": "Lifestyle changes",
+            "HealthCloudGA__Priority__c": "Low",
+            "HealthCloudGA__Progress__c": 30,
+            "Name": "Lifestyle changes"
+        },
+        {
+            "attributes": {
+                "type": "HealthCloudGA__CarePlanGoal__c",
+                "referenceId": "JanetCampbell_CarePlan_LoseWeight"
+            },
+            "HealthCloudGA__CarePlan__c": "@JanetCampbell_CarePlan",
+            "HealthCloudGA__CarePlanProblem__c": "@JanetCampbell_HealthyLifestyle",
+            "HealthCloudGA__Description__c": "Lose weight",
+            "HealthCloudGA__Priority__c": "Medium",
+            "HealthCloudGA__Progress__c": 90,
+            "Name": "Lose weight"
+        },
+        {
+            "attributes": {
+                "type": "HealthCloudGA__CarePlanGoal__c",
+                "referenceId": "HealthCloudGA__CarePlanGoal__cRef44"
+            },
+            "HealthCloudGA__CarePlan__c": "@ShawnaGreen_CarePlan",
+            "HealthCloudGA__CarePlanProblem__c": "@ShawnaGreen_ControlGlucoseLevels",
+            "HealthCloudGA__Description__c": "Monitor blood glucose levels twice a day",
+            "HealthCloudGA__Priority__c": "High",
+            "HealthCloudGA__Progress__c": 40,
+            "Name": "Monitor blood glucose levels twice a day"
+        },
+        {
+            "attributes": {
+                "type": "HealthCloudGA__CarePlanGoal__c",
+                "referenceId": "ShawnaGreen_CarePlan_DiabetesSelfCare"
+            },
+            "HealthCloudGA__CarePlan__c": "@ShawnaGreen_CarePlan",
+            "HealthCloudGA__CarePlanProblem__c": "@ShawnaGreen_BasicDiabetesSelfCareNeeded",
+            "HealthCloudGA__Description__c": "Diabetes self-care plan implemented",
+            "HealthCloudGA__Priority__c": "High",
+            "HealthCloudGA__Progress__c": 6,
+            "Name": "Diabetes self-care plan implemented"
+        },
+        {
+            "attributes": {
+                "type": "HealthCloudGA__CarePlanGoal__c",
+                "referenceId": "StevenHamilton_CarePlan_ControlGlucose"
+            },
+            "HealthCloudGA__CarePlan__c": "@StevenHamilton_CarePlan",
+            "HealthCloudGA__CarePlanProblem__c": "@StevenHamilton_ControlGlocoseLevels",
+            "HealthCloudGA__Description__c": "Monitor blood glucose levels twice a day",
+            "HealthCloudGA__Priority__c": "High",
+            "HealthCloudGA__Progress__c": 40,
+            "Name": "Monitor blood glucose levels twice a day"
+        },
+        {
+            "attributes": {
+                "type": "HealthCloudGA__CarePlanGoal__c",
+                "referenceId": "StevenHamilton_CarePlan_DiabetesSelfCare"
+            },
+            "HealthCloudGA__CarePlan__c": "@StevenHamilton_CarePlan",
+            "HealthCloudGA__CarePlanProblem__c": "@StevenHamilton_BasicDiabetesSelfCareNeeded",
+            "HealthCloudGA__Description__c": "Diabetes self-care plan implemented",
+            "HealthCloudGA__Priority__c": "High",
+            "HealthCloudGA__Progress__c": 6,
+            "Name": "Diabetes self-care plan implemented"
+        },
+        {
+            "attributes": {
+                "type": "HealthCloudGA__CarePlanGoal__c",
+                "referenceId": "RoyGreen_CarePlan_LifestyleChanges"
+            },
+            "HealthCloudGA__CarePlan__c": "@RoyGreen_CarePlan",
+            "HealthCloudGA__CarePlanProblem__c": "@RoyGreen_HealthyLifestyle",
+            "HealthCloudGA__Description__c": "Lifestyle changes",
+            "HealthCloudGA__Priority__c": "Low",
+            "HealthCloudGA__Progress__c": 30,
+            "Name": "Lifestyle changes"
+        },
+        {
+            "attributes": {
+                "type": "HealthCloudGA__CarePlanGoal__c",
+                "referenceId": "RoyGreen_CarePlan_LoseWeight"
+            },
+            "HealthCloudGA__CarePlan__c": "@RoyGreen_CarePlan",
+            "HealthCloudGA__CarePlanProblem__c": "@RoyGreen_HealthyLifestyle",
+            "HealthCloudGA__Description__c": "Lose weight",
+            "HealthCloudGA__Priority__c": "Medium",
+            "HealthCloudGA__Progress__c": 90,
+            "Name": "Lose weight"
+        }
+    ]
+}

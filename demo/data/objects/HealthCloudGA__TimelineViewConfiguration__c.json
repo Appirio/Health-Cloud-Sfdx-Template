@@ -1,0 +1,150 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "HealthCloudGA__TimelineViewConfiguration__c",
+                "referenceId": "HealthCloudGA__TimelineViewConfiguration__cRef1"
+            },
+            "HealthCloudGA__Active__c": true,
+            "HealthCloudGA__Configuration_Target__c": "Health Cloud Console App;Timeline For Health Cloud Empower",
+            "HealthCloudGA__DetailField__c": "TypeLabel__c",
+            "HealthCloudGA__FriendlyName__c": "Encounters",
+            "HealthCloudGA__Language__c": "English (United States)",
+            "HealthCloudGA__ObjectCategory__c": "Medical Data",
+            "HealthCloudGA__ObjectName__c": "EhrEncounter__c",
+            "HealthCloudGA__PatientAccountLookup__c": "Account__c",
+            "HealthCloudGA__PositionField__c": "PeriodStart__c",
+            "HealthCloudGA__ShowOnLoad__c": true,
+            "HealthCloudGA__SortOrder__c": 1,
+            "Name": "Encounters"
+        },
+        {
+            "attributes": {
+                "type": "HealthCloudGA__TimelineViewConfiguration__c",
+                "referenceId": "HealthCloudGA__TimelineViewConfiguration__cRef2"
+            },
+            "HealthCloudGA__Active__c": true,
+            "HealthCloudGA__Configuration_Target__c": "Health Cloud Console App;Timeline For Health Cloud Empower",
+            "HealthCloudGA__DetailField__c": "Subject",
+            "HealthCloudGA__FriendlyName__c": "Events",
+            "HealthCloudGA__Language__c": "English (United States)",
+            "HealthCloudGA__ObjectCategory__c": "Engagement Data",
+            "HealthCloudGA__ObjectName__c": "Event",
+            "HealthCloudGA__PatientAccountLookup__c": "WhatId",
+            "HealthCloudGA__PositionField__c": "ActivityDate",
+            "HealthCloudGA__ShowOnLoad__c": true,
+            "HealthCloudGA__SortOrder__c": 4,
+            "Name": "Events"
+        },
+        {
+            "attributes": {
+                "type": "HealthCloudGA__TimelineViewConfiguration__c",
+                "referenceId": "HealthCloudGA__TimelineViewConfiguration__cRef3"
+            },
+            "HealthCloudGA__Active__c": true,
+            "HealthCloudGA__Configuration_Target__c": "Health Cloud Console App;Timeline For Health Cloud Empower",
+            "HealthCloudGA__DetailField__c": "MedicationName__c",
+            "HealthCloudGA__FriendlyName__c": "Prescriptions",
+            "HealthCloudGA__Language__c": "English (United States)",
+            "HealthCloudGA__ObjectCategory__c": "Medical Data",
+            "HealthCloudGA__ObjectName__c": "EhrMedicationPrescription__c",
+            "HealthCloudGA__PatientAccountLookup__c": "Account__c",
+            "HealthCloudGA__PositionField__c": "DateWritten__c",
+            "HealthCloudGA__ShowOnLoad__c": true,
+            "HealthCloudGA__SortOrder__c": 2,
+            "Name": "Prescriptions"
+        },
+        {
+            "attributes": {
+                "type": "HealthCloudGA__TimelineViewConfiguration__c",
+                "referenceId": "HealthCloudGA__TimelineViewConfiguration__cRef4"
+            },
+            "HealthCloudGA__Active__c": true,
+            "HealthCloudGA__Configuration_Target__c": "Health Cloud Console App;Timeline For Health Cloud Empower",
+            "HealthCloudGA__DetailField__c": "Subject",
+            "HealthCloudGA__FriendlyName__c": "Tasks",
+            "HealthCloudGA__Language__c": "English (United States)",
+            "HealthCloudGA__ObjectCategory__c": "Engagement Data",
+            "HealthCloudGA__ObjectName__c": "Task",
+            "HealthCloudGA__PatientAccountLookup__c": "WhatId",
+            "HealthCloudGA__PositionField__c": "ActivityDate",
+            "HealthCloudGA__ShowOnLoad__c": true,
+            "HealthCloudGA__SortOrder__c": 3,
+            "Name": "Tasks"
+        },
+        {
+            "attributes": {
+                "type": "HealthCloudGA__TimelineViewConfiguration__c",
+                "referenceId": "HealthCloudGA__TimelineViewConfiguration__cRef5"
+            },
+            "HealthCloudGA__Active__c": true,
+            "HealthCloudGA__Configuration_Target__c": "Health Cloud Console App;Timeline For Health Cloud Empower",
+            "HealthCloudGA__DetailField__c": "CodeLabel__c",
+            "HealthCloudGA__FriendlyName__c": "Procedures",
+            "HealthCloudGA__Language__c": "English (United States)",
+            "HealthCloudGA__ObjectCategory__c": "Medical Data",
+            "HealthCloudGA__ObjectName__c": "EHRProcedure__c",
+            "HealthCloudGA__PatientAccountLookup__c": "Account__c",
+            "HealthCloudGA__PositionField__c": "PerformedDateTime__c",
+            "HealthCloudGA__ShowOnLoad__c": true,
+            "HealthCloudGA__SortOrder__c": 5,
+            "Name": "Procedures"
+        },
+        {
+            "attributes": {
+                "type": "HealthCloudGA__TimelineViewConfiguration__c",
+                "referenceId": "HealthCloudGA__TimelineViewConfiguration__cRef6"
+            },
+            "HealthCloudGA__Active__c": true,
+            "HealthCloudGA__Configuration_Target__c": "Health Cloud Console App;Timeline For Health Cloud Empower",
+            "HealthCloudGA__DetailField__c": "CodeLabel__c",
+            "HealthCloudGA__FriendlyName__c": "Procedure Requests",
+            "HealthCloudGA__Language__c": "English (United States)",
+            "HealthCloudGA__ObjectCategory__c": "Medical Data",
+            "HealthCloudGA__ObjectName__c": "EHRProcedureRequest__c",
+            "HealthCloudGA__PatientAccountLookup__c": "Account__c",
+            "HealthCloudGA__PositionField__c": "OrderedOn__c",
+            "HealthCloudGA__ShowOnLoad__c": true,
+            "HealthCloudGA__SortOrder__c": 6,
+            "Name": "Procedure Requests"
+        },
+        {
+            "attributes": {
+                "type": "HealthCloudGA__TimelineViewConfiguration__c",
+                "referenceId": "HealthCloudGA__TimelineViewConfiguration__cRef8"
+            },
+            "HealthCloudGA__Active__c": true,
+            "HealthCloudGA__Configuration_Target__c": "Health Cloud Console App;Timeline For Health Cloud Empower",
+            "HealthCloudGA__DetailField__c": "HealthCloudGA__VaccineTypeLabel__c",
+            "HealthCloudGA__FriendlyName__c": "Immunizations",
+            "HealthCloudGA__HoverFieldName__c": "HealthCloudGA__VaccineTypeLabel__c,HealthCloudGA__DateAdministered__c,HealthCloudGA__ExpirationDate__c",
+            "HealthCloudGA__Language__c": "English (United States)",
+            "HealthCloudGA__ObjectCategory__c": "Medical Data",
+            "HealthCloudGA__ObjectName__c": "HealthCloudGA__EhrImmunization__c",
+            "HealthCloudGA__PatientAccountLookup__c": "HealthCloudGA__Account__c",
+            "HealthCloudGA__PositionField__c": "HealthCloudGA__DateAdministered__c",
+            "HealthCloudGA__ShowOnLoad__c": true,
+            "HealthCloudGA__SortOrder__c": 9,
+            "Name": "Immunizations"
+        },
+        {
+            "attributes": {
+                "type": "HealthCloudGA__TimelineViewConfiguration__c",
+                "referenceId": "HealthCloudGA__TimelineViewConfiguration__cRef11"
+            },
+            "HealthCloudGA__Active__c": false,
+            "HealthCloudGA__Configuration_Target__c": "Health Cloud Console App;Timeline For Health Cloud Empower",
+            "HealthCloudGA__DetailField__c": "Campaign.Name",
+            "HealthCloudGA__FriendlyName__c": "Campaigns",
+            "HealthCloudGA__GraphicalIcon__c": "timeline_icon_campaign_png",
+            "HealthCloudGA__Language__c": "English (United States)",
+            "HealthCloudGA__ObjectCategory__c": "Engagement Data",
+            "HealthCloudGA__ObjectName__c": "CampaignMember",
+            "HealthCloudGA__PatientAccountLookup__c": "Account__c",
+            "HealthCloudGA__PositionField__c": "CreatedDate",
+            "HealthCloudGA__ShowOnLoad__c": true,
+            "HealthCloudGA__SortOrder__c": 8,
+            "Name": "Campaigns"
+        }
+    ]
+}

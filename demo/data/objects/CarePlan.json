@@ -1,0 +1,372 @@
+{
+  "records": [{
+      "attributes": {
+        "type": "Case",
+        "referenceId": "JanetCampbell_CarePlan"
+      },
+      "AccountId": "@JanetCampbell",
+      "IsEscalated": false,
+      "Priority": "Medium",
+      "Status": "New",
+      "Subject": "Janet Campbell's Care Plan",
+      "OwnerName__c": "Melinda Smith"
+    },
+    {
+      "attributes": {
+        "type": "Case",
+        "referenceId": "CharlesGreen_PostDischargeCare"
+      },
+      "AccountId": "@CharlesGreen",
+      "IsEscalated": false,
+      "Priority": "Medium",
+      "Status": "New",
+      "Subject": "Post Discharge Care",
+      "OwnerName__c": "Sally Agent"
+    },
+    {
+      "attributes": {
+        "type": "Case",
+        "referenceId": "CharlesGreen_DiabetesCarePlan"
+      },
+      "AccountId": "@CharlesGreen",
+      "IsEscalated": false,
+      "Origin": "Phone",
+      "Priority": "Medium",
+      "Status": "New",
+      "Subject": "Diabetes Care Plan",
+      "OwnerName__c": "Melinda Smith"
+    },
+    {
+      "attributes": {
+        "type": "Case",
+        "referenceId": "CharlesGreenCareGapRef1"
+      },
+      "AccountId": "@CharlesGreen",
+      "Description": "Individuals age 40-75 with type 1 or type 2 diabetes who were dispensed at least one statin medication of any intensity during the measurement year.",
+      "HealthCloudGA__DueDate__c": "2018-12-19",
+      "HealthCloudGA__SortOrder__c": 6,
+      "HealthCloudGA__SourceSystem__c": "Geneia",
+      "HealthCloudGA__SourceSystemID__c": "47049-45566-74228",
+      "IsEscalated": false,
+      "Origin": "Email",
+      "Priority": "Medium",
+      "Status": "Closed",
+      "Subject": "Heart - ASCVD - Statin",
+      "OwnerName__c": "Melinda Smith"
+    },
+    {
+      "attributes": {
+        "type": "Case",
+        "referenceId": "CharlesGreenCareGapRef2"
+      },
+      "AccountId": "@CharlesGreen",
+      "Description": "Screening # Pap smear within the past three (3) years or Pap smear with HPV co-testing for women ages 30-64 every five (5) years. # A note indicating the date when the test was performed, and the result or finding. # For women ages 30-64, reflex testing does not meet the criteria for HPV co-testing. Both tests must be ordered. In co-testing, both cytology and HPV are ordered. HPV testing based on Pap smear results is considered reflex testing and does not count towards the HPV co-testing HEDIS measure. # Lab results that explicitly state the sample was inadequate or that 'no cervical cells were present' do not count; this is not considered appropriate screening. ?#Biopsies do not count because they are diagnostic and therapeutic only and are not valid for primary cervical cancer screening. Exclusion Documentation must include a note indicating a hysterectomy with no residual cervix by December 31St of the measurement year. # Complete, Total or Radical abdominal or vaginal hysterectomy meets criteria for hysterectomy with no residual cervix. # Documentation of a Vaginal Pap Smear in conjunction with documentation of Hysterectomy meets exclusion criteria. # Documentation of hysterectomy in combination with documentation that the patient no longer needs pap testing/cervical cancer screening # Documentation of hysterectomy alone does not meet criteria because it does not indicate that the cervix was removed.",
+      "HealthCloudGA__DueDate__c": "2018-10-30",
+      "HealthCloudGA__SortOrder__c": 7,
+      "HealthCloudGA__SourceSystem__c": "Geneia",
+      "HealthCloudGA__SourceSystemID__c": "98646-81269-78003",
+      "IsEscalated": false,
+      "Origin": "Email",
+      "Priority": "Medium",
+      "Status": "Closed",
+      "Subject": "Diabetes - Retinal - Exam",
+      "OwnerName__c": "Melinda Smith"
+    },
+    {
+      "attributes": {
+        "type": "Case",
+        "referenceId": "CharlesGreenCareGapRef3"
+      },
+      "AccountId": "@CharlesGreen",
+      "Description": "Males age 21-75 years of age and females age 40-75 in the IVD population (see above) who were dispensed at least one high or moderate-intensity statin medication during the measurement year. High-intensity #Atorvastatin 40?80 mg #Amlodipine-atorvastatin 40-80 mg #Ezetimibe-atorvastatin 40-80 mg #Rosuvastatin 20?40 mg #Simvastatin 80 mg #Ezetimibe-simvastatin 80 mg Moderate-intensity #Atorvastatin 10?20 mg #Amlodipine-atorvastatin 10-20 mg #Ezetimibe-atorvastatin 10-20 mg #Rosuvastatin 5?10 mg #Simvastatin 20?40 mg #Ezetimibe-simvastatin 20-40 mg #Niacin-simvastatin 20-40 mg #Sitagliptin-simvastatin 20-40 mg #Pravastatin 40?80 mg #Lovastatin 40 mg #Niacin-lovastatin 40 mg #Fluvastatin XL 80 mg #Fluvastatin 40 mg bid",
+      "HealthCloudGA__DueDate__c": "2019-04-08",
+      "HealthCloudGA__SortOrder__c": 1,
+      "HealthCloudGA__SourceSystem__c": "Geneia",
+      "HealthCloudGA__SourceSystemID__c": "77413-11796-78268",
+      "IsEscalated": false,
+      "Origin": "Email",
+      "Priority": "Medium",
+      "Status": "Escalated",
+      "Subject": "Diabetes - DM - Statin",
+      "OwnerName__c": "Melinda Smith"
+
+    },
+    {
+      "attributes": {
+        "type": "Case",
+        "referenceId": "CharlesGreenCareGapRef4"
+      },
+      "AccountId": "@CharlesGreen",
+      "Description": "Documentation in the medical record must include a note indicating in the past 12 the most recent date when the HbA1c test was performed and the months result or finding.",
+      "HealthCloudGA__DueDate__c": "2019-03-22",
+      "HealthCloudGA__SortOrder__c": 2,
+      "HealthCloudGA__SourceSystem__c": "Geneia",
+      "HealthCloudGA__SourceSystemID__c": "82359-73130-79750",
+      "IsEscalated": false,
+      "Origin": "Email",
+      "Priority": "Medium",
+      "Status": "New",
+      "Subject": "Post-Discharge - Patient Must Stay Active",
+      "OwnerName__c": "Melinda Smith"
+    },
+    {
+      "attributes": {
+        "type": "Case",
+        "referenceId": "CharlesGreenCareGapRef5"
+      },
+      "AccountId": "@CharlesGreen",
+      "Description": "Individuals 18 years of age and older with the diagnosis of myocardial infarction (MI) who continued to take a beta-blocker for at least 6 months following their MI",
+      "HealthCloudGA__DueDate__c": "2019-01-08",
+      "HealthCloudGA__SortOrder__c": 1,
+      "HealthCloudGA__SourceSystem__c": "Optum",
+      "HealthCloudGA__SourceSystemID__c": "70481-84756-32843",
+      "IsEscalated": false,
+      "Origin": "Email",
+      "Priority": "Medium",
+      "Status": "Closed",
+      "Subject": "Diabetes - HbA1C - Test",
+      "OwnerName__c": "Melinda Smith"
+    },
+    {
+      "attributes": {
+        "type": "Case",
+        "referenceId": "CharlesGreenCareGapRef6"
+      },
+      "AccountId": "@CharlesGreen",
+      "Description": "Individuals with persistent asthma who remained on an asthma controller medication for at least 75% of their treatment period. Proportion of days covered = Days covered by medication ÷ Days in treatment period The treatment period is the earliest dispensing eventº for any controller medication during the measurement year through the end of the measurement year.",
+      "HealthCloudGA__DueDate__c": "2019-01-31",
+      "HealthCloudGA__SortOrder__c": 0,
+      "HealthCloudGA__SourceSystem__c": "Geneia",
+      "HealthCloudGA__SourceSystemID__c": "92379-11516-28450",
+      "IsEscalated": false,
+      "Origin": "Email",
+      "Priority": "Medium",
+      "Status": "Closed",
+      "Subject": "Heart - ASCVD - ACE / ARB",
+      "OwnerName__c": "Melinda Smith"
+    },
+    {
+      "attributes": {
+        "type": "Case",
+        "referenceId": "CharlesGreenCareGapRef7"
+      },
+      "AccountId": "@CharlesGreen",
+      "Description": "Individuals in the IVD population (see above) who had at least one prescription for an ACE inhibitor or angiotensin receptor blocker (ARB) in the last 6 months.",
+      "HealthCloudGA__DueDate__c": "2018-12-10",
+      "HealthCloudGA__SortOrder__c": 3,
+      "HealthCloudGA__SourceSystem__c": "Optum",
+      "HealthCloudGA__SourceSystemID__c": "86605-22140-67166",
+      "IsEscalated": false,
+      "Origin": "Email",
+      "Priority": "Medium",
+      "Status": "Closed",
+      "Subject": "Heart - Beta - Blocker - Tx",
+      "OwnerName__c": "Melinda Smith"
+    },
+    {
+      "attributes": {
+        "type": "Case",
+        "referenceId": "CharlesGreenCareGapRef8"
+      },
+      "AccountId": "@CharlesGreen",
+      "Description": "Individuals age 5-85 identified as having persistent asthma. Persistent asthma is determined by the following activities during the measurement year or the year prior to the measurement year: at least one encounter in an inpatient/emergency room setting with a principal diagnosis of asthma or four office visits with any diagnosis of asthma and at least two asthma medication dispensing eventsº or at least four asthma medication dispensing eventsº. Individuals who were only dispensed leukotriene modifiers or antibody inhibitors must also have at least one diagnosis of asthma in the same year.",
+      "HealthCloudGA__DueDate__c": "2018-12-25",
+      "HealthCloudGA__SortOrder__c": 4,
+      "HealthCloudGA__SourceSystem__c": "Optum",
+      "HealthCloudGA__SourceSystemID__c": "13817-94703-86364",
+      "IsEscalated": false,
+      "Origin": "Email",
+      "Priority": "Medium",
+      "Status": "Closed",
+      "Subject": "Lung - Asthma - AMR",
+      "OwnerName__c": "Melinda Smith"
+    },
+    {
+      "attributes": {
+        "type": "Case",
+        "referenceId": "CharlesGreenCareGapRef9"
+      },
+      "AccountId": "@CharlesGreen",
+      "Description": "Chronic loss of kidney function occurring in those with diabetes mellitus. Protein loss in the urine due to damage to the glomeruli may become massive, and cause a low serum albumin with resulting generalized body swelling (edema) and result in the nephrotic syndrome.\r\n\r\nDiabetic nephropathy is the most common cause of ESKD and is a serious complication and affects around one-quarter of adult diabetics in the United States. Affected individuals with end-stage kidney disease often require hemodialysis and eventually kidney transplantation to replace the failed kidney function. Diabetic nephropathy is associated with an increased risk of death in general, particularly from cardiovascular disease.\r\n\r\nThe goals of treatment are to slow the progression of kidney damage and control related complications. The main treatment, once proteinuria is established, is ACE inhibitor medications, which usually reduce proteinuria levels and slow the progression of diabetic nephropathy. Other issues that are important in the management of this condition include control of high blood pressure and blood sugar levels (see diabetes management), as well as the reduction of dietary salt intake",
+      "HealthCloudGA__DueDate__c": "2019-04-23",
+      "HealthCloudGA__SortOrder__c": 5,
+      "HealthCloudGA__SourceSystem__c": "Optum",
+      "HealthCloudGA__SourceSystemID__c": "69278-31573-10078",
+      "IsEscalated": false,
+      "Origin": "Email",
+      "Priority": "Medium",
+      "Status": "New",
+      "Subject": "Diabetes - Nephropathy",
+      "OwnerName__c": "Melinda Smith"
+    },
+    {
+      "attributes": {
+        "type": "Case",
+        "referenceId": "ShawnaGreen_CarePlan"
+      },
+      "AccountId": "@ShawnaGreen",
+      "IsEscalated": false,
+      "Priority": "Medium",
+      "Status": "New",
+      "Subject": "Shawna Green's Care Plan",
+      "OwnerName__c": "Melinda Smith"
+    },
+    {
+      "attributes": {
+        "type": "Case",
+        "referenceId": "JoniGreen_CarePlan"
+      },
+      "AccountId": "@JoniGreen",
+      "IsEscalated": false,
+      "Priority": "Medium",
+      "Status": "New",
+      "Subject": "Joni Green's Care Plan",
+      "OwnerName__c": "Melinda Smith"
+    },
+    {
+      "attributes": {
+        "type": "Case",
+        "referenceId": "RoyGreen_CarePlan"
+      },
+      "AccountId": "@RoyGreen",
+      "IsEscalated": false,
+      "Priority": "Medium",
+      "Status": "New",
+      "Subject": "Roy Green's Care Plan",
+      "OwnerName__c": "Melinda Smith"
+    },
+    {
+      "attributes": {
+        "type": "Case",
+        "referenceId": "JaneHamilton_CarePlan"
+      },
+      "AccountId": "@JaneHamilton",
+      "IsEscalated": false,
+      "Priority": "Medium",
+      "Status": "New",
+      "Subject": "Jane Hamilton's Care Plan",
+      "OwnerName__c": "Melinda Smith"
+    },
+    {
+      "attributes": {
+        "type": "Case",
+        "referenceId": "JaneHamiltonCareGapRef1"
+      },
+      "AccountId": "@JaneHamilton",
+      "Description": "Dilated or retinal exam by an eye care professional (optometrist or ophthalmologist). # A note or letter prepared by an ophthalmologist, optometrist, PCP or other health care professional indicating that an ophthalmoscopic exam was completed by an eye care professional (optometrist or ophthalmologist), the date when the procedure was performed and the results. # A chart or photograph of retinal abnormalities indicating the date when the fundus photography was performed and evidence that an eye care professional (optometrist or ophthalmologist) reviewed the results. Alternatively, results may be read by a qualified reading center that operates under the direction of a medical director who is a retinal specialist. # Documentation of a negative retinal or dilated exam by an eye care professional (optometrist or ophthalmologist) in the year prior to the measurement year, where results indicate retinopathy was not present (e.g., documentation of normal findings for a dilated or retinal eye exam performed by an eye care professional -optometrist or ophthalmologist- meets criteria). # Documentation does not specifically have to state 'no diabetic retinopathy' to be considered negative for retinopathy; however, it must be clear that the patient had a dilated or retinal eye exam by an eye care professional (optometrist or ophthalmologist) and that retinopathy was not present. Notation limited to a statement that indicates 'diabetes without complications' does not meet criteria.",
+      "HealthCloudGA__SortOrder__c": 0,
+      "HealthCloudGA__SourceSystem__c": "Einstein",
+      "HealthCloudGA__SourceSystemID__c": "19581-10291-86612",
+      "IsEscalated": false,
+      "Origin": "Email",
+      "Priority": "Medium",
+      "Status": "New",
+      "Subject": "Heart - ASCVD - Statin",
+      "OwnerName__c": "Melinda Smith"
+    },
+    {
+      "attributes": {
+        "type": "Case",
+        "referenceId": "JaneHamiltonCareGapRef2"
+      },
+      "AccountId": "@JaneHamilton",
+      "Description": "# A urine test for albumin or protein. At a minimum, documentation must include a note indicating the date when urine test was performed, and the result or finding. Any of the following meet the criteria: # 24-hour urine for albumin or protein. # Timed urine for albumin or protein. # Spot urine for albumin or protein. # Urine for albumin/creatinine ratio. # 24-hour urine for total protein. # Random urine for protein/creatinine ratio. # Documentation of a visit to a nephrologist. # Documentation of a renal transplant. # Documentation of medical attention for any of the following (no restriction on provider type): # Diabetic nephropathy. # ESRD. # CRF. # Chronic kidney disease (CKD). # Renal insufficiency. # Proteinuria. # Albuminuria. # Renal dysfunction. # Acute renal failure (ARF). # Dialysis, hemodialysis or peritoneal. # Evidence of ACE inhibitor/ARB therapy. Documentation in the medical record must include, at minimum, a note indicating that the member received an ambulatory prescription for ACE inhibitors/ARBs in the measurement year.",
+      "HealthCloudGA__SortOrder__c": 1,
+      "HealthCloudGA__SourceSystem__c": "Watson",
+      "HealthCloudGA__SourceSystemID__c": "47893-44834-23559",
+      "IsEscalated": false,
+      "Origin": "Email",
+      "Priority": "Medium",
+      "Status": "New",
+      "Subject": "Diabetes - Nephropathy",
+      "OwnerName__c": "Melinda Smith"
+    },
+    {
+      "attributes": {
+        "type": "Case",
+        "referenceId": "JaneHamiltonCareGapRef3"
+      },
+      "AccountId": "@JaneHamilton",
+      "Description": "Individuals 18 years of age and older with the diagnosis of myocardial infarction (MI) who continued to take a beta-blocker for at least 6 months following their MI",
+      "HealthCloudGA__SortOrder__c": 2,
+      "HealthCloudGA__SourceSystem__c": "Optum",
+      "HealthCloudGA__SourceSystemID__c": "61912-84647-24299",
+      "IsEscalated": false,
+      "Origin": "Email",
+      "Priority": "Medium",
+      "Status": "New",
+      "Subject": "Lung - Asthma Med Compl. 75%",
+      "OwnerName__c": "Melinda Smith"
+    },
+    {
+      "attributes": {
+        "type": "Case",
+        "referenceId": "JaneHamiltonCareGapRef4"
+      },
+      "AccountId": "@JaneHamilton",
+      "Description": "Note or immunization certificate with name of vaccine and date of administration. Three (3) doses should be given between the member's 9th and 13 birthdays.",
+      "HealthCloudGA__SortOrder__c": 3,
+      "HealthCloudGA__SourceSystem__c": "Einstein",
+      "HealthCloudGA__SourceSystemID__c": "19358-26512-83054",
+      "IsEscalated": false,
+      "Origin": "Email",
+      "Priority": "Medium",
+      "Status": "New",
+      "Subject": "Heart - ASCVD - ACE / ARB",
+      "OwnerName__c": "Melinda Smith"
+    },
+    {
+      "attributes": {
+        "type": "Case",
+        "referenceId": "JaneHamiltonCareGapRef5"
+      },
+      "AccountId": "@JaneHamilton",
+      "Description": "Individuals age 5-85 identified as having persistent asthma. Persistent asthma is determined by the following activities during the measurement year or the year prior to the measurement year: at least one encounter in an inpatient/emergency room setting with a principal diagnosis of asthma or four office visits with any diagnosis of asthma and at least two asthma medication dispensing eventsº or at least four asthma medication dispensing eventsº. Individuals who were only dispensed leukotriene modifiers or antibody inhibitors must also have at least one diagnosis of asthma in the same year.",
+      "HealthCloudGA__SortOrder__c": 4,
+      "HealthCloudGA__SourceSystem__c": "Watson",
+      "HealthCloudGA__SourceSystemID__c": "62257-36855-23525",
+      "IsEscalated": false,
+      "Origin": "Email",
+      "Priority": "Medium",
+      "Status": "New",
+      "Subject": "Diabetes - DM - Statin",
+      "OwnerName__c": "Melinda Smith"
+    },
+    {
+      "attributes": {
+        "type": "Case",
+        "referenceId": "PhilipHamilton_CarePlan"
+      },
+      "AccountId": "@PhilipHamilton",
+      "IsEscalated": false,
+      "Priority": "Medium",
+      "Status": "New",
+      "Subject": "Philip Hamilton's Care Plan",
+      "OwnerName__c": "Melinda Smith"
+    },
+    {
+      "attributes": {
+        "type": "Case",
+        "referenceId": "StevenHamilton_CarePlan"
+      },
+      "AccountId": "@StevenHamilton",
+      "IsEscalated": false,
+      "Priority": "Medium",
+      "Status": "New",
+      "Subject": "Steven Hamilton's Care Plan",
+      "OwnerName__c": "Melinda Smith"
+    },
+    {
+      "attributes": {
+        "type": "Case",
+        "referenceId": "DavidMorrison_CarePlan"
+      },
+      "AccountId": "@DavidMorrison",
+      "IsEscalated": false,
+      "Priority": "Medium",
+      "Status": "New",
+      "Subject": "David Morrison's Care Plan",
+      "OwnerName__c": "Melinda Smith"
+    }
+  ]
+}
