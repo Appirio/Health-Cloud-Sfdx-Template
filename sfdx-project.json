@@ -16,24 +16,24 @@
       ],
       "install": [
         "# Install Health Cloud",
-        "force:package:install --package HealthCloud@222 -w 30",
-        "force:package:install --package HealthCloud-UnmanagedExtension -w 30"
+        "force:package:install -u healthcloud --package HealthCloud@222 -w 30",
+        "force:package:install -u healthcloud --package HealthCloud-UnmanagedExtension -w 30"
       ],
       "push": [
         "# Push Default Configuration",
-        "force:source:push"
+        "force:source:push -u healthcloud"
       ],
       "configureAdmin": [
         "# Configuring Admin User",
-        "force:user:permset:assign -n HealthCloudPermissionSetLicense",
-        "force:user:permset:assign -n HealthCloudAdmin",
-        "force:user:permset:assign -n HealthCloudApi",
-        "force:user:permset:assign -n HealthCloudFoundation",
-        "force:user:permset:assign -n HealthCloudLimited",
-        "force:user:permset:assign -n HealthCloudMemberServices",
-        "force:user:permset:assign -n HealthCloudSocialDeterminants",
-        "force:user:permset:assign -n HealthCloudStandard",
-        "force:user:permset:assign -n HealthCloudUtilizationManagement"
+        "force:user:permset:assign -u healthcloud -n HealthCloudPermissionSetLicense",
+        "force:user:permset:assign -u healthcloud -n HealthCloudAdmin",
+        "force:user:permset:assign -u healthcloud -n HealthCloudApi",
+        "force:user:permset:assign -u healthcloud -n HealthCloudFoundation",
+        "force:user:permset:assign -u healthcloud -n HealthCloudLimited",
+        "force:user:permset:assign -u healthcloud -n HealthCloudMemberServices",
+        "force:user:permset:assign -u healthcloud -n HealthCloudSocialDeterminants",
+        "force:user:permset:assign -u healthcloud -n HealthCloudStandard",
+        "force:user:permset:assign -u healthcloud -n HealthCloudUtilizationManagement"
       ],
       "prepareDemo": [
         "# TODO: Install Demo Data"
@@ -48,18 +48,19 @@
       ],
 
       "start-prerelease": [
-        "# Health Cloud Pre-Relase Not Available"
+        ". out-of-window"
       ],
       "install-prerelease": [
-        "# TODO: Install Health Cloud Pre-Release"
+        ". out-of-window"
       ],
       "stop-prerelease": [
-        "# Stop Health Cloud Scratch Org",
-        "force:org:delete -u healthcloud-prerelease --noprompt"
+        ". out-of-window"
       ],
       "open-prerelease": [
-        "# Open Health Cloud Scratch Org",
-        "force:org:open -u healthcloud-prerelease -p /one/one.app"
+        ". out-of-window"
+      ],
+      "out-of-window": [
+        "# Health Cloud Pre-Release Not Available"
       ]
     }
   },
