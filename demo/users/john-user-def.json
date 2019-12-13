@@ -1,0 +1,11 @@
+{
+  "FirstName": "John",
+  "LastName": "Bosworth",
+  "Alias": "jbos",
+  "TimeZoneSidKey": "GMT",
+  "LocaleSidKey": "en_US",
+  "EmailEncodingKey": "UTF-8",
+  "LanguageLocaleKey": "en_US",
+  "profileName": "Health Cloud Care Coordinator",
+  "permsets": ["HealthCloudPermissionSetLicense", "HealthCloudAdmin"]
+}

@@ -2,7 +2,7 @@
   "orgName": "Health Cloud",
   "description": "Baseline installation of the current release of Health Cloud",
   "country": "US",
-  "edition": "Developer",
+  "edition": "Enterprise",
   "hasSampleData": false,
   "language": "en_US",
   "features": [

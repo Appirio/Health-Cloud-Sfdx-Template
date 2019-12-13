@@ -36,7 +36,10 @@
         "force:user:permset:assign -u healthcloud -n HealthCloudUtilizationManagement"
       ],
       "prepareDemo": [
-        "# TODO: Install Demo Data"
+        "# Create Demo Users",
+        "force:user:create -u healthcloud --definitionfile demo/users/peter-user-def.json",
+        "force:user:create -u healthcloud --definitionfile demo/users/sally-user-def.json",
+        "force:user:create -u healthcloud --definitionfile demo/users/john-user-def.json"
       ],
       "stop": [
         "# Stop Health Cloud Scratch Org",
