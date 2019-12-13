@@ -37,7 +37,7 @@
       ],
       "prepareDemo": [
         "# Create Demo Users",
-        "force:user:create -u healthcloud --definitionfile demo/users/peter-user-def.json",
+        "force:user:create -u healthcloud --definitionfile demo/users/melinda-user-def.json",
         "force:user:create -u healthcloud --definitionfile demo/users/sally-user-def.json",
         "force:user:create -u healthcloud --definitionfile demo/users/john-user-def.json"
       ],
