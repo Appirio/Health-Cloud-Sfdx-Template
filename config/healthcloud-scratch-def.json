@@ -1,0 +1,26 @@
+{
+  "orgName": "Health Cloud",
+  "description": "Baseline installation of the current release of Health Cloud",
+  "country": "US",
+  "edition": "Developer",
+  "hasSampleData": false,
+  "language": "en_US",
+  "features": [
+    "HealthCloudUser",
+    "Communities",
+    "ContactsToMultipleAccounts",
+    "PersonAccounts",
+    "AnalyticsAdminPerms"
+  ],
+  "settings": {
+    "chatterSettings": {
+      "enableChatter": true
+    },
+    "communitiesSettings": {
+      "enableNetworksEnabled": true
+    },
+    "lightningExperienceSettings": {
+      "enableS1DesktopEnabled": true
+    }
+  }
+}

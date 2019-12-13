@@ -1,0 +1,72 @@
+{
+  "packageDirectories": [{
+    "path": "force-app",
+    "default": true
+  }],
+  "plugins": {
+    "scripts": {
+      "start": [
+        "# Create Health Cloud Scratch Org",
+        "force:org:create -f config/healthcloud-scratch-def.json -a healthcloud",
+        ". install",
+        ". push",
+        ". configureAdmin",
+        ". prepareDemo",
+        ". open"
+      ],
+      "install": [
+        "# Install Health Cloud",
+        "force:package:install --package HealthCloud@222 -w 30",
+        "force:package:install --package HealthCloud-UnmanagedExtension -w 30"
+      ],
+      "push": [
+        "# Push Default Configuration",
+        "force:source:push"
+      ],
+      "configureAdmin": [
+        "# Configuring Admin User",
+        "force:user:permset:assign -n HealthCloudPermissionSetLicense",
+        "force:user:permset:assign -n HealthCloudAdmin",
+        "force:user:permset:assign -n HealthCloudApi",
+        "force:user:permset:assign -n HealthCloudFoundation",
+        "force:user:permset:assign -n HealthCloudLimited",
+        "force:user:permset:assign -n HealthCloudMemberServices",
+        "force:user:permset:assign -n HealthCloudSocialDeterminants",
+        "force:user:permset:assign -n HealthCloudStandard",
+        "force:user:permset:assign -n HealthCloudUtilizationManagement"
+      ],
+      "prepareDemo": [
+        "# TODO: Install Demo Data"
+      ],
+      "stop": [
+        "# Stop Health Cloud Scratch Org",
+        "force:org:delete -u healthcloud --noprompt"
+      ],
+      "open": [
+        "# Open Health Cloud Scratch Org",
+        "force:org:open -u healthcloud -p /one/one.app"
+      ],
+
+      "start-prerelease": [
+        "# Health Cloud Pre-Relase Not Available"
+      ],
+      "install-prerelease": [
+        "# TODO: Install Health Cloud Pre-Release"
+      ],
+      "stop-prerelease": [
+        "# Stop Health Cloud Scratch Org",
+        "force:org:delete -u healthcloud-prerelease --noprompt"
+      ],
+      "open-prerelease": [
+        "# Open Health Cloud Scratch Org",
+        "force:org:open -u healthcloud-prerelease -p /one/one.app"
+      ]
+    }
+  },
+  "packageAliases": {
+    "HealthCloud@222": "04t1C000000Y1Qe",
+    "HealthCloud-UnmanagedExtension": "04tC0000001Eeby"
+  },
+  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sourceApiVersion": "47.0"
+}

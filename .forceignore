@@ -1,0 +1,4 @@
+#Files to ignore when running push and pull from SFDX
+package.xml
+AppSwitcher.appMenu
+force-app/main/default/settings/OrgPreference.settings-meta.xml
