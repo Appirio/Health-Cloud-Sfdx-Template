@@ -10,18 +10,6 @@
         <default>false</default>
         <visible>false</visible>
     </applicationVisibilities>
-    <classAccesses>
-        <apexClass>HcCarePlansData</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>HcDemoPack_DataSetup</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>HcTaskData</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
     <custom>true</custom>
     <description>Provider</description>
     <fieldPermissions>

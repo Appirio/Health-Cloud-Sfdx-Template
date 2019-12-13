@@ -10,11 +10,6 @@
         <default>false</default>
         <visible>true</visible>
     </applicationVisibilities>
-    <classAccesses>
-        <apexClass>HcTaskData</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <custom>false</custom>
     <fieldPermissions>
         <editable>true</editable>
         <field>Case.OwnerName__c</field>
