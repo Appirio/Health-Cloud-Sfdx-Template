@@ -20,11 +20,10 @@ $ sfdx run open-prerelease
 To clean up after creating a pre-release version, please execute `sfdx run stop-prerelease`.
 
 # Prerequisites
-This project makes use of a few sfdx plugins including `@apprio/sfdx-scripts` and `sfdx-wry-plugin`. You can install them using the `sfdx plugins:install` command.
+This project makes use of sfdx plugins including `@apprio/sfdx-scripts`. You can install them using the `sfdx plugins:install` command.
 
 ```
 $ sfdx plugins:install @appirio/sfdx-scripts
-$ sfdx plugins:install sfdx-wry-plugin
 ```
 
 # Releases
