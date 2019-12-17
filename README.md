@@ -30,3 +30,8 @@ $ sfdx plugins:install @appirio/sfdx-scripts
 Please review the [changelog](CHANGELOG) for more detailed information about each release.
 
 ** This project has no releases **
+
+# Errata
+A few things to keep in mind about Healt Cloud in a scratch org.
+
+  - We only get 1 health cloud platform license (?? Link to support ticket)
