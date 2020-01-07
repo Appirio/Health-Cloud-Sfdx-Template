@@ -2,29 +2,22 @@
 A template for spinning up a Health Cloud-backed scratch org. To spin up the current release of health cloud, use the following commands to start and open your org.
 
 ```
-$ sfdx run start
-$ sfdx run open
+$ healthcloud start
+$ healthcloud open
 ```
 
-You can let your scratch org expire on its own, but try and be nice to your org limits and stop your org when you are done with it by executing `sfdx run stop`.
+You can let your scratch org expire on its own, but try and be nice to your org limits and stop your org when you are done with it by executing `healthcloud stop`.
 
 
 # Creating a pre-release version of Health Cloud
 During a Salesforce release window, you can also use this template to spin up a pre-release version of Health Cloud.
 
 ```
-$ sfdx run start-prerelease
-$ sfdx run open-prerelease
+$ healthcloud start --prerelease
+$ healthcloud open --prerelease
 ```
 
-To clean up after creating a pre-release version, please execute `sfdx run stop-prerelease`.
-
-# Prerequisites
-This project makes use of sfdx plugins including `@apprio/sfdx-scripts`. You can install them using the `sfdx plugins:install` command.
-
-```
-$ sfdx plugins:install @appirio/sfdx-scripts
-```
+To clean up after creating a pre-release version, please execute `healthcloud stop --prerelease`.
 
 # Releases
 Please review the [changelog](CHANGELOG) for more detailed information about each release.
@@ -32,6 +25,6 @@ Please review the [changelog](CHANGELOG) for more detailed information about eac
 ** This project has no releases **
 
 # Errata
-A few things to keep in mind about Healt Cloud in a scratch org.
+A few things to keep in mind about Health Cloud in a scratch org.
 
-  - We only get 1 health cloud platform license (?? Link to support ticket)
+  - We only get 1 Health Cloud platform license (?? Link to support ticket)

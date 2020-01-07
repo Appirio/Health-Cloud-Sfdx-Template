@@ -1,0 +1,141 @@
+#!/bin/bash
+
+#
+# Constants
+#
+HEADLINE='\033[90m=== \033[1;36m' # Light Cyan
+INFO='\033[90m' # Grey
+WARNING='\033[1;33m' # Yellow
+END='\033[0m' # No Color
+
+#
+# Create Health Cloud Scratch Org
+#
+start () {
+  printf "${HEADLINE}Creating Health Cloud Scratch Org${END}\n"
+  sfdx force:org:create -f $SCRATCH_ORG_DEF -a $SCRATCH_ORG_NAME
+  install
+  push
+  configureAdmin
+  prepareDemo
+  open
+}
+
+#
+# Install Health Cloud
+#
+install () {
+  printf "${HEADLINE}Installing Health Cloud${END}\n"
+  sfdx force:package:install -u $SCRATCH_ORG_NAME --package $HEALTHCLOUD_PACKAGE -w 30
+  sfdx force:package:install -u $SCRATCH_ORG_NAME --package HealthCloud-UnmanagedExtension -w 30
+}
+
+#
+# Push Default Configuration
+#
+push () {
+  printf "${HEADLINE}Pushing Configuration${END}\n"
+  sfdx force:source:push -u $SCRATCH_ORG_NAME
+}
+
+#
+# Configure Admin User
+#
+configureAdmin () {
+  printf "${HEADLINE}Configuring Admin User${END}\n"
+  sfdx force:user:permset:assign -u $SCRATCH_ORG_NAME -n HealthCloudPermissionSetLicense
+  sfdx force:user:permset:assign -u $SCRATCH_ORG_NAME -n HealthCloudAdmin
+  sfdx force:user:permset:assign -u $SCRATCH_ORG_NAME -n HealthCloudApi
+  sfdx force:user:permset:assign -u $SCRATCH_ORG_NAME -n HealthCloudFoundation
+  sfdx force:user:permset:assign -u $SCRATCH_ORG_NAME -n HealthCloudLimited
+  sfdx force:user:permset:assign -u $SCRATCH_ORG_NAME -n HealthCloudMemberServices
+  sfdx force:user:permset:assign -u $SCRATCH_ORG_NAME -n HealthCloudSocialDeterminants
+  sfdx force:user:permset:assign -u $SCRATCH_ORG_NAME -n HealthCloudStandard
+  sfdx force:user:permset:assign -u $SCRATCH_ORG_NAME -n HealthCloudUtilizationManagement
+}
+
+#
+# Create Demo Users and Install Demo Data
+#
+prepareDemo () {
+  printf "${HEADLINE}Preparing Org${END}\n"
+  sfdx force:user:create -u $SCRATCH_ORG_NAME --definitionfile demo/users/melinda-user-def.json
+  sfdx force:user:create -u $SCRATCH_ORG_NAME --definitionfile demo/users/sally-user-def.json
+  sfdx force:user:create -u $SCRATCH_ORG_NAME --definitionfile demo/users/peter-user-def.json
+  sfdx force:data:tree:import -u $SCRATCH_ORG_NAME -p demo/data/Plan.json
+  sfdx force:apex:execute -u $SCRATCH_ORG_NAME -f demo/scripts/assign-record-types.apex
+  sfdx force:apex:execute -u $SCRATCH_ORG_NAME -f demo/scripts/assign-cases-to-owner.apex
+}
+
+#
+# Stop Health Cloud Scratch Org
+#
+stop () {
+  printf "${HEADLINE}Stopping Health Cloud Scratch Org${END}\n"
+  sfdx force:org:delete -u $SCRATCH_ORG_NAME --noprompt
+}
+
+#
+# Open Health Cloud Scratch Org
+#
+open () {
+  printf "${HEADLINE}Opening Health Cloud Scratch Org${END}\n"
+  sfdx force:org:open -u $SCRATCH_ORG_NAME -p /one/one.app
+}
+
+#
+# Main Script Function
+#
+main () {
+  # Read all the command-line arguments
+  for arg in "$@"
+  do
+    case "$arg" in
+      --prerelease)
+        PRERELEASE=true
+        ;;
+      start)
+        CMD="start"
+        ;;
+      stop)
+        CMD="stop"
+        ;;
+      open)
+        CMD="open"
+        ;;
+    esac
+  done
+
+  # Determine global variables
+  if [ "$PRERELEASE" = true ]
+  then
+    # SCRATCH_ORG_NAME="healthcloud-prerelease"
+    # SCRATCH_ORG_DEF="config/healthcloud-prerelease-scratch-def.json"
+    # HEALTHCLOUD_PACKAGE="HealthCloud@223"
+    printf "${WARNING}Health Cloud Pre-Release Not Available${END}\n"
+    exit 1
+  else
+    SCRATCH_ORG_NAME="healthcloud"
+    SCRATCH_ORG_DEF="config/healthcloud-scratch-def.json"
+    HEALTHCLOUD_PACKAGE="HealthCloud@222"
+  fi
+
+  # Execute the requested command or show usage
+  case "$CMD" in
+    start)
+      start
+      ;;
+    stop)
+      stop
+      ;;
+    open)
+      open
+      ;;
+    *)
+      printf $"${INFO}Usage $0 {start|stop|open} [--prerelease]${END}\n"
+      exit 1
+  esac
+}
+
+# Main
+main $@
