@@ -3,7 +3,7 @@
 #
 # Constants
 #
-HEADLINE='\033[90m=== \033[1;36m' # Light Cyan
+HEADLINE='\033[90m=== \033[34m' # Blue
 INFO='\033[90m' # Grey
 WARNING='\033[1;33m' # Yellow
 END='\033[0m' # No Color
@@ -52,19 +52,16 @@ configureAdmin () {
   sfdx force:user:permset:assign -u $SCRATCH_ORG_NAME -n HealthCloudSocialDeterminants
   sfdx force:user:permset:assign -u $SCRATCH_ORG_NAME -n HealthCloudStandard
   sfdx force:user:permset:assign -u $SCRATCH_ORG_NAME -n HealthCloudUtilizationManagement
+  sfdx force:apex:execute -u $SCRATCH_ORG_NAME -f demo/scripts/enable-person-account-record-type.apex
 }
 
 #
-# Create Demo Users and Install Demo Data
+# Prepare the org for demo and development
 #
 prepareDemo () {
   printf "${HEADLINE}Preparing Org${END}\n"
-  sfdx force:user:create -u $SCRATCH_ORG_NAME --definitionfile demo/users/melinda-user-def.json
-  sfdx force:user:create -u $SCRATCH_ORG_NAME --definitionfile demo/users/sally-user-def.json
-  sfdx force:user:create -u $SCRATCH_ORG_NAME --definitionfile demo/users/peter-user-def.json
   sfdx force:data:tree:import -u $SCRATCH_ORG_NAME -p demo/data/Plan.json
   sfdx force:apex:execute -u $SCRATCH_ORG_NAME -f demo/scripts/assign-record-types.apex
-  sfdx force:apex:execute -u $SCRATCH_ORG_NAME -f demo/scripts/assign-cases-to-owner.apex
 }
 
 #
@@ -109,11 +106,11 @@ main () {
   # Determine global variables
   if [ "$PRERELEASE" = true ]
   then
-    # SCRATCH_ORG_NAME="healthcloud-prerelease"
-    # SCRATCH_ORG_DEF="config/healthcloud-prerelease-scratch-def.json"
-    # HEALTHCLOUD_PACKAGE="HealthCloud@223"
-    printf "${WARNING}Health Cloud Pre-Release Not Available${END}\n"
-    exit 1
+    SCRATCH_ORG_NAME="healthcloud-prerelease"
+    SCRATCH_ORG_DEF="config/healthcloud-prerelease-scratch-def.json"
+    HEALTHCLOUD_PACKAGE="HealthCloud@223"
+    #printf "${WARNING}Health Cloud Pre-Release Not Available${END}\n"
+    #exit 1
   else
     SCRATCH_ORG_NAME="healthcloud"
     SCRATCH_ORG_DEF="config/healthcloud-scratch-def.json"

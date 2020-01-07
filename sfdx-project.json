@@ -5,6 +5,7 @@
   }],
   "packageAliases": {
     "HealthCloud@222": "04t1C000000Y1Qe",
+    "HealthCloud@223": "04t1C000000Y1bD",
     "HealthCloud-UnmanagedExtension": "04tC0000001Eeby"
   },
   "sfdcLoginUrl": "https://login.salesforce.com",
