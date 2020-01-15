@@ -61,7 +61,6 @@ configureAdmin () {
 prepareDemo () {
   printf "${HEADLINE}Preparing Org${END}\n"
   sfdx force:data:bulk:upsert -s Account -f ./demo/data/PersonAccounts.csv -i Id -u $SCRATCH_ORG_NAME
-  sfdx force:apex:execute -u $SCRATCH_ORG_NAME -f demo/scripts/assign-record-types.apex
 }
 
 #
