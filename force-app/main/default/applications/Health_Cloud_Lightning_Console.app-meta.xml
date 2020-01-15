@@ -23,7 +23,6 @@
         <content>Patient_Console_Page</content>
         <formFactor>Large</formFactor>
         <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>Account.HealthCloudGA__IndustriesIndividual</recordType>
         <type>Flexipage</type>
         <profile>Standard</profile>
     </profileActionOverrides>
@@ -32,7 +31,6 @@
         <content>Patient_Console_Page</content>
         <formFactor>Large</formFactor>
         <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>Account.HealthCloudGA__IndustriesIndividual</recordType>
         <type>Flexipage</type>
         <profile>Admin</profile>
     </profileActionOverrides>
