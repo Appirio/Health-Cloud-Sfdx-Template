@@ -108,8 +108,6 @@ main () {
     SCRATCH_ORG_NAME="healthcloud-prerelease"
     SCRATCH_ORG_DEF="config/healthcloud-prerelease-scratch-def.json"
     HEALTHCLOUD_PACKAGE="HealthCloud@224"
-    #printf "${WARNING}Health Cloud Pre-Release Not Available${END}\n"
-    #exit 1
   else
     SCRATCH_ORG_NAME="healthcloud"
     SCRATCH_ORG_DEF="config/healthcloud-scratch-def.json"
