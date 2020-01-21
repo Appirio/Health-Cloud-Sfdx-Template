@@ -29,4 +29,5 @@ This template requires Salesforce DX. Please visit https://developer.salesforce.
 # Releases
 Please review the [changelog](CHANGELOG) for more detailed information about each release.
 
-** This project has no releases **
+## [1.0.0] - 2020-01-21
+Initial release.
