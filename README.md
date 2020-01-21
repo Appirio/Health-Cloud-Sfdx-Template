@@ -1,5 +1,5 @@
 # Health-Cloud-Sfdx-Template
-A template for spinning up a Health Cloud-backed scratch org. To spin up the current release of health cloud, use the following commands to start and open your org.
+A template for spinning up a Health Cloud-backed scratch org. To spin up the current release of [Health Cloud](https://www.salesforce.com/products/health-cloud/overview/), use the following commands to start and open your org.
 
 ```
 $ healthcloud start
@@ -23,7 +23,7 @@ To clean up after creating a pre-release version,please execute `healthcloud sto
 Your pre-release scratch org will have the alias `healthcloud-prerelease`.
 
 # Prerequisites
-This template requires Salesforce DX. Please visit [https://developer.salesforce.com/platform/dx] to install and configure Salesforce DX on your local machine.
+This template requires Salesforce DX. Please visit https://developer.salesforce.com/platform/dx to install and configure Salesforce DX on your local machine.
 
 
 # Releases
