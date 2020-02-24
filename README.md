@@ -22,6 +22,9 @@ To clean up after creating a pre-release version,please execute `healthcloud sto
 
 Your pre-release scratch org will have the alias `healthcloud-prerelease`.
 
+# Health Cloud Package Versions
+The version numbers for what is the 'release' and 'pre-release' package of Healthcloud are manually maintained in cooperation with Salesforce. As new versions become available in the Health Cloud release cycle those will be reflected here with accompianing notes.
+
 # Prerequisites
 This template requires Salesforce DX. Please visit https://developer.salesforce.com/platform/dx to install and configure Salesforce DX on your local machine.
 
