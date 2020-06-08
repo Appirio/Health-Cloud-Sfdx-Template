@@ -107,11 +107,11 @@ main () {
   then
     SCRATCH_ORG_NAME="healthcloud-prerelease"
     SCRATCH_ORG_DEF="config/healthcloud-prerelease-scratch-def.json"
-    HEALTHCLOUD_PACKAGE="HealthCloud@224"
+    HEALTHCLOUD_PACKAGE="HealthCloud@226"
   else
     SCRATCH_ORG_NAME="healthcloud"
     SCRATCH_ORG_DEF="config/healthcloud-scratch-def.json"
-    HEALTHCLOUD_PACKAGE="HealthCloud@222"
+    HEALTHCLOUD_PACKAGE="HealthCloud@224"
   fi
 
   # Execute the requested command or show usage
