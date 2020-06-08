@@ -10,5 +10,5 @@
     "HealthCloud-UnmanagedExtension": "04t5w0000048cTh"
   },
   "sfdcLoginUrl": "https://login.salesforce.com",
-  "sourceApiVersion": "47.0"
+  "sourceApiVersion": "48.0"
 }
