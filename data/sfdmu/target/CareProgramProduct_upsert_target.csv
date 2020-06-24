@@ -1,0 +1,3 @@
+Id,Name,IsDeleted,CreatedDate,LastModifiedDate,SystemModstamp,LastViewedDate,LastReferencedDate,Availability,Status,ProductId,CareProgramPrice,CareProgramId,SourceSystemIdentifier,SourceSystem,Product.Name,CareProgram.Name
+0bd3h000000g4BSAAY,metformin,false,2020-06-24T15:33:37.000+0000,2020-06-24T15:33:37.000+0000,2020-06-24T15:33:37.000+0000,,,All,Active,01t3h0000023Y0FAAU,,0Ze3h000000gBa1CAE,,,metformin,Kanaka Patient Assistance Program
+0bd3h000000g4BTAAY,metoprolol,false,2020-06-24T15:33:37.000+0000,2020-06-24T15:33:37.000+0000,2020-06-24T15:33:37.000+0000,,,All,Active,01t3h0000023Y0GAAU,,0Ze3h000000gBa1CAE,,,metoprolol,Kanaka Patient Assistance Program

@@ -1,0 +1,7 @@
+Id,Name,IsDeleted,CreatedDate,LastModifiedDate,SystemModstamp,LastViewedDate,LastReferencedDate,HealthCloudGA__FromObject__c,HealthCloudGA__Relationship__c,HealthCloudGA__ReverseRelationship__c,HealthCloudGA__ToObject__c
+a083h000000zJOtAAM,AccountToContact,false,2020-06-24T15:33:37.000+0000,2020-06-24T15:33:37.000+0000,2020-06-24T15:33:37.000+0000,,,Account,Contacts,Account,Contact
+a083h000000zJOuAAM,AccountToObservation,false,2020-06-24T15:33:37.000+0000,2020-06-24T15:33:37.000+0000,2020-06-24T15:33:37.000+0000,,,Account,HealthCloudGA__Observations__r,Account,HealthCloudGA__EhrObservation__c
+a083h000000zJOvAAM,AccountToEncounter,false,2020-06-24T15:33:37.000+0000,2020-06-24T15:33:37.000+0000,2020-06-24T15:33:37.000+0000,,,Account,HealthCloudGA__Encounters__r,Account,HealthCloudGA__EhrEncounter__c
+a083h000000zJOwAAM,AccountToEhrMedicationPrescriptions,false,2020-06-24T15:33:37.000+0000,2020-06-24T15:33:37.000+0000,2020-06-24T15:33:37.000+0000,,,Account,HealthCloudGA__MedicationPrescriptions__r,Account,HealthCloudGA__EhrMedicationPrescription__c
+a083h000000zJOxAAM,AccountToCondition,false,2020-06-24T15:33:37.000+0000,2020-06-24T15:33:37.000+0000,2020-06-24T15:33:37.000+0000,,,Account,HealthCloudGA__Conditions__r,Account,HealthCloudGA__EhrCondition__c
+a083h000000zJOyAAM,AccountToCampaignMember,false,2020-06-24T15:33:37.000+0000,2020-06-24T15:33:37.000+0000,2020-06-24T15:33:37.000+0000,,,Account,CampaignMember,Account,CampaignMember

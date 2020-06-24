@@ -1,0 +1,2 @@
+Id,Name,IsDeleted,CreatedDate,LastModifiedDate,SystemModstamp,LastViewedDate,LastReferencedDate,PayerId,NetworkType,Code,SourceSystemIdentifier,SourceSystem,EffectiveFrom,EffectiveTo,IsActive,Description,Payer.Name
+0bf3h000000g4NlAAI,Great Health PPO,false,2020-06-24T15:33:37.000+0000,2020-06-24T15:33:37.000+0000,2020-06-24T15:33:37.000+0000,,,0013h00000CyIRBAA3,PPO,,,,,,true,,Great Health Clinic

@@ -14,7 +14,7 @@
         {
             "query": "SELECT all FROM Case",
             "operation": "Upsert",
-            "externalId": "Name"
+            "externalId": "Subject"
         },
         {
             "query": "SELECT all FROM CareProgramTeamMember",
@@ -27,37 +27,7 @@
             "externalId": "Name"
         },
         {
-            "query": "SELECT all FROM HealthCloudGA__CarePlanTemplate__c",
-            "operation": "Upsert",
-            "externalId": "Name"
-        },
-        {
-            "query": "SELECT all FROM HealthCloudGA__CarePlanTemplateGoal__c",
-            "operation": "Upsert",
-            "externalId": "Name"
-        },
-        {
-            "query": "SELECT all FROM HealthCloudGA__CarePlanTemplateProblem__c",
-            "operation": "Upsert",
-            "externalId": "Name"
-        },
-        {
-            "query": "SELECT all FROM HealthCloudGA__CarePlanTemplateTask__c",
-            "operation": "Upsert",
-            "externalId": "Name"
-        },
-        {
-            "query": "SELECT all FROM HealthCloudGA__AccountAccountRelation__c",
-            "operation": "Upsert",
-            "externalId": "Name"
-        },
-        {
             "query": "SELECT all FROM HealthCloudGA__CandidatePatient__c",
-            "operation": "Upsert",
-            "externalId": "Name"
-        },
-        {
-            "query": "SELECT all FROM HealthCloudGA__CardViewDropdown__c",
             "operation": "Upsert",
             "externalId": "Name"
         },
@@ -83,16 +53,6 @@
         },
         {
             "query": "SELECT all FROM HealthCloudGA__CrossObjectRelationship__c",
-            "operation": "Upsert",
-            "externalId": "Name"
-        },
-        {
-            "query": "SELECT all FROM HealthCloudGA__CustomFieldSets__c",
-            "operation": "Upsert",
-            "externalId": "Name"
-        },
-        {
-            "query": "SELECT all FROM HealthCloudGA__CustomLabelConfig__c",
             "operation": "Upsert",
             "externalId": "Name"
         },
@@ -147,21 +107,6 @@
             "externalId": "Name"
         },
         {
-            "query": "SELECT all FROM CareMetricTarget",
-            "operation": "Upsert",
-            "externalId": "Name"
-        },
-        {
-            "query": "SELECT all FROM CareObservation",
-            "operation": "Upsert",
-            "externalId": "Name"
-        },
-        {
-            "query": "SELECT all FROM CarePgmProvHealthcareProvider",
-            "operation": "Upsert",
-            "externalId": "Name"
-        },
-        {
             "query": "SELECT all FROM CareProgram",
             "operation": "Upsert",
             "externalId": "Name"
@@ -177,12 +122,12 @@
             "externalId": "Name"
         },
         {
-            "query": "SELECT all FROM CareProgramEnrolleeProduct",
+            "query": "SELECT all FROM CareProgramEnrollee",
             "operation": "Upsert",
             "externalId": "Name"
         },
         {
-            "query": "SELECT all FROM CareProgramEnrollmentCard",
+            "query": "SELECT all FROM CareProgramEnrolleeProduct",
             "operation": "Upsert",
             "externalId": "Name"
         },
@@ -207,22 +152,72 @@
             "externalId": "Name"
         },
         {
-            "query": "SELECT all FROM CareRegisteredDevice",
+            "query": "SELECT all FROM CareProviderFacilitySpecialty",
             "operation": "Upsert",
             "externalId": "Name"
         },
         {
-            "query": "SELECT all FROM CareSystemFieldMapping",
+            "query": "SELECT all FROM CareRequest",
             "operation": "Upsert",
             "externalId": "Name"
         },
         {
-            "query": "SELECT all FROM EnrollmentEligibilityCriteria",
+            "query": "SELECT all FROM CareRequestDrug",
             "operation": "Upsert",
             "externalId": "Name"
         },
         {
-            "query": "SELECT all FROM UnitOfMeasure",
+            "query": "SELECT all FROM CareSpecialty",
+            "operation": "Upsert",
+            "externalId": "Name"
+        },
+        {
+            "query": "SELECT all FROM CareTaxonomy",
+            "operation": "Upsert",
+            "externalId": "Name"
+        },
+        {
+            "query": "SELECT all FROM HealthCareDiagnosis",
+            "operation": "Upsert",
+            "externalId": "Name"
+        },
+        {
+            "query": "SELECT all FROM HealthcareFacilityNetwork",
+            "operation": "Upsert",
+            "externalId": "Name"
+        },
+        {
+            "query": "SELECT all FROM HealthcarePayerNetwork",
+            "operation": "Upsert",
+            "externalId": "Name"
+        },
+        {
+            "query": "SELECT all FROM HealthcarePractitionerFacility",
+            "operation": "Upsert",
+            "externalId": "Name"
+        },
+        {
+            "query": "SELECT all FROM HealthCareProcedure",
+            "operation": "Upsert",
+            "externalId": "Name"
+        },
+        {
+            "query": "SELECT all FROM HealthcareProvider",
+            "operation": "Upsert",
+            "externalId": "Name"
+        },
+        {
+            "query": "SELECT all FROM HealthcareProviderNpi",
+            "operation": "Upsert",
+            "externalId": "Name"
+        },
+        {
+            "query": "SELECT all FROM HealthcareProviderSpecialty",
+            "operation": "Upsert",
+            "externalId": "Name"
+        },
+        {
+            "query": "SELECT all FROM HealthcareProviderTaxonomy",
             "operation": "Upsert",
             "externalId": "Name"
         }
