@@ -1,0 +1,230 @@
+{
+    "objects": [
+
+        {
+            "query": "SELECT all FROM Contact",
+            "operation": "Upsert",
+            "externalId": "Name"
+        },
+        {
+            "query": "SELECT all FROM Account",
+            "operation": "Upsert",
+            "externalId": "Name"
+        },
+        {
+            "query": "SELECT all FROM Case",
+            "operation": "Upsert",
+            "externalId": "Name"
+        },
+        {
+            "query": "SELECT all FROM CareProgramTeamMember",
+            "operation": "Upsert",
+            "externalId": "Name"
+        },
+        {
+            "query": "SELECT all FROM CaseTeamMember",
+            "operation": "Upsert",
+            "externalId": "Name"
+        },
+        {
+            "query": "SELECT all FROM HealthCloudGA__CarePlanTemplate__c",
+            "operation": "Upsert",
+            "externalId": "Name"
+        },
+        {
+            "query": "SELECT all FROM HealthCloudGA__CarePlanTemplateGoal__c",
+            "operation": "Upsert",
+            "externalId": "Name"
+        },
+        {
+            "query": "SELECT all FROM HealthCloudGA__CarePlanTemplateProblem__c",
+            "operation": "Upsert",
+            "externalId": "Name"
+        },
+        {
+            "query": "SELECT all FROM HealthCloudGA__CarePlanTemplateTask__c",
+            "operation": "Upsert",
+            "externalId": "Name"
+        },
+        {
+            "query": "SELECT all FROM HealthCloudGA__AccountAccountRelation__c",
+            "operation": "Upsert",
+            "externalId": "Name"
+        },
+        {
+            "query": "SELECT all FROM HealthCloudGA__CandidatePatient__c",
+            "operation": "Upsert",
+            "externalId": "Name"
+        },
+        {
+            "query": "SELECT all FROM HealthCloudGA__CardViewDropdown__c",
+            "operation": "Upsert",
+            "externalId": "Name"
+        },
+        {
+            "query": "SELECT all FROM HealthCloudGA__CarePlanGoal__c",
+            "operation": "Upsert",
+            "externalId": "Name"
+        },
+        {
+            "query": "SELECT all FROM HealthCloudGA__CarePlanProblem__c",
+            "operation": "Upsert",
+            "externalId": "Name"
+        },
+        {
+            "query": "SELECT all FROM HealthCloudGA__ConditionToHCCCodeMapping__c",
+            "operation": "Upsert",
+            "externalId": "Name"
+        },
+        {
+            "query": "SELECT all FROM HealthCloudGA__ContactContactRelation__c",
+            "operation": "Upsert",
+            "externalId": "Name"
+        },
+        {
+            "query": "SELECT all FROM HealthCloudGA__CrossObjectRelationship__c",
+            "operation": "Upsert",
+            "externalId": "Name"
+        },
+        {
+            "query": "SELECT all FROM HealthCloudGA__CustomFieldSets__c",
+            "operation": "Upsert",
+            "externalId": "Name"
+        },
+        {
+            "query": "SELECT all FROM HealthCloudGA__CustomLabelConfig__c",
+            "operation": "Upsert",
+            "externalId": "Name"
+        },
+        {
+            "query": "SELECT all FROM HealthCloudGA__FilterColumn__c",
+            "operation": "Upsert",
+            "externalId": "Name"
+        },
+        {
+            "query": "SELECT all FROM HealthCloudGA__FilterCondition__c",
+            "operation": "Upsert",
+            "externalId": "Name"
+        },
+        {
+            "query": "SELECT all FROM HealthCloudGA__FilterCriterion__c",
+            "operation": "Upsert",
+            "externalId": "Name"
+        },
+        {
+            "query": "SELECT all FROM HealthCloudGA__PatientCardViewConfiguration__c",
+            "operation": "Upsert",
+            "externalId": "Name"
+        },
+        {
+            "query": "SELECT all FROM HealthCloudGA__ReciprocalRole__c",
+            "operation": "Upsert",
+            "externalId": "Name"
+        },
+        {
+            "query": "SELECT all FROM HealthCloudGA__ProgramPatientAffiliation__c",
+            "operation": "Upsert",
+            "externalId": "Name"
+        },
+        {
+            "query": "SELECT all FROM HealthCloudGA__ProgramPatientSummary__c",
+            "operation": "Upsert",
+            "externalId": "Name"
+        },
+        {
+            "query": "SELECT all FROM HealthCloudGA__Provider__c",
+            "operation": "Upsert",
+            "externalId": "Name"
+        },
+        {
+            "query": "SELECT all FROM HealthCloudGA__TimelineViewConfiguration__c",
+            "operation": "Upsert",
+            "externalId": "Name"
+        },
+        {
+            "query": "SELECT all FROM HealthCloudGA__UsePersonAccount__c",
+            "operation": "Upsert",
+            "externalId": "Name"
+        },
+        {
+            "query": "SELECT all FROM CareMetricTarget",
+            "operation": "Upsert",
+            "externalId": "Name"
+        },
+        {
+            "query": "SELECT all FROM CareObservation",
+            "operation": "Upsert",
+            "externalId": "Name"
+        },
+        {
+            "query": "SELECT all FROM CarePgmProvHealthcareProvider",
+            "operation": "Upsert",
+            "externalId": "Name"
+        },
+        {
+            "query": "SELECT all FROM CareProgram",
+            "operation": "Upsert",
+            "externalId": "Name"
+        },
+        {
+            "query": "SELECT all FROM CareProgramCampaign",
+            "operation": "Upsert",
+            "externalId": "Name"
+        },
+        {
+            "query": "SELECT all FROM CareProgramEligibilityRule",
+            "operation": "Upsert",
+            "externalId": "Name"
+        },
+        {
+            "query": "SELECT all FROM CareProgramEnrolleeProduct",
+            "operation": "Upsert",
+            "externalId": "Name"
+        },
+        {
+            "query": "SELECT all FROM CareProgramEnrollmentCard",
+            "operation": "Upsert",
+            "externalId": "Name"
+        },
+        {
+            "query": "SELECT all FROM CareProgramGoal",
+            "operation": "Upsert",
+            "externalId": "Name"
+        },
+        {
+            "query": "SELECT all FROM CareProgramProduct",
+            "operation": "Upsert",
+            "externalId": "Name"
+        },
+        {
+            "query": "SELECT all FROM CareProgramProvider",
+            "operation": "Upsert",
+            "externalId": "Name"
+        },
+        {
+            "query": "SELECT all FROM CareProgramTeamMember",
+            "operation": "Upsert",
+            "externalId": "Name"
+        },
+        {
+            "query": "SELECT all FROM CareRegisteredDevice",
+            "operation": "Upsert",
+            "externalId": "Name"
+        },
+        {
+            "query": "SELECT all FROM CareSystemFieldMapping",
+            "operation": "Upsert",
+            "externalId": "Name"
+        },
+        {
+            "query": "SELECT all FROM EnrollmentEligibilityCriteria",
+            "operation": "Upsert",
+            "externalId": "Name"
+        },
+        {
+            "query": "SELECT all FROM UnitOfMeasure",
+            "operation": "Upsert",
+            "externalId": "Name"
+        }
+    ]
+}
