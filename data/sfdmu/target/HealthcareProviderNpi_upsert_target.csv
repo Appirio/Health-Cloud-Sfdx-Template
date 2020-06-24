@@ -1,6 +1,0 @@
-Id,Name,IsDeleted,CreatedDate,LastModifiedDate,SystemModstamp,LastViewedDate,LastReferencedDate,Npi,PractitionerId,AccountId,SourceSystemIdentifier,SourceSystem,EffectiveFrom,EffectiveTo,IsActive,NpiType,Practitioner.Name,Account.Name
-0bN3h000000g4OPEAY,Great Health Clinic NPI,false,2020-06-24T15:33:37.000+0000,2020-06-24T15:33:37.000+0000,2020-06-24T15:33:37.000+0000,,,87625344,,0013h00000CyIRBAA3,,,,,true,Organization,,Great Health Clinic
-0bN3h000000g4OQEAY,John Smith NPI,false,2020-06-24T15:33:37.000+0000,2020-06-24T15:33:37.000+0000,2020-06-24T15:33:37.000+0000,,,987123456,0033h0000096qbvAAA,,,,,,true,Individual,John Smith,
-0bN3h000000g4OREAY,Gayathri Satish NPI,false,2020-06-24T15:33:37.000+0000,2020-06-24T15:33:37.000+0000,2020-06-24T15:33:37.000+0000,,,1234567654,0033h0000096qbwAAA,,,,,,true,Individual,Gayathri Satish,
-0bN3h000000g4OSEAY,3297846,false,2020-06-24T15:33:37.000+0000,2020-06-24T15:33:37.000+0000,2020-06-24T15:33:37.000+0000,,,3297846,0033h0000096qbuAAA,,CAQH123,CAQH,2017-05-01,,true,Individual,Amy Huffman,
-0bN3h000000g4OTEAY,CA Healthcare partners physician group,false,2020-06-24T15:33:37.000+0000,2020-06-24T15:33:37.000+0000,2020-06-24T15:33:37.000+0000,,,1678654368,,0013h00000CyIRKAA3,,,,,true,Organization,,CA Healthcare partners physician group

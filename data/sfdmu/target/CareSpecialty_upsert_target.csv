@@ -1,5 +1,0 @@
-Id,Name,IsDeleted,CreatedDate,LastModifiedDate,SystemModstamp,LastViewedDate,LastReferencedDate,SpecialtyCode,Description,IsActive,SpecialtyType,EffectiveFrom,EffectiveTo,SpecialtyUsage
-0bc3h000000g4S5AAI,Surgery,false,2020-06-24T15:33:37.000+0000,2020-06-24T15:33:37.000+0000,2020-06-24T15:33:37.000+0000,,,SURG,Surgery,true,Surgery,,,Both
-0bc3h000000g4S6AAI,Primary Care,false,2020-06-24T15:33:37.000+0000,2020-06-24T15:33:37.000+0000,2020-06-24T15:33:37.000+0000,,,PCARE,,true,Primary Care,,,Both
-0bc3h000000g4S4AAI,Physician/General Practice,false,2020-06-24T15:33:37.000+0000,2020-06-24T15:33:37.000+0000,2020-06-24T15:33:37.000+0000,,,01,Physician/General Practice,true,Primary Care,2017-11-29,,Both
-0bc3h000000g4S3AAI,Physician/Endocrinology,false,2020-06-24T15:33:37.000+0000,2020-06-24T15:33:37.000+0000,2020-06-24T15:33:37.000+0000,,,02,Physician/Endocrinology,true,Primary Care,2017-11-30,,Both
