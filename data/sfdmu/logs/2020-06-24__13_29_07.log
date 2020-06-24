@@ -1,0 +1,669 @@
+
+[13:29:07.977] {"Running version":"3.4.11"}
+
+[13:29:08.597] Connecting to HCTrialOrg using SFDX CLI...
+[13:29:30.256] Successfully connected to HCTrialOrg.
+[13:29:30.267] {"SOURCE":"HCTrialOrg.","TARGET":"csvfile.","Package script":"/Users/jrattanpal/workspace/Health-Cloud-Sfdx-Template/data/sfdmu/export.json."}
+
+[13:29:30.271] GETTING AND ANALYSING OBJECTS METADATA...
+[13:29:30.273] Processing the sObject Contact...
+[13:29:30.275] Getting metadata for Contact (SOURCE)
+[13:29:30.877] Processing the sObject Account...
+[13:29:30.882] Getting metadata for Account (SOURCE)
+[13:29:31.714] Processing the sObject Case...
+[13:29:31.716] Getting metadata for Case (SOURCE)
+[13:29:32.134] Processing the sObject CareProgramTeamMember...
+[13:29:32.135] Getting metadata for CareProgramTeamMember (SOURCE)
+[13:29:32.407] Processing the sObject CaseTeamMember...
+[13:29:32.409] Getting metadata for CaseTeamMember (SOURCE)
+[13:29:32.637][WARN] Field CaseTeamMember.Name is missing in the Source.
+[13:29:32.639] Processing the sObject HealthCloudGA__CandidatePatient__c...
+[13:29:32.641] Getting metadata for HealthCloudGA__CandidatePatient__c (SOURCE)
+[13:29:33.401] Processing the sObject HealthCloudGA__CarePlanGoal__c...
+[13:29:33.403] Getting metadata for HealthCloudGA__CarePlanGoal__c (SOURCE)
+[13:29:34.361] Processing the sObject HealthCloudGA__CarePlanProblem__c...
+[13:29:34.363] Getting metadata for HealthCloudGA__CarePlanProblem__c (SOURCE)
+[13:29:35.563] Processing the sObject HealthCloudGA__ConditionToHCCCodeMapping__c...
+[13:29:35.565] Getting metadata for HealthCloudGA__ConditionToHCCCodeMapping__c (SOURCE)
+[13:29:36.421] Processing the sObject HealthCloudGA__ContactContactRelation__c...
+[13:29:36.422] Getting metadata for HealthCloudGA__ContactContactRelation__c (SOURCE)
+[13:29:37.628] Processing the sObject HealthCloudGA__CrossObjectRelationship__c...
+[13:29:37.631] Getting metadata for HealthCloudGA__CrossObjectRelationship__c (SOURCE)
+[13:29:38.511] Processing the sObject HealthCloudGA__FilterColumn__c...
+[13:29:38.512] Getting metadata for HealthCloudGA__FilterColumn__c (SOURCE)
+[13:29:39.171] Processing the sObject HealthCloudGA__FilterCondition__c...
+[13:29:39.174] Getting metadata for HealthCloudGA__FilterCondition__c (SOURCE)
+[13:29:39.763] Processing the sObject HealthCloudGA__FilterCriterion__c...
+[13:29:39.766] Getting metadata for HealthCloudGA__FilterCriterion__c (SOURCE)
+[13:29:40.248] Processing the sObject HealthCloudGA__PatientCardViewConfiguration__c...
+[13:29:40.250] Getting metadata for HealthCloudGA__PatientCardViewConfiguration__c (SOURCE)
+[13:29:40.651] Processing the sObject HealthCloudGA__ReciprocalRole__c...
+[13:29:40.654] Getting metadata for HealthCloudGA__ReciprocalRole__c (SOURCE)
+[13:29:41.2] Processing the sObject HealthCloudGA__ProgramPatientAffiliation__c...
+[13:29:41.5] Getting metadata for HealthCloudGA__ProgramPatientAffiliation__c (SOURCE)
+[13:29:41.263] Processing the sObject HealthCloudGA__ProgramPatientSummary__c...
+[13:29:41.269] Getting metadata for HealthCloudGA__ProgramPatientSummary__c (SOURCE)
+[13:29:41.698] Processing the sObject HealthCloudGA__Provider__c...
+[13:29:41.700] Getting metadata for HealthCloudGA__Provider__c (SOURCE)
+[13:29:42.56] Processing the sObject HealthCloudGA__TimelineViewConfiguration__c...
+[13:29:42.59] Getting metadata for HealthCloudGA__TimelineViewConfiguration__c (SOURCE)
+[13:29:42.359] Processing the sObject HealthCloudGA__UsePersonAccount__c...
+[13:29:42.361] Getting metadata for HealthCloudGA__UsePersonAccount__c (SOURCE)
+[13:29:42.710] Processing the sObject CareProgram...
+[13:29:42.713] Getting metadata for CareProgram (SOURCE)
+[13:29:43.136] Processing the sObject CareProgramCampaign...
+[13:29:43.138] Getting metadata for CareProgramCampaign (SOURCE)
+[13:29:43.387] Processing the sObject CareProgramEligibilityRule...
+[13:29:43.389] Getting metadata for CareProgramEligibilityRule (SOURCE)
+[13:29:43.799] Processing the sObject CareProgramEnrollee...
+[13:29:43.801] Getting metadata for CareProgramEnrollee (SOURCE)
+[13:29:44.8] Processing the sObject CareProgramEnrolleeProduct...
+[13:29:44.10] Getting metadata for CareProgramEnrolleeProduct (SOURCE)
+[13:29:44.372] Processing the sObject CareProgramGoal...
+[13:29:44.374] Getting metadata for CareProgramGoal (SOURCE)
+[13:29:44.847] Processing the sObject CareProgramProduct...
+[13:29:44.850] Getting metadata for CareProgramProduct (SOURCE)
+[13:29:45.198] Processing the sObject CareProgramProvider...
+[13:29:45.200] Getting metadata for CareProgramProvider (SOURCE)
+[13:29:45.450] Processing the sObject CareProviderFacilitySpecialty...
+[13:29:45.452] Getting metadata for CareProviderFacilitySpecialty (SOURCE)
+[13:29:45.895] Processing the sObject CareRequest...
+[13:29:45.898] Getting metadata for CareRequest (SOURCE)
+[13:29:46.388] Processing the sObject CareRequestDrug...
+[13:29:46.390] Getting metadata for CareRequestDrug (SOURCE)
+[13:29:46.612] Processing the sObject CareSpecialty...
+[13:29:46.615] Getting metadata for CareSpecialty (SOURCE)
+[13:29:47.155] Processing the sObject CareTaxonomy...
+[13:29:47.159] Getting metadata for CareTaxonomy (SOURCE)
+[13:29:47.534] Processing the sObject HealthCareDiagnosis...
+[13:29:47.537] Getting metadata for HealthCareDiagnosis (SOURCE)
+[13:29:47.952] Processing the sObject HealthcareFacilityNetwork...
+[13:29:47.954] Getting metadata for HealthcareFacilityNetwork (SOURCE)
+[13:29:48.435] Processing the sObject HealthcarePayerNetwork...
+[13:29:48.438] Getting metadata for HealthcarePayerNetwork (SOURCE)
+[13:29:48.771] Processing the sObject HealthcarePractitionerFacility...
+[13:29:48.772] Getting metadata for HealthcarePractitionerFacility (SOURCE)
+[13:29:49.392] Processing the sObject HealthCareProcedure...
+[13:29:49.394] Getting metadata for HealthCareProcedure (SOURCE)
+[13:29:49.617] Processing the sObject HealthcareProvider...
+[13:29:49.618] Getting metadata for HealthcareProvider (SOURCE)
+[13:29:50.49] Processing the sObject HealthcareProviderNpi...
+[13:29:50.51] Getting metadata for HealthcareProviderNpi (SOURCE)
+[13:29:50.562] Processing the sObject HealthcareProviderSpecialty...
+[13:29:50.566] Getting metadata for HealthcareProviderSpecialty (SOURCE)
+[13:29:50.754] Processing the sObject HealthcareProviderTaxonomy...
+[13:29:50.756] Getting metadata for HealthcareProviderTaxonomy (SOURCE)
+[13:29:51.302] Processing the sObject HealthcareProviderTaxonomy...
+[13:29:51.307] Processing the sObject HealthcareProviderSpecialty...
+[13:29:51.309] Processing the sObject HealthcareProviderNpi...
+[13:29:51.314] Processing the sObject HealthcareProvider...
+[13:29:51.318] Processing the sObject HealthCareProcedure...
+[13:29:51.322] Processing the sObject HealthcarePractitionerFacility...
+[13:29:51.349] Getting metadata for OperatingHours (SOURCE)
+[13:29:51.663] Processing the sObject HealthcarePayerNetwork...
+[13:29:51.666] Processing the sObject HealthcareFacilityNetwork...
+[13:29:51.670] Processing the sObject HealthCareDiagnosis...
+[13:29:51.673] Processing the sObject CareTaxonomy...
+[13:29:51.674] Processing the sObject CareSpecialty...
+[13:29:51.676] Processing the sObject CareRequestDrug...
+[13:29:51.680] Processing the sObject CareRequest...
+[13:29:51.688] Processing the sObject CareProviderFacilitySpecialty...
+[13:29:51.690] Processing the sObject CareProgramProvider...
+[13:29:51.692] Processing the sObject CareProgramProduct...
+[13:29:51.695] Getting metadata for Product2 (SOURCE)
+[13:29:52.34] Processing the sObject CareProgramGoal...
+[13:29:52.35] Processing the sObject CareProgramEnrolleeProduct...
+[13:29:52.38] Processing the sObject CareProgramEnrollee...
+[13:29:52.43] Getting metadata for Lead (SOURCE)
+[13:29:52.716] Processing the sObject CareProgramEligibilityRule...
+[13:29:52.720] Getting metadata for EnrollmentEligibilityCriteria (SOURCE)
+[13:29:53.46] Processing the sObject CareProgramCampaign...
+[13:29:53.49] Getting metadata for Campaign (SOURCE)
+[13:29:53.372] Processing the sObject CareProgram...
+[13:29:53.374] Processing the sObject HealthCloudGA__UsePersonAccount__c...
+[13:29:53.377] Getting metadata for Organization (SOURCE)
+[13:29:53.853] Processing the sObject HealthCloudGA__TimelineViewConfiguration__c...
+[13:29:53.855] Processing the sObject HealthCloudGA__Provider__c...
+[13:29:53.858] Getting metadata for HealthCloudGA__EhrPractitioner__c (SOURCE)
+[13:29:54.812] Processing the sObject HealthCloudGA__ProgramPatientSummary__c...
+[13:29:54.815] Processing the sObject HealthCloudGA__ProgramPatientAffiliation__c...
+[13:29:54.820] Getting metadata for HealthCloudGA__Program__c (SOURCE)
+[13:29:56.12] Processing the sObject HealthCloudGA__ReciprocalRole__c...
+[13:29:56.13] Processing the sObject HealthCloudGA__PatientCardViewConfiguration__c...
+[13:29:56.15] Processing the sObject HealthCloudGA__FilterCriterion__c...
+[13:29:56.16] Processing the sObject HealthCloudGA__FilterCondition__c...
+[13:29:56.18] Processing the sObject HealthCloudGA__FilterColumn__c...
+[13:29:56.20] Processing the sObject HealthCloudGA__CrossObjectRelationship__c...
+[13:29:56.21] Processing the sObject HealthCloudGA__ContactContactRelation__c...
+[13:29:56.24] Processing the sObject HealthCloudGA__ConditionToHCCCodeMapping__c...
+[13:29:56.25] Processing the sObject HealthCloudGA__CarePlanProblem__c...
+[13:29:56.29] Getting metadata for HealthCloudGA__CarePlanTemplate__c (SOURCE)
+[13:29:56.434] Processing the sObject HealthCloudGA__CarePlanGoal__c...
+[13:29:56.436] Processing the sObject HealthCloudGA__CandidatePatient__c...
+[13:29:56.446] Processing the sObject CaseTeamMember...
+[13:29:56.449] Getting metadata for CaseTeamRole (SOURCE)
+[13:29:56.932] Processing the sObject CareProgramTeamMember...
+[13:29:56.934] Processing the sObject Case...
+[13:29:56.938] Processing the sObject Account...
+[13:29:56.947] Getting metadata for Individual (SOURCE)
+[13:29:57.520] Processing the sObject Contact...
+
+[13:29:57.533] PREPARING DATA MIGRATION JOB...
+[13:29:57.535] Building migration strategy...
+[13:30:00.544] {"Order of objects to retrieve data":"Contact; Case; Account; CareProgram; CareProgramTeamMember; CaseTeamMember; HealthCloudGA__CandidatePatient__c; HealthCloudGA__CarePlanProblem__c; HealthCloudGA__CarePlanGoal__c; HealthCloudGA__ConditionToHCCCodeMapping__c; HealthCloudGA__ReciprocalRole__c; HealthCloudGA__ContactContactRelation__c; HealthCloudGA__CrossObjectRelationship__c; HealthCloudGA__FilterCriterion__c; HealthCloudGA__FilterColumn__c; HealthCloudGA__FilterCondition__c; HealthCloudGA__PatientCardViewConfiguration__c; HealthCloudGA__Provider__c; HealthCloudGA__ProgramPatientAffiliation__c; HealthCloudGA__ProgramPatientSummary__c; HealthCloudGA__TimelineViewConfiguration__c; HealthCloudGA__UsePersonAccount__c; CareProgramCampaign; CareProgramEligibilityRule; CareProgramEnrollee; CareProgramProduct; CareProgramProvider; CareProgramEnrolleeProduct; CareProgramGoal; CareSpecialty; HealthcarePractitionerFacility; CareProviderFacilitySpecialty; CareRequest; CareRequestDrug; CareTaxonomy; HealthCareDiagnosis; HealthcarePayerNetwork; HealthcareFacilityNetwork; HealthCareProcedure; HealthcareProvider; HealthcareProviderNpi; HealthcareProviderSpecialty; HealthcareProviderTaxonomy; Individual; CaseTeamRole; HealthCloudGA__CarePlanTemplate__c; HealthCloudGA__Program__c; HealthCloudGA__EhrPractitioner__c; Organization; Campaign; EnrollmentEligibilityCriteria; Lead; Product2; OperatingHours"}
+[13:30:00.545] {"Order of objects to update data":"Individual; CaseTeamRole; HealthCloudGA__CarePlanTemplate__c; HealthCloudGA__Program__c; HealthCloudGA__EhrPractitioner__c; Organization; Campaign; EnrollmentEligibilityCriteria; Lead; Product2; OperatingHours; Contact; Case; Account; CareProgram; CareProgramTeamMember; CaseTeamMember; HealthCloudGA__CandidatePatient__c; HealthCloudGA__CarePlanProblem__c; HealthCloudGA__CarePlanGoal__c; HealthCloudGA__ConditionToHCCCodeMapping__c; HealthCloudGA__ReciprocalRole__c; HealthCloudGA__ContactContactRelation__c; HealthCloudGA__CrossObjectRelationship__c; HealthCloudGA__FilterCriterion__c; HealthCloudGA__FilterColumn__c; HealthCloudGA__FilterCondition__c; HealthCloudGA__PatientCardViewConfiguration__c; HealthCloudGA__Provider__c; HealthCloudGA__ProgramPatientAffiliation__c; HealthCloudGA__ProgramPatientSummary__c; HealthCloudGA__TimelineViewConfiguration__c; HealthCloudGA__UsePersonAccount__c; CareProgramCampaign; CareProgramEligibilityRule; CareProgramEnrollee; CareProgramProduct; CareProgramProvider; CareProgramEnrolleeProduct; CareProgramGoal; CareSpecialty; HealthcarePractitionerFacility; CareProviderFacilitySpecialty; CareRequest; CareRequestDrug; CareTaxonomy; HealthCareDiagnosis; HealthcarePayerNetwork; HealthcareFacilityNetwork; HealthCareProcedure; HealthcareProvider; HealthcareProviderNpi; HealthcareProviderSpecialty; HealthcareProviderTaxonomy"}
+[13:30:00.548] Preparing has been finished.
+
+[13:30:00.552] GETTING THE TOTAL AMOUNT OF RECORDS LIMITED BY THE OBJECT'S SOQL QUERY...
+[13:30:00.715] {Individual} Total amount of the SOURCE records: 0
+[13:30:01.131] {CaseTeamRole} Total amount of the SOURCE records: 5
+[13:30:01.513] {HealthCloudGA__CarePlanTemplate__c} Total amount of the SOURCE records: 0
+[13:30:01.678] {HealthCloudGA__Program__c} Total amount of the SOURCE records: 1
+[13:30:02.38] {HealthCloudGA__EhrPractitioner__c} Total amount of the SOURCE records: 0
+[13:30:02.214] {Organization} Total amount of the SOURCE records: 1
+[13:30:02.760] {Campaign} Total amount of the SOURCE records: 3
+[13:30:02.956] {EnrollmentEligibilityCriteria} Total amount of the SOURCE records: 3
+[13:30:03.122] {Lead} Total amount of the SOURCE records: 16
+[13:30:03.295] {Product2} Total amount of the SOURCE records: 2
+[13:30:03.702] {OperatingHours} Total amount of the SOURCE records: 1
+[13:30:03.883] {Contact} Total amount of the SOURCE records: 23
+[13:30:04.153] {Case} Total amount of the SOURCE records: 17
+[13:30:04.316] {Account} Total amount of the SOURCE records: 27
+[13:30:04.660] {CareProgram} Total amount of the SOURCE records: 1
+[13:30:04.848] {CareProgramTeamMember} Total amount of the SOURCE records: 1
+[13:30:05.195] {CaseTeamMember} Total amount of the SOURCE records: 15
+[13:30:05.360] {HealthCloudGA__CandidatePatient__c} Total amount of the SOURCE records: 20
+[13:30:05.708] {HealthCloudGA__CarePlanProblem__c} Total amount of the SOURCE records: 195
+[13:30:05.906] {HealthCloudGA__CarePlanGoal__c} Total amount of the SOURCE records: 260
+[13:30:06.122] {HealthCloudGA__ConditionToHCCCodeMapping__c} Total amount of the SOURCE records: 8830
+[13:30:06.304] {HealthCloudGA__ReciprocalRole__c} Total amount of the SOURCE records: 0
+[13:30:06.468] {HealthCloudGA__ContactContactRelation__c} Total amount of the SOURCE records: 0
+[13:30:06.824] {HealthCloudGA__CrossObjectRelationship__c} Total amount of the SOURCE records: 6
+[13:30:07.6] {HealthCloudGA__FilterCriterion__c} Total amount of the SOURCE records: 2
+[13:30:07.317] {HealthCloudGA__FilterColumn__c} Total amount of the SOURCE records: 5
+[13:30:07.482] {HealthCloudGA__FilterCondition__c} Total amount of the SOURCE records: 2
+[13:30:07.874] {HealthCloudGA__PatientCardViewConfiguration__c} Total amount of the SOURCE records: 15
+[13:30:08.100] {HealthCloudGA__Provider__c} Total amount of the SOURCE records: 1
+[13:30:08.321] {HealthCloudGA__ProgramPatientAffiliation__c} Total amount of the SOURCE records: 1
+[13:30:08.485] {HealthCloudGA__ProgramPatientSummary__c} Total amount of the SOURCE records: 1
+[13:30:08.857] {HealthCloudGA__TimelineViewConfiguration__c} Total amount of the SOURCE records: 9
+[13:30:09.41] {HealthCloudGA__UsePersonAccount__c} Total amount of the SOURCE records: 1
+[13:30:09.247] {CareProgramCampaign} Total amount of the SOURCE records: 1
+[13:30:09.464] {CareProgramEligibilityRule} Total amount of the SOURCE records: 3
+[13:30:09.619] {CareProgramEnrollee} Total amount of the SOURCE records: 2
+[13:30:09.965] {CareProgramProduct} Total amount of the SOURCE records: 2
+[13:30:10.130] {CareProgramProvider} Total amount of the SOURCE records: 2
+[13:30:10.367] {CareProgramEnrolleeProduct} Total amount of the SOURCE records: 4
+[13:30:10.525] {CareProgramGoal} Total amount of the SOURCE records: 3
+[13:30:10.698] {CareSpecialty} Total amount of the SOURCE records: 4
+[13:30:11.148] {HealthcarePractitionerFacility} Total amount of the SOURCE records: 4
+[13:30:11.493] {CareProviderFacilitySpecialty} Total amount of the SOURCE records: 3
+[13:30:11.739] {CareRequest} Total amount of the SOURCE records: 2
+[13:30:12.110] {CareRequestDrug} Total amount of the SOURCE records: 1
+[13:30:12.274] {CareTaxonomy} Total amount of the SOURCE records: 2
+[13:30:12.741] {HealthCareDiagnosis} Total amount of the SOURCE records: 5
+[13:30:13.176] {HealthcarePayerNetwork} Total amount of the SOURCE records: 1
+[13:30:13.351] {HealthcareFacilityNetwork} Total amount of the SOURCE records: 2
+[13:30:13.806] {HealthCareProcedure} Total amount of the SOURCE records: 5
+[13:30:14.281] {HealthcareProvider} Total amount of the SOURCE records: 5
+[13:30:14.687] {HealthcareProviderNpi} Total amount of the SOURCE records: 5
+[13:30:14.864] {HealthcareProviderSpecialty} Total amount of the SOURCE records: 2
+[13:30:15.256] {HealthcareProviderTaxonomy} Total amount of the SOURCE records: 2
+
+[13:30:15.261] DELETING OLD DATA FROM THE TARGET...
+[13:30:15.263] {HealthcareProviderTaxonomy} Nothing to delete.
+[13:30:15.265] {HealthcareProviderSpecialty} Nothing to delete.
+[13:30:15.267] {HealthcareProviderNpi} Nothing to delete.
+[13:30:15.270] {HealthcareProvider} Nothing to delete.
+[13:30:15.272] {HealthCareProcedure} Nothing to delete.
+[13:30:15.274] {HealthcareFacilityNetwork} Nothing to delete.
+[13:30:15.276] {HealthcarePayerNetwork} Nothing to delete.
+[13:30:15.278] {HealthCareDiagnosis} Nothing to delete.
+[13:30:15.280] {CareTaxonomy} Nothing to delete.
+[13:30:15.283] {CareRequestDrug} Nothing to delete.
+[13:30:15.286] {CareRequest} Nothing to delete.
+[13:30:15.293] {CareProviderFacilitySpecialty} Nothing to delete.
+[13:30:15.295] {HealthcarePractitionerFacility} Nothing to delete.
+[13:30:15.298] {CareSpecialty} Nothing to delete.
+[13:30:15.310] {CareProgramGoal} Nothing to delete.
+[13:30:15.313] {CareProgramEnrolleeProduct} Nothing to delete.
+[13:30:15.320] {CareProgramProvider} Nothing to delete.
+[13:30:15.329] {CareProgramProduct} Nothing to delete.
+[13:30:15.333] {CareProgramEnrollee} Nothing to delete.
+[13:30:15.340] {CareProgramEligibilityRule} Nothing to delete.
+[13:30:15.344] {CareProgramCampaign} Nothing to delete.
+[13:30:15.347] {HealthCloudGA__UsePersonAccount__c} Nothing to delete.
+[13:30:15.350] {HealthCloudGA__TimelineViewConfiguration__c} Nothing to delete.
+[13:30:15.354] {HealthCloudGA__ProgramPatientSummary__c} Nothing to delete.
+[13:30:15.357] {HealthCloudGA__ProgramPatientAffiliation__c} Nothing to delete.
+[13:30:15.361] {HealthCloudGA__Provider__c} Nothing to delete.
+[13:30:15.363] {HealthCloudGA__PatientCardViewConfiguration__c} Nothing to delete.
+[13:30:15.365] {HealthCloudGA__FilterCondition__c} Nothing to delete.
+[13:30:15.367] {HealthCloudGA__FilterColumn__c} Nothing to delete.
+[13:30:15.369] {HealthCloudGA__FilterCriterion__c} Nothing to delete.
+[13:30:15.372] {HealthCloudGA__CrossObjectRelationship__c} Nothing to delete.
+[13:30:15.374] {HealthCloudGA__ContactContactRelation__c} Nothing to delete.
+[13:30:15.375] {HealthCloudGA__ReciprocalRole__c} Nothing to delete.
+[13:30:15.378] {HealthCloudGA__ConditionToHCCCodeMapping__c} Nothing to delete.
+[13:30:15.380] {HealthCloudGA__CarePlanGoal__c} Nothing to delete.
+[13:30:15.382] {HealthCloudGA__CarePlanProblem__c} Nothing to delete.
+[13:30:15.388] {HealthCloudGA__CandidatePatient__c} Nothing to delete.
+[13:30:15.390] {CaseTeamMember} Nothing to delete.
+[13:30:15.391] {CareProgramTeamMember} Nothing to delete.
+[13:30:15.393] {CareProgram} Nothing to delete.
+[13:30:15.395] {Account} Nothing to delete.
+[13:30:15.396] {Case} Nothing to delete.
+[13:30:15.398] {Contact} Nothing to delete.
+[13:30:15.400] {OperatingHours} Nothing to delete.
+[13:30:15.401] {Product2} Nothing to delete.
+[13:30:15.403] {Lead} Nothing to delete.
+[13:30:15.405] {EnrollmentEligibilityCriteria} Nothing to delete.
+[13:30:15.406] {Campaign} Nothing to delete.
+[13:30:15.408] {Organization} Nothing to delete.
+[13:30:15.410] {HealthCloudGA__EhrPractitioner__c} Nothing to delete.
+[13:30:15.411] {HealthCloudGA__Program__c} Nothing to delete.
+[13:30:15.413] {HealthCloudGA__CarePlanTemplate__c} Nothing to delete.
+[13:30:15.415] {CaseTeamRole} Nothing to delete.
+[13:30:15.416] {Individual} Nothing to delete.
+[13:30:15.418] Deleting old data from the Target was skipped.
+[13:30:15.420] Ready to process the data.
+
+[13:30:15.424] RETRIEVING THE DATA STEP 1...
+[13:30:15.427] {Contact} Retrieving the SOURCE data from Org (STEP 1: all records)...
+[13:30:15.429] {Contact} Query string: SELECT Id, Name, IsPersonAccount, AccountId, IsDeleted, MasterRecordId, LastName, FirstName, Salutation, OtherStreet, OtherCity, OtherState, OtherPostalCode, OtherCountry, OtherLatitude, OtherLongitude, OtherGeocodeAccuracy, OtherAddress, MailingStre... FROM  Contact.
+[13:30:16.12] {Contact} Retrieving the SOURCE data has been completed. Fetched 23 new records.
+[13:30:16.14] {Case} Retrieving the SOURCE data from Org (STEP 1: all records)...
+[13:30:16.15] {Case} Query string: SELECT Id, Subject, IsDeleted, MasterRecordId, CaseNumber, ContactId, AccountId, ParentId, SuppliedName, SuppliedEmail, SuppliedPhone, SuppliedCompany, Type, Status, Reason, Origin, Priority, Description, IsClosed, ClosedDate, IsEscalated, CreatedDat... FROM  Case.
+[13:30:16.515] {Case} Retrieving the SOURCE data has been completed. Fetched 17 new records.
+[13:30:16.518] {Account} Retrieving the SOURCE data from Org (STEP 1: all records)...
+[13:30:16.522] {Account} Query string: SELECT Id, Name, IsPersonAccount, IsDeleted, MasterRecordId, LastName, FirstName, Salutation, Type, ParentId, BillingStreet, BillingCity, BillingState, BillingPostalCode, BillingCountry, BillingLatitude, BillingLongitude, BillingGeocodeAccuracy, Ship... FROM  Account.
+[13:30:17.786] {Account} Retrieving the SOURCE data has been completed. Fetched 27 new records.
+[13:30:17.789] {CareProgram} Retrieving the SOURCE data from Org (STEP 1: all records)...
+[13:30:17.791] {CareProgram} Query string: SELECT Id, Name, IsDeleted, CreatedDate, LastModifiedDate, SystemModstamp, LastViewedDate, LastReferencedDate, ParentProgramId, StartDate, EndDate, Description, Status, BudgetAmount, SponsorId, SourceSystemIdentifier, SourceSystem, ParentProgram.Name... FROM  CareProgram.
+[13:30:17.969] {CareProgram} Retrieving the SOURCE data has been completed. Fetched 1 new records.
+[13:30:17.973] {CareProgramTeamMember} Retrieving the SOURCE data from Org (STEP 1: all records)...
+[13:30:17.975] {CareProgramTeamMember} Query string: SELECT Id, Name, IsDeleted, CreatedDate, LastModifiedDate, SystemModstamp, LastViewedDate, LastReferencedDate, CareProgramId, AccountId, Role, SourceSystemIdentifier, SourceSystem, CareProgram.Name, Account.Name  FROM  CareProgramTeamMember.
+[13:30:18.367] {CareProgramTeamMember} Retrieving the SOURCE data has been completed. Fetched 1 new records.
+[13:30:18.370] {CaseTeamMember} Retrieving the SOURCE data from Org (STEP 1: all records)...
+[13:30:18.373] {CaseTeamMember} Query string: SELECT Id, ParentId, MemberId, TeamTemplateMemberId, TeamRoleId, TeamTemplateId, CreatedDate, LastModifiedDate, SystemModstamp, Parent.Subject, Member.Name, TeamRole.Name  FROM  CaseTeamMember.
+[13:30:18.835] {CaseTeamMember} Retrieving the SOURCE data has been completed. Fetched 15 new records.
+[13:30:18.837] {HealthCloudGA__CandidatePatient__c} Retrieving the SOURCE data from Org (STEP 1: all records)...
+[13:30:18.838] {HealthCloudGA__CandidatePatient__c} Query string: SELECT Id, Name, IsDeleted, CreatedDate, LastModifiedDate, SystemModstamp, LastActivityDate, LastViewedDate, LastReferencedDate, HealthCloudGA__AccountId__c, HealthCloudGA__Address1City__c, HealthCloudGA__Address1Country__c, HealthCloudGA__Address1En... FROM  HealthCloudGA__CandidatePatient__c.
+[13:30:19.545] {HealthCloudGA__CandidatePatient__c} Retrieving the SOURCE data has been completed. Fetched 20 new records.
+[13:30:19.546] {HealthCloudGA__CarePlanProblem__c} Retrieving the SOURCE data from Org (STEP 1: all records)...
+[13:30:19.548] {HealthCloudGA__CarePlanProblem__c} Query string: SELECT Id, Name, IsDeleted, CreatedDate, LastModifiedDate, SystemModstamp, LastActivityDate, HealthCloudGA__CarePlan__c, HealthCloudGA__Description__c, HealthCloudGA__Priority__c, HealthCloudGA__CarePlanTemplate__c, HealthCloudGA__SortOrder__c, Healt... FROM  HealthCloudGA__CarePlanProblem__c.
+[13:30:20.549] {HealthCloudGA__CarePlanProblem__c} Retrieving the SOURCE data has been completed. Fetched 195 new records.
+[13:30:20.550] {HealthCloudGA__CarePlanGoal__c} Retrieving the SOURCE data from Org (STEP 1: all records)...
+[13:30:20.552] {HealthCloudGA__CarePlanGoal__c} Query string: SELECT Id, Name, IsDeleted, CreatedDate, LastModifiedDate, SystemModstamp, LastActivityDate, HealthCloudGA__CarePlanProblem__c, HealthCloudGA__CarePlan__c, HealthCloudGA__Description__c, HealthCloudGA__Priority__c, HealthCloudGA__Progress__c, HealthC... FROM  HealthCloudGA__CarePlanGoal__c.
+[13:30:21.991] {HealthCloudGA__CarePlanGoal__c} Retrieving the SOURCE data has been completed. Fetched 260 new records.
+[13:30:21.994] {HealthCloudGA__ConditionToHCCCodeMapping__c} Retrieving the SOURCE data from Org (STEP 1: all records)...
+[13:30:21.996] {HealthCloudGA__ConditionToHCCCodeMapping__c} Query string: SELECT Id, Name, IsDeleted, CreatedDate, LastModifiedDate, SystemModstamp, LastViewedDate, LastReferencedDate, HealthCloudGA__Active__c, HealthCloudGA__ConditionCode__c, HealthCloudGA__HCCCode__c, HealthCloudGA__ValidFrom__c, HealthCloudGA__ValidThro... FROM  HealthCloudGA__ConditionToHCCCodeMapping__c.
+[13:30:51.55] {HealthCloudGA__ConditionToHCCCodeMapping__c} Retrieving the SOURCE data has been completed. Fetched 8830 new records.
+[13:30:51.58] {HealthCloudGA__ReciprocalRole__c} Retrieving the SOURCE data from Org (STEP 1: all records)...
+[13:30:51.59] {HealthCloudGA__ReciprocalRole__c} Query string: SELECT Id, Name, IsDeleted, CreatedDate, LastModifiedDate, SystemModstamp, HealthCloudGA__InverseRole__c, HealthCloudGA__RelationshipType__c, HealthCloudGA__CreateInverseRole__c, HealthCloudGA__InverseRelationship__c, HealthCloudGA__InverseRelationsh... FROM  HealthCloudGA__ReciprocalRole__c.
+[13:30:51.223] {HealthCloudGA__ReciprocalRole__c} Retrieving the SOURCE data has been completed. Fetched 0 new records.
+[13:30:51.226] {HealthCloudGA__ContactContactRelation__c} Retrieving the SOURCE data from Org (STEP 1: all records)...
+[13:30:51.229] {HealthCloudGA__ContactContactRelation__c} Query string: SELECT Id, Name, IsDeleted, CreatedDate, LastModifiedDate, SystemModstamp, HealthCloudGA__Active__c, HealthCloudGA__Contact__c, HealthCloudGA__EndDate__c, HealthCloudGA__ExternalId__c, HealthCloudGA__RelatedContact__c, HealthCloudGA__Role__c, HealthC... FROM  HealthCloudGA__ContactContactRelation__c.
+[13:30:51.479] {HealthCloudGA__ContactContactRelation__c} Retrieving the SOURCE data has been completed. Fetched 0 new records.
+[13:30:51.481] {HealthCloudGA__CrossObjectRelationship__c} Retrieving the SOURCE data from Org (STEP 1: all records)...
+[13:30:51.484] {HealthCloudGA__CrossObjectRelationship__c} Query string: SELECT Id, Name, IsDeleted, CreatedDate, LastModifiedDate, SystemModstamp, LastViewedDate, LastReferencedDate, HealthCloudGA__FromObject__c, HealthCloudGA__Relationship__c, HealthCloudGA__ReverseRelationship__c, HealthCloudGA__ToObject__c  FROM  HealthCloudGA__CrossObjectRelationship__c.
+[13:30:51.657] {HealthCloudGA__CrossObjectRelationship__c} Retrieving the SOURCE data has been completed. Fetched 6 new records.
+[13:30:51.658] {HealthCloudGA__FilterCriterion__c} Retrieving the SOURCE data from Org (STEP 1: all records)...
+[13:30:51.660] {HealthCloudGA__FilterCriterion__c} Query string: SELECT Id, Name, IsDeleted, CreatedDate, LastModifiedDate, SystemModstamp, LastViewedDate, LastReferencedDate, HealthCloudGA__Grouping__c, HealthCloudGA__ObjectName__c, HealthCloudGA__IsWaveList__c  FROM  HealthCloudGA__FilterCriterion__c.
+[13:30:51.824] {HealthCloudGA__FilterCriterion__c} Retrieving the SOURCE data has been completed. Fetched 2 new records.
+[13:30:51.826] {HealthCloudGA__FilterColumn__c} Retrieving the SOURCE data from Org (STEP 1: all records)...
+[13:30:51.827] {HealthCloudGA__FilterColumn__c} Query string: SELECT Id, Name, IsDeleted, CreatedDate, LastModifiedDate, SystemModstamp, HealthCloudGA__FilterCriterion__c, HealthCloudGA__FieldApi__c, HealthCloudGA__FieldLabel__c, HealthCloudGA__ObjectName__c, HealthCloudGA__Order__c, HealthCloudGA__FilterCriter... FROM  HealthCloudGA__FilterColumn__c.
+[13:30:52.6] {HealthCloudGA__FilterColumn__c} Retrieving the SOURCE data has been completed. Fetched 5 new records.
+[13:30:52.8] {HealthCloudGA__FilterCondition__c} Retrieving the SOURCE data from Org (STEP 1: all records)...
+[13:30:52.9] {HealthCloudGA__FilterCondition__c} Query string: SELECT Id, Name, IsDeleted, CreatedDate, LastModifiedDate, SystemModstamp, HealthCloudGA__FilterCriterion__c, HealthCloudGA__FieldName__c, HealthCloudGA__ObjectName__c, HealthCloudGA__Operator__c, HealthCloudGA__RowNumber__c, HealthCloudGA__SRowNumbe... FROM  HealthCloudGA__FilterCondition__c.
+[13:30:52.210] {HealthCloudGA__FilterCondition__c} Retrieving the SOURCE data has been completed. Fetched 2 new records.
+[13:30:52.212] {HealthCloudGA__PatientCardViewConfiguration__c} Retrieving the SOURCE data from Org (STEP 1: all records)...
+[13:30:52.214] {HealthCloudGA__PatientCardViewConfiguration__c} Query string: SELECT Id, Name, IsDeleted, CreatedDate, LastModifiedDate, SystemModstamp, LastViewedDate, LastReferencedDate, HealthCloudGA__FieldName__c, HealthCloudGA__FriendlyName__c, HealthCloudGA__Limit__c, HealthCloudGA__ObjectName__c, HealthCloudGA__Override... FROM  HealthCloudGA__PatientCardViewConfiguration__c.
+[13:30:52.437] {HealthCloudGA__PatientCardViewConfiguration__c} Retrieving the SOURCE data has been completed. Fetched 15 new records.
+[13:30:52.439] {HealthCloudGA__Provider__c} Retrieving the SOURCE data from Org (STEP 1: all records)...
+[13:30:52.440] {HealthCloudGA__Provider__c} Query string: SELECT Id, Name, IsDeleted, CreatedDate, LastModifiedDate, SystemModstamp, LastActivityDate, LastViewedDate, LastReferencedDate, HealthCloudGA__Active__c, HealthCloudGA__EHRPractitioner__c, HealthCloudGA__RelatedContact__c, HealthCloudGA__EHRPractiti... FROM  HealthCloudGA__Provider__c.
+[13:30:52.621] {HealthCloudGA__Provider__c} Retrieving the SOURCE data has been completed. Fetched 1 new records.
+[13:30:52.623] {HealthCloudGA__ProgramPatientAffiliation__c} Retrieving the SOURCE data from Org (STEP 1: all records)...
+[13:30:52.626] {HealthCloudGA__ProgramPatientAffiliation__c} Query string: SELECT Id, Name, IsDeleted, CreatedDate, LastModifiedDate, SystemModstamp, LastActivityDate, LastViewedDate, LastReferencedDate, HealthCloudGA__Program__c, HealthCloudGA__Account__c, HealthCloudGA__EndDate__c, HealthCloudGA__IsActive__c, HealthCloudG... FROM  HealthCloudGA__ProgramPatientAffiliation__c.
+[13:30:52.855] {HealthCloudGA__ProgramPatientAffiliation__c} Retrieving the SOURCE data has been completed. Fetched 1 new records.
+[13:30:52.857] {HealthCloudGA__ProgramPatientSummary__c} Retrieving the SOURCE data from Org (STEP 1: all records)...
+[13:30:52.858] {HealthCloudGA__ProgramPatientSummary__c} Query string: SELECT Id, Name, IsDeleted, CreatedDate, LastModifiedDate, SystemModstamp, LastActivityDate, LastViewedDate, LastReferencedDate, HealthCloudGA__AgeBand__c, HealthCloudGA__Age__c, HealthCloudGA__Conditions__c, HealthCloudGA__DisabilityStatus__c, Healt... FROM  HealthCloudGA__ProgramPatientSummary__c.
+[13:30:53.136] {HealthCloudGA__ProgramPatientSummary__c} Retrieving the SOURCE data has been completed. Fetched 1 new records.
+[13:30:53.138] {HealthCloudGA__TimelineViewConfiguration__c} Retrieving the SOURCE data from Org (STEP 1: all records)...
+[13:30:53.139] {HealthCloudGA__TimelineViewConfiguration__c} Query string: SELECT Id, Name, IsDeleted, CreatedDate, LastModifiedDate, SystemModstamp, LastViewedDate, LastReferencedDate, HealthCloudGA__DetailField__c, HealthCloudGA__FriendlyName__c, HealthCloudGA__GraphicalIcon__c, HealthCloudGA__ObjectCategory__c, HealthClo... FROM  HealthCloudGA__TimelineViewConfiguration__c.
+[13:30:53.376] {HealthCloudGA__TimelineViewConfiguration__c} Retrieving the SOURCE data has been completed. Fetched 9 new records.
+[13:30:53.378] {HealthCloudGA__UsePersonAccount__c} Retrieving the SOURCE data from Org (STEP 1: all records)...
+[13:30:53.381] {HealthCloudGA__UsePersonAccount__c} Query string: SELECT Id, Name, IsDeleted, SetupOwnerId, CreatedDate, LastModifiedDate, SystemModstamp, HealthCloudGA__Enable__c, SetupOwner.Name  FROM  HealthCloudGA__UsePersonAccount__c.
+[13:30:53.552] {HealthCloudGA__UsePersonAccount__c} Retrieving the SOURCE data has been completed. Fetched 1 new records.
+[13:30:53.554] {CareProgramCampaign} Retrieving the SOURCE data from Org (STEP 1: all records)...
+[13:30:53.555] {CareProgramCampaign} Query string: SELECT Id, Name, IsDeleted, CreatedDate, LastModifiedDate, SystemModstamp, LastViewedDate, LastReferencedDate, CareProgramId, CampaignId, SourceSystemIdentifier, SourceSystem, CareProgram.Name, Campaign.Name  FROM  CareProgramCampaign.
+[13:30:53.779] {CareProgramCampaign} Retrieving the SOURCE data has been completed. Fetched 1 new records.
+[13:30:53.782] {CareProgramEligibilityRule} Retrieving the SOURCE data from Org (STEP 1: all records)...
+[13:30:53.783] {CareProgramEligibilityRule} Query string: SELECT Id, Name, IsDeleted, CreatedDate, LastModifiedDate, SystemModstamp, LastViewedDate, LastReferencedDate, CareProgramId, Status, EligibilityCriteriaId, SourceSystemIdentifier, SourceSystem, IsRequired, CareProgram.Name, EligibilityCriteria.Name  FROM  CareProgramEligibilityRule.
+[13:30:53.969] {CareProgramEligibilityRule} Retrieving the SOURCE data has been completed. Fetched 3 new records.
+[13:30:53.972] {CareProgramEnrollee} Retrieving the SOURCE data from Org (STEP 1: all records)...
+[13:30:53.973] {CareProgramEnrollee} Query string: SELECT Id, Name, IsDeleted, CreatedDate, LastModifiedDate, SystemModstamp, LastViewedDate, LastReferencedDate, CareProgramId, AccountId, LeadId, Status, SourceSystemIdentifier, SourceSystem, CareProgram.Name, Account.Name, Lead.Name  FROM  CareProgramEnrollee.
+[13:30:54.167] {CareProgramEnrollee} Retrieving the SOURCE data has been completed. Fetched 2 new records.
+[13:30:54.169] {CareProgramProduct} Retrieving the SOURCE data from Org (STEP 1: all records)...
+[13:30:54.171] {CareProgramProduct} Query string: SELECT Id, Name, IsDeleted, CreatedDate, LastModifiedDate, SystemModstamp, LastViewedDate, LastReferencedDate, Availability, Status, ProductId, CareProgramPrice, CareProgramId, SourceSystemIdentifier, SourceSystem, Product.Name, CareProgram.Name  FROM  CareProgramProduct.
+[13:30:54.357] {CareProgramProduct} Retrieving the SOURCE data has been completed. Fetched 2 new records.
+[13:30:54.359] {CareProgramProvider} Retrieving the SOURCE data from Org (STEP 1: all records)...
+[13:30:54.360] {CareProgramProvider} Query string: SELECT Id, Name, IsDeleted, CreatedDate, LastModifiedDate, SystemModstamp, LastViewedDate, LastReferencedDate, AccountId, CareProgramProductId, Role, Status, SourceSystemIdentifier, SourceSystem, CareProgramContactId, Account.Name, CareProgramProduct... FROM  CareProgramProvider.
+[13:30:54.547] {CareProgramProvider} Retrieving the SOURCE data has been completed. Fetched 2 new records.
+[13:30:54.549] {CareProgramEnrolleeProduct} Retrieving the SOURCE data from Org (STEP 1: all records)...
+[13:30:54.551] {CareProgramEnrolleeProduct} Query string: SELECT Id, Name, IsDeleted, CreatedDate, LastModifiedDate, SystemModstamp, LastViewedDate, LastReferencedDate, CareProgramEnrolleeId, CareProgramProductId, CareProgramProviderId, Status, SourceSystemIdentifier, SourceSystem, CareProgramEnrollee.Name,... FROM  CareProgramEnrolleeProduct.
+[13:30:54.752] {CareProgramEnrolleeProduct} Retrieving the SOURCE data has been completed. Fetched 4 new records.
+[13:30:54.754] {CareProgramGoal} Retrieving the SOURCE data from Org (STEP 1: all records)...
+[13:30:54.756] {CareProgramGoal} Query string: SELECT Id, Name, IsDeleted, CreatedDate, LastModifiedDate, SystemModstamp, LastViewedDate, LastReferencedDate, Description, StartDate, DueDate, CompletionDate, Status, ProgressPercentage, Priority, SequenceNumber, SourceSystemIdentifier, CareProgramI... FROM  CareProgramGoal.
+[13:30:54.932] {CareProgramGoal} Retrieving the SOURCE data has been completed. Fetched 3 new records.
+[13:30:54.934] {CareSpecialty} Retrieving the SOURCE data from Org (STEP 1: all records)...
+[13:30:54.936] {CareSpecialty} Query string: SELECT Id, Name, IsDeleted, CreatedDate, LastModifiedDate, SystemModstamp, LastViewedDate, LastReferencedDate, SpecialtyCode, Description, IsActive, SpecialtyType, EffectiveFrom, EffectiveTo, SpecialtyUsage  FROM  CareSpecialty.
+[13:30:55.164] {CareSpecialty} Retrieving the SOURCE data has been completed. Fetched 4 new records.
+[13:30:55.165] {HealthcarePractitionerFacility} Retrieving the SOURCE data from Org (STEP 1: all records)...
+[13:30:55.167] {HealthcarePractitionerFacility} Query string: SELECT Id, Name, IsDeleted, CreatedDate, LastModifiedDate, SystemModstamp, LastViewedDate, LastReferencedDate, AccountId, PractitionerId, InitialStartDate, SourceSystemIdentifier, SourceSystem, EffectiveFrom, EffectiveTo, IsPrimaryFacility, IsActive,... FROM  HealthcarePractitionerFacility.
+[13:30:55.359] {HealthcarePractitionerFacility} Retrieving the SOURCE data has been completed. Fetched 4 new records.
+[13:30:55.361] {CareProviderFacilitySpecialty} Retrieving the SOURCE data from Org (STEP 1: all records)...
+[13:30:55.362] {CareProviderFacilitySpecialty} Query string: SELECT Id, Name, IsDeleted, CreatedDate, LastModifiedDate, SystemModstamp, LastViewedDate, LastReferencedDate, SpecialtyId, SourceSystemIdentifier, SourceSystem, EffectiveFrom, EffectiveTo, IsActive, IsPrimarySpecialty, SpecialtyRole, AccountId, Prac... FROM  CareProviderFacilitySpecialty.
+[13:30:55.609] {CareProviderFacilitySpecialty} Retrieving the SOURCE data has been completed. Fetched 3 new records.
+[13:30:55.611] {CareRequest} Retrieving the SOURCE data from Org (STEP 1: all records)...
+[13:30:55.612] {CareRequest} Query string: SELECT Id, Name, IsDeleted, CreatedDate, LastModifiedDate, SystemModstamp, LastViewedDate, LastReferencedDate, CareRequestCaseId, GeneralPractitionerId, GeneralPractitionerVerbalNotifiedDate, GeneralPractitionerWrittenNotifiedDate, AppointedRepresent... FROM  CareRequest.
+[13:30:55.815] {CareRequest} Retrieving the SOURCE data has been completed. Fetched 2 new records.
+[13:30:55.817] {CareRequestDrug} Retrieving the SOURCE data from Org (STEP 1: all records)...
+[13:30:55.819] {CareRequestDrug} Query string: SELECT Id, Name, IsDeleted, CreatedDate, LastModifiedDate, SystemModstamp, LastViewedDate, LastReferencedDate, CareRequestCaseId, Strength, Dose, Frequency, TherapyDuration, DaysSupply, Sig, Units, ModifiedUnits, ApprovedUnits, DeniedUnits, CodeType,... FROM  CareRequestDrug.
+[13:30:56.9] {CareRequestDrug} Retrieving the SOURCE data has been completed. Fetched 1 new records.
+[13:30:56.10] {CareTaxonomy} Retrieving the SOURCE data from Org (STEP 1: all records)...
+[13:30:56.12] {CareTaxonomy} Query string: SELECT Id, Name, IsDeleted, CreatedDate, LastModifiedDate, SystemModstamp, LastViewedDate, LastReferencedDate, TaxonomyCode, Description, TaxonomyType, EffectiveFrom, EffectiveTo, IsActive  FROM  CareTaxonomy.
+[13:30:56.208] {CareTaxonomy} Retrieving the SOURCE data has been completed. Fetched 2 new records.
+[13:30:56.211] {HealthCareDiagnosis} Retrieving the SOURCE data from Org (STEP 1: all records)...
+[13:30:56.212] {HealthCareDiagnosis} Query string: SELECT Id, Name, IsDeleted, CreatedDate, LastModifiedDate, SystemModstamp, LastViewedDate, LastReferencedDate, Code, CodeType, CodeDescription, Category, Gender, IsPresentOnAdmissionExempt, IsPrimaryDiagnosis, IsUnacceptablePrincipalDxIpAdmit, IsComp... FROM  HealthCareDiagnosis.
+[13:30:56.430] {HealthCareDiagnosis} Retrieving the SOURCE data has been completed. Fetched 5 new records.
+[13:30:56.434] {HealthcarePayerNetwork} Retrieving the SOURCE data from Org (STEP 1: all records)...
+[13:30:56.436] {HealthcarePayerNetwork} Query string: SELECT Id, Name, IsDeleted, CreatedDate, LastModifiedDate, SystemModstamp, LastViewedDate, LastReferencedDate, PayerId, NetworkType, Code, SourceSystemIdentifier, SourceSystem, EffectiveFrom, EffectiveTo, IsActive, Description, Payer.Name  FROM  HealthcarePayerNetwork.
+[13:30:56.700] {HealthcarePayerNetwork} Retrieving the SOURCE data has been completed. Fetched 1 new records.
+[13:30:56.703] {HealthcareFacilityNetwork} Retrieving the SOURCE data from Org (STEP 1: all records)...
+[13:30:56.706] {HealthcareFacilityNetwork} Query string: SELECT Id, Name, IsDeleted, CreatedDate, LastModifiedDate, SystemModstamp, LastViewedDate, LastReferencedDate, AccountId, SourceSystemIdentifier, SourceSystem, EffectiveFrom, EffectiveTo, IsActive, GenderRestriction, HighestValidAge, LowestValidAge, ... FROM  HealthcareFacilityNetwork.
+[13:30:56.883] {HealthcareFacilityNetwork} Retrieving the SOURCE data has been completed. Fetched 2 new records.
+[13:30:56.885] {HealthCareProcedure} Retrieving the SOURCE data from Org (STEP 1: all records)...
+[13:30:56.886] {HealthCareProcedure} Query string: SELECT Id, Name, IsDeleted, CreatedDate, LastModifiedDate, SystemModstamp, LastViewedDate, LastReferencedDate, Code, CodeType, CodeShortDescription, CodeDescription, Category, IsActive, EffectiveDate, EndDate  FROM  HealthCareProcedure.
+[13:30:57.46] {HealthCareProcedure} Retrieving the SOURCE data has been completed. Fetched 5 new records.
+[13:30:57.47] {HealthcareProvider} Retrieving the SOURCE data from Org (STEP 1: all records)...
+[13:30:57.49] {HealthcareProvider} Query string: SELECT Id, Name, IsDeleted, CreatedDate, LastModifiedDate, SystemModstamp, LastViewedDate, LastReferencedDate, AccountId, PractitionerId, ProviderType, ProviderClass, InitialStartDate, TotalLicensedBeds, SourceSystemIdentifier, SourceSystem, Effectiv... FROM  HealthcareProvider.
+[13:30:57.345] {HealthcareProvider} Retrieving the SOURCE data has been completed. Fetched 5 new records.
+[13:30:57.347] {HealthcareProviderNpi} Retrieving the SOURCE data from Org (STEP 1: all records)...
+[13:30:57.348] {HealthcareProviderNpi} Query string: SELECT Id, Name, IsDeleted, CreatedDate, LastModifiedDate, SystemModstamp, LastViewedDate, LastReferencedDate, Npi, PractitionerId, AccountId, SourceSystemIdentifier, SourceSystem, EffectiveFrom, EffectiveTo, IsActive, NpiType, Practitioner.Name, Acc... FROM  HealthcareProviderNpi.
+[13:30:57.537] {HealthcareProviderNpi} Retrieving the SOURCE data has been completed. Fetched 5 new records.
+[13:30:57.539] {HealthcareProviderSpecialty} Retrieving the SOURCE data from Org (STEP 1: all records)...
+[13:30:57.540] {HealthcareProviderSpecialty} Query string: SELECT Id, Name, IsDeleted, CreatedDate, LastModifiedDate, SystemModstamp, LastViewedDate, LastReferencedDate, PractitionerId, AccountId, SpecialtyId, SourceSystemIdentifier, SourceSystem, EffectiveFrom, EffectiveTo, IsActive, IsPrimarySpecialty, Spe... FROM  HealthcareProviderSpecialty.
+[13:30:57.722] {HealthcareProviderSpecialty} Retrieving the SOURCE data has been completed. Fetched 2 new records.
+[13:30:57.724] {HealthcareProviderTaxonomy} Retrieving the SOURCE data from Org (STEP 1: all records)...
+[13:30:57.726] {HealthcareProviderTaxonomy} Query string: SELECT Id, Name, IsDeleted, CreatedDate, LastModifiedDate, SystemModstamp, LastViewedDate, LastReferencedDate, PractitionerId, AccountId, TaxonomyId, SourceSystemIdentifier, SourceSystem, EffectiveFrom, EffectiveTo, IsActive, IsPrimaryTaxonomy, Pract... FROM  HealthcareProviderTaxonomy.
+[13:30:57.901] {HealthcareProviderTaxonomy} Retrieving the SOURCE data has been completed. Fetched 2 new records.
+[13:30:57.903] Retrieving the data STEP 1 has been completed.
+
+[13:30:57.906] RETRIEVING THE DATA STEP 2...
+[13:30:57.908] PASS 1
+[13:30:57.909] =============
+[13:30:57.912] No records
+
+[13:30:57.915] PASS 2
+[13:30:57.917] =============
+[13:30:57.919] No records
+
+[13:30:57.922] PASS 3
+[13:30:57.923] =============
+[13:30:57.927] {CaseTeamRole} Retrieving the SOURCE data from Org (STEP 1: filtered records)...
+[13:30:57.929] {CaseTeamRole} Query string: SELECT Id, Name  FROM  CaseTeamRole WHERE Id IN ('0B73h000000kEntCAE', '0B73h000000kEnuCAE', '0B73h000000kEnvCAE', '0B73h000000kEnwCAE', '0B73h000000kEnxCAE').
+[13:30:58.99] {CaseTeamRole} Retrieving the SOURCE data has been completed. Fetched 5 new records.
+[13:30:58.103] {HealthCloudGA__Program__c} Retrieving the SOURCE data from Org (STEP 1: filtered records)...
+[13:30:58.107] {HealthCloudGA__Program__c} Query string: SELECT Id, Name  FROM  HealthCloudGA__Program__c WHERE Id IN ('a103h000000hTZAAA2').
+[13:30:58.265] {HealthCloudGA__Program__c} Retrieving the SOURCE data has been completed. Fetched 1 new records.
+[13:30:58.267] {Organization} Retrieving the SOURCE data from Org (STEP 1: filtered records)...
+[13:30:58.270] {Organization} Query string: SELECT Id, Name  FROM  Organization WHERE Id IN ('00D3h0000058nTfEAI').
+[13:30:58.437] {Organization} Retrieving the SOURCE data has been completed. Fetched 1 new records.
+[13:30:58.440] {Campaign} Retrieving the SOURCE data from Org (STEP 1: filtered records)...
+[13:30:58.443] {Campaign} Query string: SELECT Id, Name  FROM  Campaign WHERE Id IN ('7013h000000iVEwAAM').
+[13:30:58.601] {Campaign} Retrieving the SOURCE data has been completed. Fetched 1 new records.
+[13:30:58.604] {EnrollmentEligibilityCriteria} Retrieving the SOURCE data from Org (STEP 1: filtered records)...
+[13:30:58.606] {EnrollmentEligibilityCriteria} Query string: SELECT Id, Name  FROM  EnrollmentEligibilityCriteria WHERE Id IN ('0bm3h000000g2S1AAI', '0bm3h000000g2S2AAI', '0bm3h000000g2S3AAI').
+[13:30:58.774] {EnrollmentEligibilityCriteria} Retrieving the SOURCE data has been completed. Fetched 3 new records.
+[13:30:58.780] {Product2} Retrieving the SOURCE data from Org (STEP 1: filtered records)...
+[13:30:58.782] {Product2} Query string: SELECT Id, Name  FROM  Product2 WHERE Id IN ('01t3h0000023Y0FAAU', '01t3h0000023Y0GAAU').
+[13:30:58.954] {Product2} Retrieving the SOURCE data has been completed. Fetched 2 new records.
+[13:30:58.957] {OperatingHours} Retrieving the SOURCE data from Org (STEP 1: filtered records)...
+[13:30:58.960] {OperatingHours} Query string: SELECT Id, Name  FROM  OperatingHours WHERE Id IN ('0OH3h000000MBYBGA4').
+[13:30:59.116] {OperatingHours} Retrieving the SOURCE data has been completed. Fetched 1 new records.
+
+[13:30:59.122] PASS 4
+[13:30:59.125] =============
+[13:30:59.130] No records
+
+[13:30:59.133] TARGET
+[13:30:59.134] =============
+[13:30:59.136] No records
+[13:30:59.137] Retrieving the data STEP 2 has been completed.
+
+[13:30:59.143] DATA RETRIEVING SUMMARY
+[13:30:59.144] {Contact} Total retrieved within all steps (source/target): 23/0 records.
+[13:30:59.146] {Case} Total retrieved within all steps (source/target): 17/0 records.
+[13:30:59.147] {Account} Total retrieved within all steps (source/target): 27/0 records.
+[13:30:59.149] {CareProgram} Total retrieved within all steps (source/target): 1/0 records.
+[13:30:59.151] {CareProgramTeamMember} Total retrieved within all steps (source/target): 1/0 records.
+[13:30:59.152] {CaseTeamMember} Total retrieved within all steps (source/target): 15/0 records.
+[13:30:59.154] {HealthCloudGA__CandidatePatient__c} Total retrieved within all steps (source/target): 20/0 records.
+[13:30:59.155] {HealthCloudGA__CarePlanProblem__c} Total retrieved within all steps (source/target): 195/0 records.
+[13:30:59.157] {HealthCloudGA__CarePlanGoal__c} Total retrieved within all steps (source/target): 260/0 records.
+[13:30:59.159] {HealthCloudGA__ConditionToHCCCodeMapping__c} Total retrieved within all steps (source/target): 8830/0 records.
+[13:30:59.160] {HealthCloudGA__ReciprocalRole__c} Total retrieved within all steps (source/target): 0/0 records.
+[13:30:59.162] {HealthCloudGA__ContactContactRelation__c} Total retrieved within all steps (source/target): 0/0 records.
+[13:30:59.164] {HealthCloudGA__CrossObjectRelationship__c} Total retrieved within all steps (source/target): 6/0 records.
+[13:30:59.165] {HealthCloudGA__FilterCriterion__c} Total retrieved within all steps (source/target): 2/0 records.
+[13:30:59.167] {HealthCloudGA__FilterColumn__c} Total retrieved within all steps (source/target): 5/0 records.
+[13:30:59.168] {HealthCloudGA__FilterCondition__c} Total retrieved within all steps (source/target): 2/0 records.
+[13:30:59.170] {HealthCloudGA__PatientCardViewConfiguration__c} Total retrieved within all steps (source/target): 15/0 records.
+[13:30:59.172] {HealthCloudGA__Provider__c} Total retrieved within all steps (source/target): 1/0 records.
+[13:30:59.173] {HealthCloudGA__ProgramPatientAffiliation__c} Total retrieved within all steps (source/target): 1/0 records.
+[13:30:59.175] {HealthCloudGA__ProgramPatientSummary__c} Total retrieved within all steps (source/target): 1/0 records.
+[13:30:59.177] {HealthCloudGA__TimelineViewConfiguration__c} Total retrieved within all steps (source/target): 9/0 records.
+[13:30:59.178] {HealthCloudGA__UsePersonAccount__c} Total retrieved within all steps (source/target): 1/0 records.
+[13:30:59.181] {CareProgramCampaign} Total retrieved within all steps (source/target): 1/0 records.
+[13:30:59.183] {CareProgramEligibilityRule} Total retrieved within all steps (source/target): 3/0 records.
+[13:30:59.184] {CareProgramEnrollee} Total retrieved within all steps (source/target): 2/0 records.
+[13:30:59.186] {CareProgramProduct} Total retrieved within all steps (source/target): 2/0 records.
+[13:30:59.187] {CareProgramProvider} Total retrieved within all steps (source/target): 2/0 records.
+[13:30:59.189] {CareProgramEnrolleeProduct} Total retrieved within all steps (source/target): 4/0 records.
+[13:30:59.190] {CareProgramGoal} Total retrieved within all steps (source/target): 3/0 records.
+[13:30:59.192] {CareSpecialty} Total retrieved within all steps (source/target): 4/0 records.
+[13:30:59.194] {HealthcarePractitionerFacility} Total retrieved within all steps (source/target): 4/0 records.
+[13:30:59.195] {CareProviderFacilitySpecialty} Total retrieved within all steps (source/target): 3/0 records.
+[13:30:59.197] {CareRequest} Total retrieved within all steps (source/target): 2/0 records.
+[13:30:59.198] {CareRequestDrug} Total retrieved within all steps (source/target): 1/0 records.
+[13:30:59.200] {CareTaxonomy} Total retrieved within all steps (source/target): 2/0 records.
+[13:30:59.202] {HealthCareDiagnosis} Total retrieved within all steps (source/target): 5/0 records.
+[13:30:59.203] {HealthcarePayerNetwork} Total retrieved within all steps (source/target): 1/0 records.
+[13:30:59.205] {HealthcareFacilityNetwork} Total retrieved within all steps (source/target): 2/0 records.
+[13:30:59.206] {HealthCareProcedure} Total retrieved within all steps (source/target): 5/0 records.
+[13:30:59.208] {HealthcareProvider} Total retrieved within all steps (source/target): 5/0 records.
+[13:30:59.210] {HealthcareProviderNpi} Total retrieved within all steps (source/target): 5/0 records.
+[13:30:59.211] {HealthcareProviderSpecialty} Total retrieved within all steps (source/target): 2/0 records.
+[13:30:59.213] {HealthcareProviderTaxonomy} Total retrieved within all steps (source/target): 2/0 records.
+[13:30:59.214] {Individual} Total retrieved within all steps (source/target): 0/0 records.
+[13:30:59.216] {CaseTeamRole} Total retrieved within all steps (source/target): 5/0 records.
+[13:30:59.218] {HealthCloudGA__CarePlanTemplate__c} Total retrieved within all steps (source/target): 0/0 records.
+[13:30:59.220] {HealthCloudGA__Program__c} Total retrieved within all steps (source/target): 1/0 records.
+[13:30:59.221] {HealthCloudGA__EhrPractitioner__c} Total retrieved within all steps (source/target): 0/0 records.
+[13:30:59.223] {Organization} Total retrieved within all steps (source/target): 1/0 records.
+[13:30:59.224] {Campaign} Total retrieved within all steps (source/target): 1/0 records.
+[13:30:59.226] {EnrollmentEligibilityCriteria} Total retrieved within all steps (source/target): 3/0 records.
+[13:30:59.228] {Lead} Total retrieved within all steps (source/target): 0/0 records.
+[13:30:59.230] {Product2} Total retrieved within all steps (source/target): 2/0 records.
+[13:30:59.232] {OperatingHours} Total retrieved within all steps (source/target): 1/0 records.
+
+[13:30:59.237] UPDATING THE TARGET STEP 1...
+[13:30:59.239] {Individual} Writing to the file /Users/jrattanpal/workspace/Health-Cloud-Sfdx-Template/data/sfdmu/Individual.csv.
+[13:30:59.243] {CaseTeamRole} Writing to the file /Users/jrattanpal/workspace/Health-Cloud-Sfdx-Template/data/sfdmu/CaseTeamRole.csv.
+[13:30:59.261] {CaseTeamRole} Updating the Target has been completed. Processed 5 records.
+[13:30:59.264] {HealthCloudGA__CarePlanTemplate__c} Writing to the file /Users/jrattanpal/workspace/Health-Cloud-Sfdx-Template/data/sfdmu/HealthCloudGA__CarePlanTemplate__c.csv.
+[13:30:59.267] {HealthCloudGA__Program__c} Writing to the file /Users/jrattanpal/workspace/Health-Cloud-Sfdx-Template/data/sfdmu/HealthCloudGA__Program__c.csv.
+[13:30:59.273] {HealthCloudGA__Program__c} Updating the Target has been completed. Processed 1 records.
+[13:30:59.275] {HealthCloudGA__EhrPractitioner__c} Writing to the file /Users/jrattanpal/workspace/Health-Cloud-Sfdx-Template/data/sfdmu/HealthCloudGA__EhrPractitioner__c.csv.
+[13:30:59.278] {Organization} Writing to the file /Users/jrattanpal/workspace/Health-Cloud-Sfdx-Template/data/sfdmu/Organization.csv.
+[13:30:59.291] {Organization} Updating the Target has been completed. Processed 1 records.
+[13:30:59.293] {Campaign} Writing to the file /Users/jrattanpal/workspace/Health-Cloud-Sfdx-Template/data/sfdmu/Campaign.csv.
+[13:30:59.296] {Campaign} Updating the Target has been completed. Processed 1 records.
+[13:30:59.299] {EnrollmentEligibilityCriteria} Writing to the file /Users/jrattanpal/workspace/Health-Cloud-Sfdx-Template/data/sfdmu/EnrollmentEligibilityCriteria.csv.
+[13:30:59.303] {EnrollmentEligibilityCriteria} Updating the Target has been completed. Processed 3 records.
+[13:30:59.305] {Lead} Writing to the file /Users/jrattanpal/workspace/Health-Cloud-Sfdx-Template/data/sfdmu/Lead.csv.
+[13:30:59.308] {Product2} Writing to the file /Users/jrattanpal/workspace/Health-Cloud-Sfdx-Template/data/sfdmu/Product2.csv.
+[13:30:59.312] {Product2} Updating the Target has been completed. Processed 2 records.
+[13:30:59.314] {OperatingHours} Writing to the file /Users/jrattanpal/workspace/Health-Cloud-Sfdx-Template/data/sfdmu/OperatingHours.csv.
+[13:30:59.320] {OperatingHours} Updating the Target has been completed. Processed 1 records.
+[13:30:59.322] {Contact} Writing to the file /Users/jrattanpal/workspace/Health-Cloud-Sfdx-Template/data/sfdmu/Contact.csv.
+[13:30:59.327] {Contact} Updating the Target has been completed. Processed 23 records.
+[13:30:59.329] {Case} Writing to the file /Users/jrattanpal/workspace/Health-Cloud-Sfdx-Template/data/sfdmu/Case.csv.
+[13:30:59.337] {Case} Updating the Target has been completed. Processed 17 records.
+[13:30:59.339] {Account} Writing to the file /Users/jrattanpal/workspace/Health-Cloud-Sfdx-Template/data/sfdmu/Account.csv.
+[13:30:59.347] {Account} Updating the Target has been completed. Processed 27 records.
+[13:30:59.349] {CareProgram} Writing to the file /Users/jrattanpal/workspace/Health-Cloud-Sfdx-Template/data/sfdmu/CareProgram.csv.
+[13:30:59.355] {CareProgram} Updating the Target has been completed. Processed 1 records.
+[13:30:59.357] {CareProgramTeamMember} Writing to the file /Users/jrattanpal/workspace/Health-Cloud-Sfdx-Template/data/sfdmu/CareProgramTeamMember.csv.
+[13:30:59.363] {CareProgramTeamMember} Updating the Target has been completed. Processed 1 records.
+[13:30:59.365] {CaseTeamMember} Writing to the file /Users/jrattanpal/workspace/Health-Cloud-Sfdx-Template/data/sfdmu/CaseTeamMember.csv.
+[13:30:59.369] {CaseTeamMember} Updating the Target has been completed. Processed 15 records.
+[13:30:59.371] {HealthCloudGA__CandidatePatient__c} Writing to the file /Users/jrattanpal/workspace/Health-Cloud-Sfdx-Template/data/sfdmu/HealthCloudGA__CandidatePatient__c.csv.
+[13:30:59.377] {HealthCloudGA__CandidatePatient__c} Updating the Target has been completed. Processed 20 records.
+[13:30:59.378] {HealthCloudGA__CarePlanProblem__c} Writing to the file /Users/jrattanpal/workspace/Health-Cloud-Sfdx-Template/data/sfdmu/HealthCloudGA__CarePlanProblem__c.csv.
+[13:30:59.384] {HealthCloudGA__CarePlanProblem__c} Updating the Target has been completed. Processed 195 records.
+[13:30:59.387] {HealthCloudGA__CarePlanGoal__c} Writing to the file /Users/jrattanpal/workspace/Health-Cloud-Sfdx-Template/data/sfdmu/HealthCloudGA__CarePlanGoal__c.csv.
+[13:30:59.399] {HealthCloudGA__CarePlanGoal__c} Updating the Target has been completed. Processed 260 records.
+[13:30:59.401] {HealthCloudGA__ConditionToHCCCodeMapping__c} Writing to the file /Users/jrattanpal/workspace/Health-Cloud-Sfdx-Template/data/sfdmu/HealthCloudGA__ConditionToHCCCodeMapping__c.csv.
+[13:30:59.507] {HealthCloudGA__ConditionToHCCCodeMapping__c} Updating the Target has been completed. Processed 8830 records.
+[13:30:59.508] {HealthCloudGA__ReciprocalRole__c} Writing to the file /Users/jrattanpal/workspace/Health-Cloud-Sfdx-Template/data/sfdmu/HealthCloudGA__ReciprocalRole__c.csv.
+[13:30:59.512] {HealthCloudGA__ContactContactRelation__c} Writing to the file /Users/jrattanpal/workspace/Health-Cloud-Sfdx-Template/data/sfdmu/HealthCloudGA__ContactContactRelation__c.csv.
+[13:30:59.515] {HealthCloudGA__CrossObjectRelationship__c} Writing to the file /Users/jrattanpal/workspace/Health-Cloud-Sfdx-Template/data/sfdmu/HealthCloudGA__CrossObjectRelationship__c.csv.
+[13:30:59.542] {HealthCloudGA__CrossObjectRelationship__c} Updating the Target has been completed. Processed 6 records.
+[13:30:59.543] {HealthCloudGA__FilterCriterion__c} Writing to the file /Users/jrattanpal/workspace/Health-Cloud-Sfdx-Template/data/sfdmu/HealthCloudGA__FilterCriterion__c.csv.
+[13:30:59.571] {HealthCloudGA__FilterCriterion__c} Updating the Target has been completed. Processed 2 records.
+[13:30:59.573] {HealthCloudGA__FilterColumn__c} Writing to the file /Users/jrattanpal/workspace/Health-Cloud-Sfdx-Template/data/sfdmu/HealthCloudGA__FilterColumn__c.csv.
+[13:30:59.581] {HealthCloudGA__FilterColumn__c} Updating the Target has been completed. Processed 5 records.
+[13:30:59.582] {HealthCloudGA__FilterCondition__c} Writing to the file /Users/jrattanpal/workspace/Health-Cloud-Sfdx-Template/data/sfdmu/HealthCloudGA__FilterCondition__c.csv.
+[13:30:59.589] {HealthCloudGA__FilterCondition__c} Updating the Target has been completed. Processed 2 records.
+[13:30:59.590] {HealthCloudGA__PatientCardViewConfiguration__c} Writing to the file /Users/jrattanpal/workspace/Health-Cloud-Sfdx-Template/data/sfdmu/HealthCloudGA__PatientCardViewConfiguration__c.csv.
+[13:30:59.597] {HealthCloudGA__PatientCardViewConfiguration__c} Updating the Target has been completed. Processed 15 records.
+[13:30:59.599] {HealthCloudGA__Provider__c} Writing to the file /Users/jrattanpal/workspace/Health-Cloud-Sfdx-Template/data/sfdmu/HealthCloudGA__Provider__c.csv.
+[13:30:59.604] {HealthCloudGA__Provider__c} Updating the Target has been completed. Processed 1 records.
+[13:30:59.606] {HealthCloudGA__ProgramPatientAffiliation__c} Writing to the file /Users/jrattanpal/workspace/Health-Cloud-Sfdx-Template/data/sfdmu/HealthCloudGA__ProgramPatientAffiliation__c.csv.
+[13:30:59.609] {HealthCloudGA__ProgramPatientAffiliation__c} Updating the Target has been completed. Processed 1 records.
+[13:30:59.620] {HealthCloudGA__ProgramPatientSummary__c} Writing to the file /Users/jrattanpal/workspace/Health-Cloud-Sfdx-Template/data/sfdmu/HealthCloudGA__ProgramPatientSummary__c.csv.
+[13:30:59.655] {HealthCloudGA__ProgramPatientSummary__c} Updating the Target has been completed. Processed 1 records.
+[13:30:59.656] {HealthCloudGA__TimelineViewConfiguration__c} Writing to the file /Users/jrattanpal/workspace/Health-Cloud-Sfdx-Template/data/sfdmu/HealthCloudGA__TimelineViewConfiguration__c.csv.
+[13:30:59.668] {HealthCloudGA__TimelineViewConfiguration__c} Updating the Target has been completed. Processed 9 records.
+[13:30:59.670] {HealthCloudGA__UsePersonAccount__c} Writing to the file /Users/jrattanpal/workspace/Health-Cloud-Sfdx-Template/data/sfdmu/HealthCloudGA__UsePersonAccount__c.csv.
+[13:30:59.677] {HealthCloudGA__UsePersonAccount__c} Updating the Target has been completed. Processed 1 records.
+[13:30:59.679] {CareProgramCampaign} Writing to the file /Users/jrattanpal/workspace/Health-Cloud-Sfdx-Template/data/sfdmu/CareProgramCampaign.csv.
+[13:30:59.689] {CareProgramCampaign} Updating the Target has been completed. Processed 1 records.
+[13:30:59.691] {CareProgramEligibilityRule} Writing to the file /Users/jrattanpal/workspace/Health-Cloud-Sfdx-Template/data/sfdmu/CareProgramEligibilityRule.csv.
+[13:30:59.695] {CareProgramEligibilityRule} Updating the Target has been completed. Processed 3 records.
+[13:30:59.697] {CareProgramEnrollee} Writing to the file /Users/jrattanpal/workspace/Health-Cloud-Sfdx-Template/data/sfdmu/CareProgramEnrollee.csv.
+[13:30:59.707] {CareProgramEnrollee} Updating the Target has been completed. Processed 2 records.
+[13:30:59.709] {CareProgramProduct} Writing to the file /Users/jrattanpal/workspace/Health-Cloud-Sfdx-Template/data/sfdmu/CareProgramProduct.csv.
+[13:30:59.712] {CareProgramProduct} Updating the Target has been completed. Processed 2 records.
+[13:30:59.714] {CareProgramProvider} Writing to the file /Users/jrattanpal/workspace/Health-Cloud-Sfdx-Template/data/sfdmu/CareProgramProvider.csv.
+[13:30:59.717] {CareProgramProvider} Updating the Target has been completed. Processed 2 records.
+[13:30:59.718] {CareProgramEnrolleeProduct} Writing to the file /Users/jrattanpal/workspace/Health-Cloud-Sfdx-Template/data/sfdmu/CareProgramEnrolleeProduct.csv.
+[13:30:59.721] {CareProgramEnrolleeProduct} Updating the Target has been completed. Processed 4 records.
+[13:30:59.722] {CareProgramGoal} Writing to the file /Users/jrattanpal/workspace/Health-Cloud-Sfdx-Template/data/sfdmu/CareProgramGoal.csv.
+[13:30:59.726] {CareProgramGoal} Updating the Target has been completed. Processed 3 records.
+[13:30:59.727] {CareSpecialty} Writing to the file /Users/jrattanpal/workspace/Health-Cloud-Sfdx-Template/data/sfdmu/CareSpecialty.csv.
+[13:30:59.730] {CareSpecialty} Updating the Target has been completed. Processed 4 records.
+[13:30:59.734] {HealthcarePractitionerFacility} Writing to the file /Users/jrattanpal/workspace/Health-Cloud-Sfdx-Template/data/sfdmu/HealthcarePractitionerFacility.csv.
+[13:30:59.737] {HealthcarePractitionerFacility} Updating the Target has been completed. Processed 4 records.
+[13:30:59.738] {CareProviderFacilitySpecialty} Writing to the file /Users/jrattanpal/workspace/Health-Cloud-Sfdx-Template/data/sfdmu/CareProviderFacilitySpecialty.csv.
+[13:30:59.741] {CareProviderFacilitySpecialty} Updating the Target has been completed. Processed 3 records.
+[13:30:59.742] {CareRequest} Writing to the file /Users/jrattanpal/workspace/Health-Cloud-Sfdx-Template/data/sfdmu/CareRequest.csv.
+[13:30:59.745] {CareRequest} Updating the Target has been completed. Processed 2 records.
+[13:30:59.747] {CareRequestDrug} Writing to the file /Users/jrattanpal/workspace/Health-Cloud-Sfdx-Template/data/sfdmu/CareRequestDrug.csv.
+[13:30:59.749] {CareRequestDrug} Updating the Target has been completed. Processed 1 records.
+[13:30:59.751] {CareTaxonomy} Writing to the file /Users/jrattanpal/workspace/Health-Cloud-Sfdx-Template/data/sfdmu/CareTaxonomy.csv.
+[13:30:59.760] {CareTaxonomy} Updating the Target has been completed. Processed 2 records.
+[13:30:59.770] {HealthCareDiagnosis} Writing to the file /Users/jrattanpal/workspace/Health-Cloud-Sfdx-Template/data/sfdmu/HealthCareDiagnosis.csv.
+[13:30:59.774] {HealthCareDiagnosis} Updating the Target has been completed. Processed 5 records.
+[13:30:59.776] {HealthcarePayerNetwork} Writing to the file /Users/jrattanpal/workspace/Health-Cloud-Sfdx-Template/data/sfdmu/HealthcarePayerNetwork.csv.
+[13:30:59.779] {HealthcarePayerNetwork} Updating the Target has been completed. Processed 1 records.
+[13:30:59.780] {HealthcareFacilityNetwork} Writing to the file /Users/jrattanpal/workspace/Health-Cloud-Sfdx-Template/data/sfdmu/HealthcareFacilityNetwork.csv.
+[13:30:59.783] {HealthcareFacilityNetwork} Updating the Target has been completed. Processed 2 records.
+[13:30:59.785] {HealthCareProcedure} Writing to the file /Users/jrattanpal/workspace/Health-Cloud-Sfdx-Template/data/sfdmu/HealthCareProcedure.csv.
+[13:30:59.792] {HealthCareProcedure} Updating the Target has been completed. Processed 5 records.
+[13:30:59.795] {HealthcareProvider} Writing to the file /Users/jrattanpal/workspace/Health-Cloud-Sfdx-Template/data/sfdmu/HealthcareProvider.csv.
+[13:30:59.798] {HealthcareProvider} Updating the Target has been completed. Processed 5 records.
+[13:30:59.799] {HealthcareProviderNpi} Writing to the file /Users/jrattanpal/workspace/Health-Cloud-Sfdx-Template/data/sfdmu/HealthcareProviderNpi.csv.
+[13:30:59.802] {HealthcareProviderNpi} Updating the Target has been completed. Processed 5 records.
+[13:30:59.804] {HealthcareProviderSpecialty} Writing to the file /Users/jrattanpal/workspace/Health-Cloud-Sfdx-Template/data/sfdmu/HealthcareProviderSpecialty.csv.
+[13:30:59.806] {HealthcareProviderSpecialty} Updating the Target has been completed. Processed 2 records.
+[13:30:59.808] {HealthcareProviderTaxonomy} Writing to the file /Users/jrattanpal/workspace/Health-Cloud-Sfdx-Template/data/sfdmu/HealthcareProviderTaxonomy.csv.
+[13:30:59.810] {HealthcareProviderTaxonomy} Updating the Target has been completed. Processed 2 records.
+[13:30:59.811] Updating the Target (STEP 1) has been completed. Total processed 9506 records.
+
+[13:30:59.814] UPDATING THE TARGET STEP 2...
+[13:30:59.815] Nothing was updated
+
+[13:30:59.818] DATA PROCESSING SUMMARY
+[13:30:59.819] {Contact} Total processed within all steps (Insert + Update): 23 records
+[13:30:59.820] {Case} Total processed within all steps (Insert + Update): 17 records
+[13:30:59.822] {Account} Total processed within all steps (Insert + Update): 27 records
+[13:30:59.823] {CareProgram} Total processed within all steps (Insert + Update): 1 records
+[13:30:59.824] {CareProgramTeamMember} Total processed within all steps (Insert + Update): 1 records
+[13:30:59.826] {CaseTeamMember} Total processed within all steps (Insert + Update): 15 records
+[13:30:59.827] {HealthCloudGA__CandidatePatient__c} Total processed within all steps (Insert + Update): 20 records
+[13:30:59.828] {HealthCloudGA__CarePlanProblem__c} Total processed within all steps (Insert + Update): 195 records
+[13:30:59.829] {HealthCloudGA__CarePlanGoal__c} Total processed within all steps (Insert + Update): 260 records
+[13:30:59.831] {HealthCloudGA__ConditionToHCCCodeMapping__c} Total processed within all steps (Insert + Update): 8830 records
+[13:30:59.834] {HealthCloudGA__ReciprocalRole__c} Total processed within all steps (Insert + Update): 0 records
+[13:30:59.835] {HealthCloudGA__ContactContactRelation__c} Total processed within all steps (Insert + Update): 0 records
+[13:30:59.836] {HealthCloudGA__CrossObjectRelationship__c} Total processed within all steps (Insert + Update): 6 records
+[13:30:59.838] {HealthCloudGA__FilterCriterion__c} Total processed within all steps (Insert + Update): 2 records
+[13:30:59.839] {HealthCloudGA__FilterColumn__c} Total processed within all steps (Insert + Update): 5 records
+[13:30:59.840] {HealthCloudGA__FilterCondition__c} Total processed within all steps (Insert + Update): 2 records
+[13:30:59.842] {HealthCloudGA__PatientCardViewConfiguration__c} Total processed within all steps (Insert + Update): 15 records
+[13:30:59.844] {HealthCloudGA__Provider__c} Total processed within all steps (Insert + Update): 1 records
+[13:30:59.845] {HealthCloudGA__ProgramPatientAffiliation__c} Total processed within all steps (Insert + Update): 1 records
+[13:30:59.846] {HealthCloudGA__ProgramPatientSummary__c} Total processed within all steps (Insert + Update): 1 records
+[13:30:59.848] {HealthCloudGA__TimelineViewConfiguration__c} Total processed within all steps (Insert + Update): 9 records
+[13:30:59.849] {HealthCloudGA__UsePersonAccount__c} Total processed within all steps (Insert + Update): 1 records
+[13:30:59.851] {CareProgramCampaign} Total processed within all steps (Insert + Update): 1 records
+[13:30:59.852] {CareProgramEligibilityRule} Total processed within all steps (Insert + Update): 3 records
+[13:30:59.853] {CareProgramEnrollee} Total processed within all steps (Insert + Update): 2 records
+[13:30:59.855] {CareProgramProduct} Total processed within all steps (Insert + Update): 2 records
+[13:30:59.856] {CareProgramProvider} Total processed within all steps (Insert + Update): 2 records
+[13:30:59.858] {CareProgramEnrolleeProduct} Total processed within all steps (Insert + Update): 4 records
+[13:30:59.869] {CareProgramGoal} Total processed within all steps (Insert + Update): 3 records
+[13:30:59.875] {CareSpecialty} Total processed within all steps (Insert + Update): 4 records
+[13:30:59.877] {HealthcarePractitionerFacility} Total processed within all steps (Insert + Update): 4 records
+[13:30:59.878] {CareProviderFacilitySpecialty} Total processed within all steps (Insert + Update): 3 records
+[13:30:59.879] {CareRequest} Total processed within all steps (Insert + Update): 2 records
+[13:30:59.880] {CareRequestDrug} Total processed within all steps (Insert + Update): 1 records
+[13:30:59.882] {CareTaxonomy} Total processed within all steps (Insert + Update): 2 records
+[13:30:59.884] {HealthCareDiagnosis} Total processed within all steps (Insert + Update): 5 records
+[13:30:59.918] {HealthcarePayerNetwork} Total processed within all steps (Insert + Update): 1 records
+[13:30:59.924] {HealthcareFacilityNetwork} Total processed within all steps (Insert + Update): 2 records
+[13:30:59.928] {HealthCareProcedure} Total processed within all steps (Insert + Update): 5 records
+[13:30:59.932] {HealthcareProvider} Total processed within all steps (Insert + Update): 5 records
+[13:30:59.934] {HealthcareProviderNpi} Total processed within all steps (Insert + Update): 5 records
+[13:30:59.936] {HealthcareProviderSpecialty} Total processed within all steps (Insert + Update): 2 records
+[13:30:59.938] {HealthcareProviderTaxonomy} Total processed within all steps (Insert + Update): 2 records
+[13:30:59.944] {Individual} Total processed within all steps (Insert + Update): 0 records
+[13:30:59.946] {CaseTeamRole} Total processed within all steps (Insert + Update): 5 records
+[13:30:59.950] {HealthCloudGA__CarePlanTemplate__c} Total processed within all steps (Insert + Update): 0 records
+[13:30:59.952] {HealthCloudGA__Program__c} Total processed within all steps (Insert + Update): 1 records
+[13:30:59.953] {HealthCloudGA__EhrPractitioner__c} Total processed within all steps (Insert + Update): 0 records
+[13:30:59.956] {Organization} Total processed within all steps (Insert + Update): 1 records
+[13:30:59.961] {Campaign} Total processed within all steps (Insert + Update): 1 records
+[13:30:59.965] {EnrollmentEligibilityCriteria} Total processed within all steps (Insert + Update): 3 records
+[13:30:59.968] {Lead} Total processed within all steps (Insert + Update): 0 records
+[13:30:59.970] {Product2} Total processed within all steps (Insert + Update): 2 records
+[13:30:59.971] {OperatingHours} Total processed within all steps (Insert + Update): 1 records
+
+[13:30:59.975] Writing to /Users/jrattanpal/workspace/Health-Cloud-Sfdx-Template/data/sfdmu/MissingParentRecordsReport.csv...
+
+[13:30:59.990] Command succeeded.
+[13:30:59.992] Execution of the command sfdmu:run has been finished. Exit code 0 (SUCCESS).
+[13:30:59.995] Total time elapsed: 00h 01m 52s 030ms .

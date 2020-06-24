@@ -1,0 +1,2 @@
+Id,Name,IsDeleted,CreatedDate,LastModifiedDate,SystemModstamp,LastViewedDate,LastReferencedDate,CareProgramId,AccountId,Role,SourceSystemIdentifier,SourceSystem,CareProgram.Name,Account.Name
+0Zr3h000000g1aLCAQ,Melinda Smith,false,2020-06-24T15:33:37.000+0000,2020-06-24T15:33:37.000+0000,2020-06-24T15:33:37.000+0000,,,0Ze3h000000gBa1CAE,,Care Coordinator,,,Kanaka Patient Assistance Program,

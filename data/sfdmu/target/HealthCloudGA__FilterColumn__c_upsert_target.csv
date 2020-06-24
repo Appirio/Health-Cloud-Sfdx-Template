@@ -1,0 +1,6 @@
+Id,Name,IsDeleted,CreatedDate,LastModifiedDate,SystemModstamp,HealthCloudGA__FilterCriterion__c,HealthCloudGA__FieldApi__c,HealthCloudGA__FieldLabel__c,HealthCloudGA__ObjectName__c,HealthCloudGA__Order__c,HealthCloudGA__FilterCriterion__r.Name
+a0h3h000003LcQXAA0,a0h3h000003LcQX,false,2020-06-24T15:33:37.000+0000,2020-06-24T15:33:37.000+0000,2020-06-24T15:33:37.000+0000,a0j3h0000007iK3AAI,healthcloudga__age__c,Age,Contact,1,All Patients
+a0h3h000003LcQYAA0,a0h3h000003LcQY,false,2020-06-24T15:33:37.000+0000,2020-06-24T15:33:37.000+0000,2020-06-24T15:33:37.000+0000,a0j3h0000007iK3AAI,healthcloudga__medicalrecordnumber__c,Medical Record Number,Account,2,All Patients
+a0h3h000003LcQZAA0,a0h3h000003LcQZ,false,2020-06-24T15:33:37.000+0000,2020-06-24T15:33:37.000+0000,2020-06-24T15:33:37.000+0000,a0j3h0000007iK3AAI,lastmodifieddate,Last Modified Date,Account,3,All Patients
+a0h3h000003LcQaAAK,a0h3h000003LcQa,false,2020-06-24T15:33:37.000+0000,2020-06-24T15:33:37.000+0000,2020-06-24T15:33:37.000+0000,a0j3h0000007iK4AAI,healthcloudga__birthdate__c,Birth Date,Contact,1,Patients with Diabetes
+a0h3h000003LcQbAAK,a0h3h000003LcQb,false,2020-06-24T15:33:37.000+0000,2020-06-24T15:33:37.000+0000,2020-06-24T15:33:37.000+0000,a0j3h0000007iK4AAI,healthcloudga__age__c,Age,Contact,2,Patients with Diabetes

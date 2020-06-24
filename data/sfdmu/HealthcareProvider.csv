@@ -1,0 +1,6 @@
+Id,Name,IsDeleted,CreatedDate,LastModifiedDate,SystemModstamp,LastViewedDate,LastReferencedDate,AccountId,PractitionerId,ProviderType,ProviderClass,InitialStartDate,TotalLicensedBeds,SourceSystemIdentifier,SourceSystem,EffectiveFrom,EffectiveTo,TerminationDate,TerminationReason,EhrSystem,IsNotSearchable,Account.Name,Practitioner.Name
+0cm3h000000g5BTAAY,Ohana Med,false,2020-06-24T15:33:37.000+0000,2020-06-24T15:33:37.000+0000,2020-06-24T15:33:37.000+0000,,,0013h00000CyIRIAA3,,,,,,,,,,,,,false,Ohana Medical Center,
+0cm3h000000g5BUAAY,Great Health Clinic,false,2020-06-24T15:33:37.000+0000,2020-06-24T15:33:37.000+0000,2020-06-24T15:33:37.000+0000,,,0013h00000CyIRBAA3,,Hospital,Medical Group,,,,,,,,,,false,Great Health Clinic,
+0cm3h000000g5BVAAY,John Smith,false,2020-06-24T15:33:37.000+0000,2020-06-24T15:33:37.000+0000,2020-06-24T15:33:37.000+0000,,,,0033h0000096qbvAAA,Medical Doctor,,,,,,,,,,,false,,John Smith
+0cm3h000000g5BWAAY,Gayathri Satish,false,2020-06-24T15:33:37.000+0000,2020-06-24T15:33:37.000+0000,2020-06-24T15:33:37.000+0000,,,,0033h0000096qbwAAA,Medical Doctor,,,,,,,,,,,false,,Gayathri Satish
+0cm3h000000g5BXAAY,CA Healthcare partners physician group,false,2020-06-24T15:33:37.000+0000,2020-06-24T15:33:37.000+0000,2020-06-24T15:33:37.000+0000,,,0013h00000CyIRKAA3,,,Medical Group,,,,,,,,,,false,CA Healthcare partners physician group,

@@ -1,0 +1,4 @@
+Id,Name,IsDeleted,CreatedDate,LastModifiedDate,SystemModstamp,LastViewedDate,LastReferencedDate,CareProgramId,Status,EligibilityCriteriaId,SourceSystemIdentifier,SourceSystem,IsRequired,CareProgram.Name,EligibilityCriteria.Name
+0bk3h000000g2S1AAI,CPER-00000001,false,2020-06-24T15:33:37.000+0000,2020-06-24T15:33:37.000+0000,2020-06-24T15:33:37.000+0000,,,0Ze3h000000gBa1CAE,Active,0bm3h000000g2S1AAI,,,false,Kanaka Patient Assistance Program,Considered on exception basis
+0bk3h000000g2S2AAI,CPER-00000002,false,2020-06-24T15:33:37.000+0000,2020-06-24T15:33:37.000+0000,2020-06-24T15:33:37.000+0000,,,0Ze3h000000gBa1CAE,Active,0bm3h000000g2S2AAI,,,false,Kanaka Patient Assistance Program,"Can have insurance, but not Medicaid"
+0bk3h000000g2S3AAI,CPER-00000003,false,2020-06-24T15:33:37.000+0000,2020-06-24T15:33:37.000+0000,2020-06-24T15:33:37.000+0000,,,0Ze3h000000gBa1CAE,Active,0bm3h000000g2S3AAI,,,false,Kanaka Patient Assistance Program,Must be commercially insured
