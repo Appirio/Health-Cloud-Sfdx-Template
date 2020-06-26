@@ -1,3 +1,0 @@
-Id,Name,IsDeleted,CreatedDate,LastModifiedDate,SystemModstamp,LastViewedDate,LastReferencedDate,PractitionerId,AccountId,SpecialtyId,SourceSystemIdentifier,SourceSystem,EffectiveFrom,EffectiveTo,IsActive,IsPrimarySpecialty,SpecialtyRole,Practitioner.Name,Account.Name,Specialty.Name
-0bO3h000000g4WLEAY,Endocrinology,false,2020-06-24T15:33:37.000+0000,2020-06-24T15:33:37.000+0000,2020-06-24T15:33:37.000+0000,,,0033h0000096qbuAAA,,0bc3h000000g4S3AAI,,,,,false,true,Specialist,Amy Huffman,,Physician/Endocrinology
-0bO3h000000g4WMEAY,General Practice,false,2020-06-24T15:33:37.000+0000,2020-06-24T15:33:37.000+0000,2020-06-24T15:33:37.000+0000,,,0033h0000096qbuAAA,,0bc3h000000g4S4AAI,,CAQH,2007-04-01,,true,false,Dual,Amy Huffman,,Physician/General Practice

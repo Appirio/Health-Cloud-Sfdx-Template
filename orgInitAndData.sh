@@ -44,14 +44,23 @@ sfdx force:user:permset:assign -n MilestoneStatus
 #SFDX DMU plugin: https://github.com/forcedotcom/SFDX-Data-Move-Utility/wiki
 #Data Extract from existing org; if needed
 #sfdx sfdmu:run --sourceusername HCTrialOrg --targetusername csvfile -p data/sfdmu/
+#sfdx force:data:soql:query -u HCADK -q "Select Id,AccountId,ContactId from AccountContactRelation"
 
 #data load
 #May get a prompt while loading: Say "y"
 #"yes" command can be used to reply to those prompts; https://www.computerhope.com/unix/yes.htm
-yes | sfdx sfdmu:run --sourceusername csvfile --targetusername HCADK -p data/sfdmu/
+#yes | sfdx sfdmu:run --sourceusername csvfile --targetusername HCADK -p data/sfdmu/
 #Send user password reset email
 sfdx force:apex:execute -f config/setup.apex
 
 
 
 sfdx force:org:open
+
+
+#delete [select id from Case];
+#delete [select id from Contact];
+#delete [select id from Account];
+#delete [select id from HealthCloudGA__ContactContactRelation__c];
+#delete [select id from AccountContactRelation];
+

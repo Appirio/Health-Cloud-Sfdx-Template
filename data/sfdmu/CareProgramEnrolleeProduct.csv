@@ -1,5 +1,0 @@
-Id,Name,IsDeleted,CreatedDate,LastModifiedDate,SystemModstamp,LastViewedDate,LastReferencedDate,CareProgramEnrolleeId,CareProgramProductId,CareProgramProviderId,Status,SourceSystemIdentifier,SourceSystem,CareProgramEnrollee.Name,CareProgramProduct.Name,CareProgramProvider.Name
-0be3h000000g2WTAAY,Charles Green metoprolol,false,2020-06-24T15:33:37.000+0000,2020-06-24T15:33:37.000+0000,2020-06-24T15:33:37.000+0000,,,0Ww3h000000gBl0CAE,0bd3h000000g4BTAAY,,Available,,,Charles Green,metoprolol,
-0be3h000000g2WUAAY,Charles Green metformin,false,2020-06-24T15:33:37.000+0000,2020-06-24T15:33:37.000+0000,2020-06-24T15:33:37.000+0000,,,0Ww3h000000gBl0CAE,0bd3h000000g4BSAAY,0bo3h000000g1O8AAI,Available,,,Charles Green,metformin,Ohana Med
-0be3h000000g2WVAAY,Shawna Green metoprolol,false,2020-06-24T15:33:37.000+0000,2020-06-24T15:33:37.000+0000,2020-06-24T15:33:37.000+0000,,,0Ww3h000000gBl1CAE,0bd3h000000g4BTAAY,,Available,,,Shawna Green,metoprolol,
-0be3h000000g2WWAAY,Shawna Green metformin,false,2020-06-24T15:33:37.000+0000,2020-06-24T15:33:37.000+0000,2020-06-24T15:33:37.000+0000,,,0Ww3h000000gBl1CAE,0bd3h000000g4BSAAY,,Available,,,Shawna Green,metformin,

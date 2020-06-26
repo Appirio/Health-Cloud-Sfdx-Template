@@ -1,4 +1,0 @@
-Id,Name,IsDeleted,CreatedDate,LastModifiedDate,SystemModstamp,LastViewedDate,LastReferencedDate,Description,StartDate,DueDate,CompletionDate,Status,ProgressPercentage,Priority,SequenceNumber,SourceSystemIdentifier,CareProgramId,SourceSystem,CareProgram.Name
-0bn3h000000g2S1AAI,10% Decrease of Re-admission,false,2020-06-24T15:33:37.000+0000,2020-06-24T15:33:37.000+0000,2020-06-24T15:33:37.000+0000,,,,2019-05-31,,,New,,Medium,,,0Ze3h000000gBa1CAE,,Kanaka Patient Assistance Program
-0bn3h000000g2S2AAI,Blood Pressure within standard deviation,false,2020-06-24T15:33:37.000+0000,2020-06-24T15:33:37.000+0000,2020-06-24T15:33:37.000+0000,,,,2019-05-31,,,New,,Medium,,,0Ze3h000000gBa1CAE,,Kanaka Patient Assistance Program
-0bn3h000000g2S3AAI,50% Enrollment Completion Rate,false,2020-06-24T15:33:37.000+0000,2020-06-24T15:33:37.000+0000,2020-06-24T15:33:37.000+0000,,,,2019-05-31,,,New,,Medium,,,0Ze3h000000gBa1CAE,,Kanaka Patient Assistance Program

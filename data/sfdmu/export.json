@@ -1,223 +1,46 @@
 {
     "objects": [
-
         {
-            "query": "SELECT all FROM Contact",
+            "query": "SELECT all FROM OperatingHours",
+            "operation": "Readonly",
+            "externalId": "Name",
+            "master": false
+        },
+        {
+            "query": "SELECT all FROM Individual",
+            "operation": "Readonly",
+            "externalId": "Name",
+            "master": false
+        },
+        {
+            "query": "SELECT all FROM User",
+            "operation": "Readonly",
+            "externalId": "Name",
+            "master": false
+        },
+        {
+            "query": "SELECT Id,RecordTypeId,LastName,FirstName,Salutation,OtherStreet,OtherCity,OtherState,OtherPostalCode,OtherCountry,OtherLatitude,OtherLongitude,OtherGeocodeAccuracy,MailingStreet,MailingCity,MailingState,MailingPostalCode,MailingCountry,MailingLatitude,MailingLongitude,MailingGeocodeAccuracy,Phone,Fax,MobilePhone,HomePhone,OtherPhone,AssistantPhone,Email,Title,Department,AssistantName,Birthdate,Description,IndividualId,HealthCloudGA__IndividualType__c,HealthCloudGA__SourceSystemId__c,HealthCloudGA__MedicalRecordNumber__c,HealthCloudGA__SourceSystem__c,HealthCloudGA__CountryOfBirth__c,HealthCloudGA__Gender__c,HealthCloudGA__PreferredName__c,HealthCloudGA__PrimaryLanguage__c,HealthCloudGA__SecondaryLanguage__c,HealthCloudGA__DeceasedDate__c,HealthCloudGA__ConvertedReferrals__c,HealthCloudGA__TotalReferrals__c,Name,IsPersonAccount,AccountId FROM Contact",
             "operation": "Upsert",
             "externalId": "Name"
         },
         {
-            "query": "SELECT all FROM Account",
+            "query": "SELECT Id,RecordTypeId,Name,IsPersonAccount,IsDeleted,MasterRecordId,LastName,FirstName,Salutation,Type,ParentId,BillingStreet,BillingCity,BillingState,BillingPostalCode,BillingCountry,BillingLatitude,BillingLongitude,BillingGeocodeAccuracy,ShippingStreet,ShippingCity,ShippingState,ShippingPostalCode,ShippingCountry,ShippingLatitude,ShippingLongitude,ShippingGeocodeAccuracy,Phone,Fax,Website,PhotoUrl,Industry,AnnualRevenue,NumberOfEmployees,Description,CreatedDate,LastModifiedDate,SystemModstamp,LastActivityDate,LastViewedDate,LastReferencedDate,IsCustomerPortal,PersonContactId,PersonMailingStreet,PersonMailingCity,PersonMailingState,PersonMailingPostalCode,PersonMailingCountry,PersonMailingLatitude,PersonMailingLongitude,PersonMailingGeocodeAccuracy,PersonMailingAddress,PersonOtherStreet,PersonOtherCity,PersonOtherState,PersonOtherPostalCode,PersonOtherCountry,PersonOtherLatitude,PersonOtherLongitude,PersonOtherGeocodeAccuracy,PersonOtherAddress,PersonMobilePhone,PersonHomePhone,PersonOtherPhone,PersonAssistantPhone,PersonEmail,PersonTitle,PersonDepartment,PersonAssistantName,PersonLeadSource,PersonBirthdate,PersonLastCURequestDate,PersonLastCUUpdateDate,PersonEmailBouncedReason,PersonEmailBouncedDate,PersonIndividualId,Jigsaw,JigsawCompanyId,AccountSource,SicDesc,OperatingHoursId,HealthCloudGA__CarePlan__c,HealthCloudGA__IndividualId__c,HealthCloudGA__IndividualType__c,HealthCloudGA__PrimaryContact__c,HealthCloudGA__SourceSystemId__c,HealthCloudGA__MedicalRecordNumber__c,HealthCloudGA__SourceSystem__c,Example__c,HealthCloudGA__Disabled__c,HealthCloudGA__EnrollmentType__c,HealthCloudGA__Institution__c,HealthCloudGA__LowIncome__c,HealthCloudGA__MedicaidEligibilityStatus__c,HealthCloudGA__MedicareEnrollee__c,HealthCloudGA__OREC__c,HealthCloudGA__Active__c,HealthCloudGA__PayerType__c,HealthCloudGA__TaxId__c,HealthCloudGA__Age__pc,HealthCloudGA__BirthDate__pc,HealthCloudGA__IndividualId__pc,HealthCloudGA__IndividualType__pc,HealthCloudGA__SourceSystemId__pc,HealthCloudGA__MedicalRecordNumber__pc,HealthCloudGA__SourceSystem__pc,HealthCloudGA__CountryOfBirth__pc,HealthCloudGA__Gender__pc,HealthCloudGA__PreferredName__pc,HealthCloudGA__PrimaryLanguage__pc,HealthCloudGA__SecondaryLanguage__pc,HealthCloudGA__DeceasedDate__pc,HealthCloudGA__ConvertedReferrals__pc,HealthCloudGA__ReferrerScore__pc,HealthCloudGA__TotalReferrals__pc,AlwaysTrue_c__pc,Address_Text__pc FROM Account",
             "operation": "Upsert",
-            "externalId": "Name"
+            "externalId": "Name",
+            "master": true
         },
         {
-            "query": "SELECT all FROM Case",
+            "query": "SELECT Id, Subject, IsDeleted, MasterRecordId, CaseNumber, ContactId, AccountId, ParentId, SuppliedName, SuppliedEmail, SuppliedPhone, SuppliedCompany, Type, Status, Reason, Origin,Priority,Description,IsClosed,ClosedDate,IsEscalated, ContactPhone,ContactMobile,ContactEmail,ContactFax,Comments FROM  Case",
             "operation": "Upsert",
             "externalId": "Subject"
         },
         {
-            "query": "SELECT all FROM CareProgramTeamMember",
+            "query": "SELECT all FROM AccountContactRelation",
             "operation": "Upsert",
-            "externalId": "Name"
-        },
-        {
-            "query": "SELECT all FROM CaseTeamMember",
-            "operation": "Upsert",
-            "externalId": "Name"
-        },
-        {
-            "query": "SELECT all FROM HealthCloudGA__CandidatePatient__c",
-            "operation": "Upsert",
-            "externalId": "Name"
-        },
-        {
-            "query": "SELECT all FROM HealthCloudGA__CarePlanGoal__c",
-            "operation": "Upsert",
-            "externalId": "Name"
-        },
-        {
-            "query": "SELECT all FROM HealthCloudGA__CarePlanProblem__c",
-            "operation": "Upsert",
-            "externalId": "Name"
-        },
-        {
-            "query": "SELECT all FROM HealthCloudGA__ConditionToHCCCodeMapping__c",
-            "operation": "Upsert",
-            "externalId": "Name"
-        },
-        {
-            "query": "SELECT all FROM HealthCloudGA__ContactContactRelation__c",
-            "operation": "Upsert",
-            "externalId": "Name"
-        },
-        {
-            "query": "SELECT all FROM HealthCloudGA__CrossObjectRelationship__c",
-            "operation": "Upsert",
-            "externalId": "Name"
-        },
-        {
-            "query": "SELECT all FROM HealthCloudGA__FilterColumn__c",
-            "operation": "Upsert",
-            "externalId": "Name"
-        },
-        {
-            "query": "SELECT all FROM HealthCloudGA__FilterCondition__c",
-            "operation": "Upsert",
-            "externalId": "Name"
-        },
-        {
-            "query": "SELECT all FROM HealthCloudGA__FilterCriterion__c",
-            "operation": "Upsert",
-            "externalId": "Name"
-        },
-        {
-            "query": "SELECT all FROM HealthCloudGA__PatientCardViewConfiguration__c",
-            "operation": "Upsert",
-            "externalId": "Name"
-        },
-        {
-            "query": "SELECT all FROM HealthCloudGA__ReciprocalRole__c",
-            "operation": "Upsert",
-            "externalId": "Name"
-        },
-        {
-            "query": "SELECT all FROM HealthCloudGA__ProgramPatientAffiliation__c",
-            "operation": "Upsert",
-            "externalId": "Name"
-        },
-        {
-            "query": "SELECT all FROM HealthCloudGA__ProgramPatientSummary__c",
-            "operation": "Upsert",
-            "externalId": "Name"
-        },
-        {
-            "query": "SELECT all FROM HealthCloudGA__Provider__c",
-            "operation": "Upsert",
-            "externalId": "Name"
-        },
-        {
-            "query": "SELECT all FROM HealthCloudGA__TimelineViewConfiguration__c",
-            "operation": "Upsert",
-            "externalId": "Name"
+            "externalId": "AccountId;ContactId"
         },
         {
             "query": "SELECT all FROM HealthCloudGA__UsePersonAccount__c",
-            "operation": "Upsert",
-            "externalId": "Name"
-        },
-        {
-            "query": "SELECT all FROM CareProgram",
-            "operation": "Upsert",
-            "externalId": "Name"
-        },
-        {
-            "query": "SELECT all FROM CareProgramCampaign",
-            "operation": "Upsert",
-            "externalId": "Name"
-        },
-        {
-            "query": "SELECT all FROM CareProgramEligibilityRule",
-            "operation": "Upsert",
-            "externalId": "Name"
-        },
-        {
-            "query": "SELECT all FROM CareProgramEnrollee",
-            "operation": "Upsert",
-            "externalId": "Name"
-        },
-        {
-            "query": "SELECT all FROM CareProgramEnrolleeProduct",
-            "operation": "Upsert",
-            "externalId": "Name"
-        },
-        {
-            "query": "SELECT all FROM CareProgramGoal",
-            "operation": "Upsert",
-            "externalId": "Name"
-        },
-        {
-            "query": "SELECT all FROM CareProgramProduct",
-            "operation": "Upsert",
-            "externalId": "Name"
-        },
-        {
-            "query": "SELECT all FROM CareProgramProvider",
-            "operation": "Upsert",
-            "externalId": "Name"
-        },
-        {
-            "query": "SELECT all FROM CareProgramTeamMember",
-            "operation": "Upsert",
-            "externalId": "Name"
-        },
-        {
-            "query": "SELECT all FROM CareProviderFacilitySpecialty",
-            "operation": "Upsert",
-            "externalId": "Name"
-        },
-        {
-            "query": "SELECT all FROM CareRequest",
-            "operation": "Upsert",
-            "externalId": "Name"
-        },
-        {
-            "query": "SELECT all FROM CareRequestDrug",
-            "operation": "Upsert",
-            "externalId": "Name"
-        },
-        {
-            "query": "SELECT all FROM CareSpecialty",
-            "operation": "Upsert",
-            "externalId": "Name"
-        },
-        {
-            "query": "SELECT all FROM CareTaxonomy",
-            "operation": "Upsert",
-            "externalId": "Name"
-        },
-        {
-            "query": "SELECT all FROM HealthCareDiagnosis",
-            "operation": "Upsert",
-            "externalId": "Name"
-        },
-        {
-            "query": "SELECT all FROM HealthcareFacilityNetwork",
-            "operation": "Upsert",
-            "externalId": "Name"
-        },
-        {
-            "query": "SELECT all FROM HealthcarePayerNetwork",
-            "operation": "Upsert",
-            "externalId": "Name"
-        },
-        {
-            "query": "SELECT all FROM HealthcarePractitionerFacility",
-            "operation": "Upsert",
-            "externalId": "Name"
-        },
-        {
-            "query": "SELECT all FROM HealthCareProcedure",
-            "operation": "Upsert",
-            "externalId": "Name"
-        },
-        {
-            "query": "SELECT all FROM HealthcareProvider",
-            "operation": "Upsert",
-            "externalId": "Name"
-        },
-        {
-            "query": "SELECT all FROM HealthcareProviderNpi",
-            "operation": "Upsert",
-            "externalId": "Name"
-        },
-        {
-            "query": "SELECT all FROM HealthcareProviderSpecialty",
-            "operation": "Upsert",
-            "externalId": "Name"
-        },
-        {
-            "query": "SELECT all FROM HealthcareProviderTaxonomy",
             "operation": "Upsert",
             "externalId": "Name"
         }

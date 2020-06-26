@@ -1,3 +1,0 @@
-Id,Name,IsDeleted,CreatedDate,LastModifiedDate,SystemModstamp,LastViewedDate,LastReferencedDate,AccountId,CareProgramProductId,Role,Status,SourceSystemIdentifier,SourceSystem,CareProgramContactId,Account.Name,CareProgramProduct.Name,CareProgramContact.Name
-0bo3h000000g1O7AAI,Ohana Health,false,2020-06-24T15:33:37.000+0000,2020-06-24T15:33:37.000+0000,2020-06-24T15:33:37.000+0000,,,0013h00000CyIR2AAN,0bd3h000000g4BSAAY,Distributor,Active,,,,Ohana Health System,metformin,
-0bo3h000000g1O8AAI,Ohana Med,false,2020-06-24T15:33:37.000+0000,2020-06-24T15:33:37.000+0000,2020-06-24T15:33:37.000+0000,,,0013h00000CyIRIAA3,0bd3h000000g4BSAAY,Retailer,Active,,,,Ohana Medical Center,metformin,
