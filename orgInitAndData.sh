@@ -47,9 +47,7 @@ sfdx force:user:permset:assign -n MilestoneStatus
 #sfdx force:data:soql:query -u HCADK -q "Select Id,AccountId,ContactId from AccountContactRelation"
 
 #data load
-#May get a prompt while loading: Say "y"
-#"yes" command can be used to reply to those prompts; https://www.computerhope.com/unix/yes.htm
-#yes | sfdx sfdmu:run --sourceusername csvfile --targetusername HCADK -p data/sfdmu/
+sfdx sfdmu:run --sourceusername csvfile --targetusername HCADK -p data/sfdmu/ --noprompt
 #Send user password reset email
 sfdx force:apex:execute -f config/setup.apex
 
