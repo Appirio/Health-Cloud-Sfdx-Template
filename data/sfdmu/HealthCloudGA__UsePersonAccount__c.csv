@@ -1,0 +1,2 @@
+Id,Name,IsDeleted,SetupOwnerId,CreatedDate,LastModifiedDate,SystemModstamp,HealthCloudGA__Enable__c,SetupOwner.Name
+a163h000000mLd3AAE,Use Person Account,false,00D3h0000058nTfEAI,2020-06-24T15:33:37.000+0000,2020-06-24T21:14:03.000+0000,2020-06-24T21:14:03.000+0000,false,Salesforce.com Inc

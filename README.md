@@ -28,6 +28,13 @@ The version numbers for what is the 'release' and 'pre-release' package of Healt
 # Prerequisites
 This template requires Salesforce DX. Please visit https://developer.salesforce.com/platform/dx to install and configure Salesforce DX on your local machine.
 
+# Data Load
+We use https://github.com/forcedotcom/SFDX-Data-Move-Utility SFDX plugin to load data. Check https://github.com/forcedotcom/SFDX-Data-Move-Utility/wiki/ for documentation
+
+Install Plugin: sfdx plugins:install sfdmu
+Load data: sfdx sfdmu:run --sourceusername csvfile --targetusername HCADK -p data/sfdmu/ --noprompt
+
+You can also run orgInitAndData.sh file which has all command + Data Load commands
 
 # Releases
 Please review the [changelog](CHANGELOG) for more detailed information about each release.
