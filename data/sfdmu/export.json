@@ -21,7 +21,7 @@
             "query": "SELECT Id,RecordTypeId,Subject,readonly_false FROM  Case",
             "operation": "Upsert",
             "externalId": "Subject",
-            "excludedFields": ["ProductId","EntitlementId","SourceId","BusinessHoursId","IsVisibleInSelfService","IsSelfServiceClosed","SlaStartDate","IsStopped","OwnerName__c"]
+            "excludedFields": ["AssetId","ProductId","EntitlementId","SourceId","BusinessHoursId","IsVisibleInSelfService","IsSelfServiceClosed","SlaStartDate","IsStopped","OwnerName__c"]
         },
         {
             "query": "SELECT all FROM AccountContactRelation",
