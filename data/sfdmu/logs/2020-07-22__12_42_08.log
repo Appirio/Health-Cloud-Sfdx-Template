@@ -1,0 +1,153 @@
+
+[12:42:08.156] {"Running version":"3.5.9"}
+
+[12:42:08.662] Connecting to HCTrialOrg using SFDX CLI...
+[12:42:47.39] Successfully connected to HCTrialOrg.
+[12:42:47.52] {"SOURCE":"HCTrialOrg.","TARGET":"csvfile.","Package script":"/Users/jrattanpal/workspace/Health-Cloud-Sfdx-Template/data/sfdmu/export.json."}
+
+[12:42:47.56] GETTING AND ANALYSING OBJECTS METADATA...
+[12:42:47.58] Processing the sObject Contact...
+[12:42:47.61] Getting metadata for Contact (SOURCE)
+[12:42:47.791] Processing the sObject Account...
+[12:42:47.792] Getting metadata for Account (SOURCE)
+[12:42:48.678] Processing the sObject AccountContactRelation...
+[12:42:48.679] Getting metadata for AccountContactRelation (SOURCE)
+[12:42:49.17] Processing the sObject Case...
+[12:42:49.18] Getting metadata for Case (SOURCE)
+[12:42:49.326][WARN] Field Case.Name is missing in the Source.
+[12:42:49.327] Processing the sObject HealthCloudGA__UsePersonAccount__c...
+[12:42:49.330] Getting metadata for HealthCloudGA__UsePersonAccount__c (SOURCE)
+[12:42:49.656] Processing the sObject HealthCloudGA__UsePersonAccount__c...
+[12:42:49.665] Getting metadata for Organization (SOURCE)
+[12:42:50.119] Processing the sObject Case...
+[12:42:50.147] Getting metadata for RecordType (SOURCE)
+[12:42:50.591] Processing the sObject AccountContactRelation...
+[12:42:50.593] Processing the sObject Account...
+[12:42:50.603] Getting metadata for Individual (SOURCE)
+[12:42:51.35] Getting metadata for OperatingHours (SOURCE)
+[12:42:51.581] Processing the sObject Contact...
+
+[12:42:51.597] PREPARING DATA MIGRATION JOB...
+[12:42:51.597] Building migration strategy...
+[12:42:51.606] {"Order of objects to retrieve data":"RecordType; Case; Account; Contact; AccountContactRelation; HealthCloudGA__UsePersonAccount__c; OperatingHours; Individual; Organization"}
+[12:42:51.608] {"Order of objects to update data":"RecordType; OperatingHours; Individual; Organization; Case; Account; Contact; AccountContactRelation; HealthCloudGA__UsePersonAccount__c"}
+[12:42:51.609] Preparing has been finished.
+
+[12:42:51.611] GETTING THE TOTAL AMOUNT OF RECORDS LIMITED BY THE OBJECT'S SOQL QUERY...
+[12:42:51.854] {RecordType} Total amount of the SOURCE records: 18
+[12:42:52.33] {OperatingHours} Total amount of the SOURCE records: 1
+[12:42:52.237] {Individual} Total amount of the SOURCE records: 0
+[12:42:52.468] {Organization} Total amount of the SOURCE records: 1
+[12:42:52.684] {Case} Total amount of the SOURCE records: 15
+[12:42:52.889] {Account} Total amount of the SOURCE records: 25
+[12:42:53.97] {Contact} Total amount of the SOURCE records: 23
+[12:42:53.277] {AccountContactRelation} Total amount of the SOURCE records: 28
+[12:42:53.482] {HealthCloudGA__UsePersonAccount__c} Total amount of the SOURCE records: 1
+
+[12:42:53.484] DELETING OLD DATA FROM THE TARGET...
+[12:42:53.486] {HealthCloudGA__UsePersonAccount__c} Nothing to delete.
+[12:42:53.487] {AccountContactRelation} Nothing to delete.
+[12:42:53.488] {Contact} Nothing to delete.
+[12:42:53.489] {Account} Nothing to delete.
+[12:42:53.490] {Case} Nothing to delete.
+[12:42:53.491] {Organization} Nothing to delete.
+[12:42:53.492] {Individual} Nothing to delete.
+[12:42:53.494] {OperatingHours} Nothing to delete.
+[12:42:53.495] {RecordType} Nothing to delete.
+[12:42:53.496] Deleting old data from the Target was skipped.
+[12:42:53.498] Ready to process the data.
+
+[12:42:53.501] RETRIEVING THE DATA STEP 1...
+[12:42:53.503] {RecordType} Retrieving the SOURCE data from Org (STEP 1: all records)...
+[12:42:53.504] {RecordType} Query string: SELECT Id, DeveloperName, SobjectType  FROM  RecordType WHERE (SobjectType IN ('Contact', 'Account', 'Case')) ORDER BY SobjectType ASC.
+[12:42:53.759] {RecordType} Retrieving the SOURCE data has been completed. Fetched 18 new records.
+[12:42:53.760] {Case} Retrieving the SOURCE data from Org (STEP 1: all records)...
+[12:42:53.762] {Case} Query string: SELECT Id, RecordTypeId, Subject, ContactId, AccountId, ParentId, SuppliedName, SuppliedEmail, SuppliedPhone, SuppliedCompany, Type, Status, Reason, Origin, Priority, Description, IsEscalated, Comments, HealthCloudGA__DueDate__c, HealthCloudGA__Finan... FROM  Case.
+[12:42:54.68] {Case} Retrieving the SOURCE data has been completed. Fetched 15 new records.
+[12:42:54.73] {Account} Retrieving the SOURCE data from Org (STEP 1: all records)...
+[12:42:54.74] {Account} Query string: SELECT Id, RecordTypeId, Name, IsPersonAccount, LastName, FirstName, Salutation, Type, ParentId, BillingStreet, BillingCity, BillingState, BillingPostalCode, BillingCountry, BillingLatitude, BillingLongitude, BillingGeocodeAccuracy, ShippingStreet, S... FROM  Account.
+[12:42:54.448] {Account} Retrieving the SOURCE data has been completed. Fetched 25 new records.
+[12:42:54.451] {Contact} Retrieving the SOURCE data from Org (STEP 1: all records)...
+[12:42:54.452] {Contact} Query string: SELECT Id, RecordTypeId, Name, IsPersonAccount, AccountId, LastName, FirstName, Salutation, OtherStreet, OtherCity, OtherState, OtherPostalCode, OtherCountry, OtherLatitude, OtherLongitude, OtherGeocodeAccuracy, MailingStreet, MailingCity, MailingSta... FROM  Contact.
+[12:42:54.765] {Contact} Retrieving the SOURCE data has been completed. Fetched 23 new records.
+[12:42:54.769] {AccountContactRelation} Retrieving the SOURCE data from Org (STEP 1: all records)...
+[12:42:54.770] {AccountContactRelation} Query string: SELECT Id, $$AccountId$ContactId, AccountId, ContactId, Roles, IsDirect, IsActive, StartDate, EndDate, IsDeleted, CreatedDate, LastModifiedDate, SystemModstamp, HealthCloudGA__Primary__c, HealthCloudGA__Rollups__c, HealthCloudGA__PrimaryGroup__c, Acc... FROM  AccountContactRelation.
+[12:42:55.58] {AccountContactRelation} Retrieving the SOURCE data has been completed. Fetched 28 new records.
+[12:42:55.59] {HealthCloudGA__UsePersonAccount__c} Retrieving the SOURCE data from Org (STEP 1: all records)...
+[12:42:55.60] {HealthCloudGA__UsePersonAccount__c} Query string: SELECT Id, Name, IsDeleted, SetupOwnerId, CreatedDate, LastModifiedDate, SystemModstamp, HealthCloudGA__Enable__c, SetupOwner.Name  FROM  HealthCloudGA__UsePersonAccount__c.
+[12:42:55.257] {HealthCloudGA__UsePersonAccount__c} Retrieving the SOURCE data has been completed. Fetched 1 new records.
+[12:42:55.258] Retrieving the data STEP 1 has been completed.
+
+[12:42:55.261] RETRIEVING THE DATA STEP 2...
+[12:42:55.262] PASS 1
+[12:42:55.264] =============
+[12:42:55.266] No records
+
+[12:42:55.269] PASS 2
+[12:42:55.270] =============
+[12:42:55.272] No records
+
+[12:42:55.274] PASS 3
+[12:42:55.275] =============
+[12:42:55.281] {Organization} Retrieving the SOURCE data from Org (STEP 1: filtered records)...
+[12:42:55.282] {Organization} Query string: SELECT Id, Name  FROM  Organization WHERE Id IN ('00D3t000001Ji5JEAS').
+[12:42:55.473] {Organization} Retrieving the SOURCE data has been completed. Fetched 1 new records.
+
+[12:42:55.475] PASS 4
+[12:42:55.476] =============
+[12:42:55.478] No records
+
+[12:42:55.481] TARGET
+[12:42:55.482] =============
+[12:42:55.483] No records
+[12:42:55.484] Retrieving the data STEP 2 has been completed.
+
+[12:42:55.488] DATA RETRIEVING SUMMARY
+[12:42:55.489] {RecordType} Total retrieved within all steps (source/target): 18/0 records.
+[12:42:55.491] {Case} Total retrieved within all steps (source/target): 15/0 records.
+[12:42:55.492] {Account} Total retrieved within all steps (source/target): 25/0 records.
+[12:42:55.493] {Contact} Total retrieved within all steps (source/target): 23/0 records.
+[12:42:55.494] {AccountContactRelation} Total retrieved within all steps (source/target): 28/0 records.
+[12:42:55.495] {HealthCloudGA__UsePersonAccount__c} Total retrieved within all steps (source/target): 1/0 records.
+[12:42:55.497] {OperatingHours} Total retrieved within all steps (source/target): 0/0 records.
+[12:42:55.499] {Individual} Total retrieved within all steps (source/target): 0/0 records.
+[12:42:55.500] {Organization} Total retrieved within all steps (source/target): 1/0 records.
+
+[12:42:55.503] UPDATING THE TARGET STEP 1...
+[12:42:55.505] {RecordType} Writing to the file /Users/jrattanpal/workspace/Health-Cloud-Sfdx-Template/data/sfdmu/RecordType.csv.
+[12:42:55.528] {RecordType} Updating the Target has been completed. Processed 18 records.
+[12:42:55.529] {OperatingHours} Writing to the file /Users/jrattanpal/workspace/Health-Cloud-Sfdx-Template/data/sfdmu/OperatingHours.csv.
+[12:42:55.531] {Individual} Writing to the file /Users/jrattanpal/workspace/Health-Cloud-Sfdx-Template/data/sfdmu/Individual.csv.
+[12:42:55.533] {Organization} Writing to the file /Users/jrattanpal/workspace/Health-Cloud-Sfdx-Template/data/sfdmu/Organization.csv.
+[12:42:55.543] {Organization} Updating the Target has been completed. Processed 1 records.
+[12:42:55.544] {Case} Writing to the file /Users/jrattanpal/workspace/Health-Cloud-Sfdx-Template/data/sfdmu/Case.csv.
+[12:42:55.554] {Case} Updating the Target has been completed. Processed 15 records.
+[12:42:55.555] {Account} Writing to the file /Users/jrattanpal/workspace/Health-Cloud-Sfdx-Template/data/sfdmu/Account.csv.
+[12:42:55.562] {Account} Updating the Target has been completed. Processed 25 records.
+[12:42:55.564] {Contact} Writing to the file /Users/jrattanpal/workspace/Health-Cloud-Sfdx-Template/data/sfdmu/Contact.csv.
+[12:42:55.577] {Contact} Updating the Target has been completed. Processed 23 records.
+[12:42:55.577] {AccountContactRelation} Writing to the file /Users/jrattanpal/workspace/Health-Cloud-Sfdx-Template/data/sfdmu/AccountContactRelation.csv.
+[12:42:55.585] {AccountContactRelation} Updating the Target has been completed. Processed 28 records.
+[12:42:55.590] {HealthCloudGA__UsePersonAccount__c} Writing to the file /Users/jrattanpal/workspace/Health-Cloud-Sfdx-Template/data/sfdmu/HealthCloudGA__UsePersonAccount__c.csv.
+[12:42:55.594] {HealthCloudGA__UsePersonAccount__c} Updating the Target has been completed. Processed 1 records.
+[12:42:55.595] Updating the Target (STEP 1) has been completed. Total processed 111 records.
+
+[12:42:55.597] UPDATING THE TARGET STEP 2...
+[12:42:55.601] Nothing was updated
+
+[12:42:55.603] DATA PROCESSING SUMMARY
+[12:42:55.604] {RecordType} Total processed within all steps (Insert + Update): 18 records
+[12:42:55.605] {Case} Total processed within all steps (Insert + Update): 15 records
+[12:42:55.607] {Account} Total processed within all steps (Insert + Update): 25 records
+[12:42:55.609] {Contact} Total processed within all steps (Insert + Update): 23 records
+[12:42:55.610] {AccountContactRelation} Total processed within all steps (Insert + Update): 28 records
+[12:42:55.611] {HealthCloudGA__UsePersonAccount__c} Total processed within all steps (Insert + Update): 1 records
+[12:42:55.611] {OperatingHours} Total processed within all steps (Insert + Update): 0 records
+[12:42:55.612] {Individual} Total processed within all steps (Insert + Update): 0 records
+[12:42:55.613] {Organization} Total processed within all steps (Insert + Update): 1 records
+
+[12:42:55.616] Writing to /Users/jrattanpal/workspace/Health-Cloud-Sfdx-Template/data/sfdmu/MissingParentRecordsReport.csv...
+
+[12:42:55.668] Command succeeded.
+[12:42:55.672] Execution of the command sfdmu:run has been finished. Exit code 0 (SUCCESS).
+[12:42:55.677] Total time elapsed: 00h 00m 47s 529ms .
