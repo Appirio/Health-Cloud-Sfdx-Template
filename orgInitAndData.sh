@@ -2,8 +2,6 @@
 
 ./orgInit.sh
 
-
-
 #SFDX DMU plugin: https://github.com/forcedotcom/SFDX-Data-Move-Utility/wiki
 #Data Extract from existing org; if needed
 #sfdx sfdmu:run --sourceusername HCTrialOrg --targetusername csvfile -p data/sfdmu/
