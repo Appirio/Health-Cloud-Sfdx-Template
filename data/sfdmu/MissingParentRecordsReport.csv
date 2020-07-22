@@ -1,6 +1,0 @@
-Date update,Id,Child ExternalId,Child lookup,Child SObject,Missing value,Parent ExternalId,Parent SObject
-2020-07-22  10:01:35.443,0033h0000096qbmAAA,Account.Name,AccountId,Contact,Charles Manning,Name,Account
-2020-07-22  10:01:42.085,07k3h000001km5JAAQ,Contact.Name,ContactId,AccountContactRelation,Charles Manning,Name,Contact
-2020-07-22  10:01:42.085,07k3h000001km5NAAQ,Account.Name,AccountId,AccountContactRelation,Charles Manning,Name,Account
-2020-07-22  10:01:42.951,a163h000000mLd3AAE,SetupOwner.Name,SetupOwnerId,HealthCloudGA__UsePersonAccount__c,Salesforce.com Inc,Name,Organization
-2020-07-22  10:01:43.210,0013h00000CyIR3AAN,HealthCloudGA__PrimaryContact__r.Name,HealthCloudGA__PrimaryContact__c,Account,Charles Manning,Name,Contact
