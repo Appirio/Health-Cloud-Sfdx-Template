@@ -27,11 +27,6 @@
             "query": "SELECT all FROM AccountContactRelation",
             "operation": "Upsert",
             "externalId": "AccountId;ContactId"
-        },
-        {
-            "query": "SELECT all FROM HealthCloudGA__UsePersonAccount__c",
-            "operation": "Upsert",
-            "externalId": "Name"
         }
     ]
 }
