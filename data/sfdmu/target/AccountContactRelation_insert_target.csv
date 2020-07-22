@@ -1,8 +1,0 @@
-AccountId,ContactId,Roles,IsActive,StartDate,EndDate,HealthCloudGA__Primary__c,HealthCloudGA__Rollups__c,HealthCloudGA__PrimaryGroup__c,Errors
-0013F00000XohPbQAJ,0033F00000PDyumQAD,Patient,true,2020-06-27,,true,,false,This contact already has a relationship with this account.
-0013F00000XohPbQAJ,0033F00000PDyuiQAD,Spouse,true,2020-06-27,,false,,false,This contact already has a relationship with this account.
-0013F00000XohPbQAJ,0033F00000PDyunQAD,Son,true,2020-06-27,,false,,false,This contact already has a relationship with this account.
-0013F00000XohPZQAZ,0033F00000PDyumQAD,Transportation,true,2020-06-27,,false,,false,This contact already has a relationship with this account.
-0013F00000XohPOQAZ,,,true,2021-08-30,,false,,false,Can't choose a person as the account in this relationship.
-,0033F00000PDyuuQAD,,true,2021-08-30,,false,,false,You can't associate a private contact with an account.
-0013F00000XohPKQAZ,0033F00000PDyv4QAD,Other,true,2022-05-14,,false,,false,This contact already has a relationship with this account.
