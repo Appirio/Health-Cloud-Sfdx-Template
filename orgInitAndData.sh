@@ -22,7 +22,7 @@ sfdx force:user:permset:assign -n HC_DataLoad_Custom -u $SCRATCH_ORG_NAME
 #Cleanup data prior to data load
 sfdx force:apex:execute -f config/cleanup.apex -u $SCRATCH_ORG_NAME
 #data load
-sfdx sfdmu:run --sourceusername csvfile --targetusername $SCRATCH_ORG_NAME -p data/sfdmu/ --noprompt
+sfdx sfdmu:run --sourceusername csvfile -p data/sfdmu/ --noprompt --targetusername $SCRATCH_ORG_NAME
 #Send user password reset email
 sfdx force:apex:execute -f config/setup.apex -u $SCRATCH_ORG_NAME
 
