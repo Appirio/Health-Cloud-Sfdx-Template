@@ -7,8 +7,10 @@
 #sfdx sfdmu:run --sourceusername HCTrialOrg --targetusername csvfile -p data/sfdmu/
 #sfdx force:data:soql:query -u HCADK -q "Select Id,AccountId,ContactId from AccountContactRelation"
 
+#Cleanup data prior to data load
+sfdx force:apex:execute -f config/cleanup.apex
 #data load
-sfdx sfdmu:run --sourceusername csvfile --targetusername HCADK -p data/sfdmu/ --noprompt
+sfdx sfdmu:run --sourceusername csvfile --targetusername healthcloud -p data/sfdmu/ --noprompt
 #Send user password reset email
 sfdx force:apex:execute -f config/setup.apex
 

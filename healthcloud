@@ -13,7 +13,7 @@ END='\033[0m' # No Color
 #
 start () {
   printf "${HEADLINE}Creating Health Cloud Scratch Org${END}\n"
-  sfdx force:org:create -f $SCRATCH_ORG_DEF -a $SCRATCH_ORG_NAME
+  sfdx force:org:create -f $SCRATCH_ORG_DEF -a $SCRATCH_ORG_NAME -d
   install
   push
   configureAdmin

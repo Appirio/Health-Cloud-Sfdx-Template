@@ -4,13 +4,13 @@
             "query": "SELECT Id,RecordTypeId,Name,readonly_false FROM Contact",
             "operation": "Upsert",
             "externalId": "Name",
-            "excludedFields": ["CleanStatus"]
+            "excludedFields": ["CleanStatus","HasOptedOutOfEmail","HasOptedOutOfFax","DoNotCall","CanAllowPortalSelfReg","HealthCloudGA__ConditionStatus__c","HealthCloudGA__CreatedFromLead__c","HealthCloudGA__Monitored_at_Home__c","HealthCloudGA__StatusGroup__c","HealthCloudGA__Testing_Status__c"]
         },
         {
             "query": "SELECT Id,RecordTypeId,Name,readonly_false FROM Account",
             "operation": "Upsert",
             "externalId": "Name",
-            "excludedFields": ["CleanStatus","DunsNumber","Tradestyle","NaicsCode","NaicsDesc","YearStarted"]
+            "excludedFields": ["CleanStatus","DunsNumber","Tradestyle","NaicsCode","NaicsDesc","YearStarted","PersonHasOptedOutOfEmail","PersonHasOptedOutOfFax","PersonDoNotCall","HealthCloudGA__ConditionStatus__pc","HealthCloudGA__CreatedFromLead__pc","HealthCloudGA__Monitored_at_Home__pc","HealthCloudGA__StatusGroup__pc","HealthCloudGA__Testing_Status__pc"]
         },
         {
             "query": "SELECT all FROM AccountContactRelation",
@@ -20,7 +20,8 @@
         {
             "query": "SELECT Id,RecordTypeId,Subject,readonly_false FROM  Case",
             "operation": "Upsert",
-            "externalId": "Subject"
+            "externalId": "Subject",
+            "excludedFields": ["ProductId","EntitlementId","SourceId","BusinessHoursId","IsVisibleInSelfService","IsSelfServiceClosed","SlaStartDate","IsStopped","OwnerName__c"]
         },
         {
             "query": "SELECT all FROM AccountContactRelation",
