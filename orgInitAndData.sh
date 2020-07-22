@@ -4,6 +4,8 @@
 
 #SFDX DMU plugin: https://github.com/forcedotcom/SFDX-Data-Move-Utility/wiki
 #Data Extract from existing org; if needed
+#AUthenticate existing org for data extraction
+#sfdx force:auth:web:login -a HCTrialOrg
 #sfdx sfdmu:run --sourceusername HCTrialOrg --targetusername csvfile -p data/sfdmu/
 #sfdx force:data:soql:query -u HCADK -q "Select Id,AccountId,ContactId from AccountContactRelation"
 
