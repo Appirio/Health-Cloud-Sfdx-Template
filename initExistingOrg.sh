@@ -9,4 +9,4 @@ else
     sfdx force:config:set defaultusername=$USERNAME
 fi
 
-./orgInitAndData.sh
+./orgInitAndData.sh $USERNAME
