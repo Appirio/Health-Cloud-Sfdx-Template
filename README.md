@@ -32,6 +32,7 @@ This template requires Salesforce DX. Please visit https://developer.salesforce.
 We use https://github.com/forcedotcom/SFDX-Data-Move-Utility SFDX plugin to load data. Check https://github.com/forcedotcom/SFDX-Data-Move-Utility/wiki/ for documentation
 
 Install Plugin: sfdx plugins:install sfdmu
+
 Load data: sfdx sfdmu:run --sourceusername csvfile --targetusername HCADK -p data/sfdmu/ --noprompt
 
 You can also run orgInitAndData.sh file which has all command + Data Load commands
